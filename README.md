@@ -1,6 +1,7 @@
 # Pokémon Price Checker
 
 **Motivation**: Collectr sucks. There is a lack of a real one and done source for card prices. TCGPlayer works well for modern/liquid cards, but it can be hard to accurately comp older ones. This app will aim to solve this problem by providing transparent, explainable market data.
+
 **check *documentation* folder for docs**
 
 The app *currently* combines:
