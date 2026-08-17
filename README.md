@@ -1,6 +1,6 @@
 # Pokémon Price Checker
 
-**Motivation**: Collectr sucks. There is a lack of a real one and done source for card prices. TCGPlayer works well for modern/liquid cards, but it can be hard to accurately comp older ones. This app will aim to solve this problem by providing transparent, explainable market data.
+**Motivation**: The current go-to app is Collectr, but it has many issues. There is a lack of a real one and done source for card prices. TCGPlayer works well for modern/liquid cards, but it can be hard to accurately comp older ones. This app will aim to solve this problem by providing transparent, explainable market data.
 
 **check *documentation* folder for docs**
 
@@ -11,7 +11,7 @@ The app *currently* combines:
 3. **Recent eBay sold listings** — via Apify
 4. **Rule-based listing classification** — raw, graded, irrelevant, language, set match, etc.
 
-The long-term goal is to build a pricing system that can explain *why* a card is worth a given amount rather than showing a single opaque market value (gc Collectr). 
+The long-term goal is to build a pricing system that can explain *why* a card is worth a given amount rather than showing a single opaque market value. 
 
 ---
 
