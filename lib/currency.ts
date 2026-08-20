@@ -94,3 +94,19 @@ export function formatMoney(amount: number, currency: Currency): string {
 
   return formatter.format(amount);
 }
+
+/**
+ * USD for headline figures, where a trailing ".00" is noise.
+ *
+ * Values reaching this have already been through `roundMoney`, so cents only
+ * survive where they are real: a $16.90 card keeps them, a $1,650 one does not.
+ */
+export function formatUsd(amount: number): string {
+  const whole = Number.isInteger(amount);
+  return new Intl.NumberFormat("en-US", {
+    style: "currency",
+    currency: "USD",
+    minimumFractionDigits: whole ? 0 : 2,
+    maximumFractionDigits: whole ? 0 : 2,
+  }).format(amount);
+}

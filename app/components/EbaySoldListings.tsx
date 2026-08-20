@@ -1,9 +1,18 @@
 import { getSoldListings } from "@/lib/ebay-sold";
 import { groupClassified, type ClassifierCard } from "@/lib/listing-classifier";
 import { reviewListings } from "@/lib/listing-review";
-import { getSetNames } from "@/lib/tcgdex";
+import {
+  evaluateRecommendedBuy,
+  noSalesFound,
+  salesUnavailable,
+  type RecommendedBuyResult,
+} from "@/lib/recommended-buy";
+import { getPriceHistory } from "@/lib/tcg-price-history";
+import { getSetNames, type CardIdentity } from "@/lib/tcgdex";
+import type { CardPricing } from "@/lib/card-search";
 import {
   ListingRow,
+  RecommendedBuyPanel,
   SoldListingGroups,
   formatSoldDate,
 } from "./SoldListingGroups";
@@ -11,15 +20,12 @@ import {
 function Section({ children }: { children: React.ReactNode }) {
   return (
     <section className="mt-10">
-      <h2 className="text-lg font-semibold tracking-tight">
-        Recent eBay Sold Listings
-      </h2>
+      <h2 className="text-lg font-semibold tracking-tight">Market Analysis</h2>
       <p className="mt-1 text-xs text-slate-400 dark:text-slate-500">
-        Grouped into comparable markets by rule-based classification — same
-        condition or grade, same edition, same printing. No price filtering or
-        outlier removal is applied.
+        Our buy price, from recent eBay sales grouped into comparable markets —
+        same condition or grade, same edition, same printing.
       </p>
-      <div className="mt-3">{children}</div>
+      <div className="mt-4">{children}</div>
     </section>
   );
 }
@@ -54,7 +60,15 @@ export function EbaySoldLoading() {
   );
 }
 
-export async function EbaySoldSection({ card }: { card: ClassifierCard }) {
+export async function EbaySoldSection({
+  card,
+  identity,
+  pricing,
+}: {
+  card: ClassifierCard;
+  identity: CardIdentity;
+  pricing: CardPricing;
+}) {
   const result = await getSoldListings(card);
 
   if (result.status === "not-configured") {
@@ -76,18 +90,29 @@ export async function EbaySoldSection({ card }: { card: ClassifierCard }) {
     );
   }
 
+  // A failed eBay lookup must not take the pricing panel down with it — it
+  // reports its own unavailability, while TCGplayer price and history above
+  // keep working from their independent sources.
   if (result.status === "error") {
     return (
       <Section>
-        <Panel>{result.message}</Panel>
+        <div className="space-y-4">
+          <RecommendedBuyPanel result={salesUnavailable("")} />
+          <Panel>{result.message}</Panel>
+        </div>
       </Section>
     );
   }
 
+  // The lookup worked and found nothing. That is a statement about the market,
+  // not about us, so it gets its own reason rather than the failure wording.
   if (result.listings.length === 0) {
     return (
       <Section>
-        <Panel>No sold listings found for “{result.query}”.</Panel>
+        <div className="space-y-4">
+          <RecommendedBuyPanel result={noSalesFound("")} />
+          <Panel>No sold listings found for “{result.query}”.</Panel>
+        </div>
       </Section>
     );
   }
@@ -107,12 +132,51 @@ export async function EbaySoldSection({ card }: { card: ClassifierCard }) {
   const groups = groupClassified(classified);
   const excluded = classified.filter((listing) => !listing.relevant);
 
+  // Read from the local archive cache; never touches TCGCSV archives at render.
+  const history = await getPriceHistory(
+    {
+      name: identity.name,
+      setName: identity.setName,
+      localId: identity.localId,
+      printedTotal: identity.printedTotal,
+      rarity: identity.rarity,
+      variants: identity.variants,
+    },
+    "ALL",
+  ).catch(() => null);
+
+  // TCGplayer publishes an ungraded market price. The engine decides whether
+  // that is a comparable for a given group; it is passed in unconditionally.
+  const tcgMarketPrice = pricing.kind === "market" ? pricing.market : null;
+
+  const metrics: Record<string, RecommendedBuyResult> = {};
+  for (const group of groups) {
+    metrics[group.key] = evaluateRecommendedBuy({
+      groupKey: group.key,
+      sales: group.listings
+        .filter((listing) => listing.soldPrice !== null)
+        .map((listing) => ({
+          itemId: listing.itemId,
+          title: listing.title,
+          soldPrice: listing.soldPrice as number,
+          soldDate: listing.soldDate,
+          isGraded: listing.isGraded,
+        })),
+      tcgMarketPrice,
+      history: history?.points ?? null,
+      asOf: new Date(),
+    });
+  }
+
   return (
     <Section>
       {groups.length === 0 ? (
-        <Panel>No listings passed relevance classification.</Panel>
+        <div className="space-y-4">
+          <RecommendedBuyPanel result={noSalesFound("")} />
+          <Panel>No listings passed relevance classification.</Panel>
+        </div>
       ) : (
-        <SoldListingGroups groups={groups} />
+        <SoldListingGroups groups={groups} metrics={metrics} />
       )}
 
       {excluded.length > 0 && (

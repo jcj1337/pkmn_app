@@ -554,6 +554,44 @@ def main() -> None:
     summary = pd.DataFrame(rows).sort_values("n", ascending=False)
     summary.to_csv(OUT / "group_summary.csv", index=False)
 
+    # Machine-readable dump so the TypeScript port can be checked against this
+    # implementation rather than against a screenshot of it. Reporting only —
+    # no constant or gate is affected by writing it.
+    import json
+
+    dump = []
+    for r in results:
+        entry = {
+            "cardId": r["cardId"],
+            "group": r["group"],
+            "refused": r["refused"],
+            "refusalCode": r["refusalCode"],
+            "comps": r["stats"]["count"] if r["stats"] else 0,
+        }
+        if not r["refused"]:
+            entry.update(
+                {
+                    "ebayMedian": r["medianTrimmed"],
+                    "ebayMedianAll": r["medianAll"],
+                    "tcgPrice": r["tcgPrice"],
+                    "ebayWeight": r["ebayWeight"],
+                    "dispersion": r["dispersion"],
+                    "disagreement": r["disagreement"],
+                    "daysSinceLastSale": r["liquidity"]["daysSinceLastSale"],
+                    "weeklyVolatility": r["history"]["weeklyVolatility"] if r["history"] else None,
+                    "marketReference": r["reference"],
+                    "margin": r["margin"],
+                    "recommendedBuy": r["reference"] * (1 - r["margin"]),
+                    "marketReferenceDisplay": r["referenceRounded"],
+                    "recommendedBuyDisplay": r["recommendedBuy"],
+                }
+            )
+        dump.append(entry)
+
+    (OUT / "recommended-buy-results.json").write_text(
+        json.dumps({"asOf": str(asof.date()), "groups": dump}, indent=2), encoding="utf8"
+    )
+
     print("\n--- 1. MEAN VS MEDIAN " + "-" * 47)
     print(f"groups with >= {MIN_COMPS} comps      : {len(summary)}")
     print(f"mean exceeds median in      : {(summary['skew'] > 0).sum()} / {len(summary)} groups")

@@ -194,3 +194,19 @@ http://localhost:3000
 * Apify
 
 
+
+### Historical collection for liquidity
+
+The card page's lookup returns the 20 most recent sold listings, which is a
+count-limited sample: the observation period ends up being however long those
+20 sales took, so it cannot support sale-frequency measurement.
+
+Fixed-window collection is a separate, manual task:
+
+```bash
+node scripts/collect-ebay-history.cjs --all --days=90 --count=100 --dry-run
+```
+
+It writes deduplicated history to `data/ebay-sales/<cardId>/raw-sales.json` and
+records whether each window was fully observed or truncated by the result cap.
+See `data/ebay-sales/README.md`. Nothing in the app triggers it.

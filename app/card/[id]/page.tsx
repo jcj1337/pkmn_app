@@ -194,15 +194,20 @@ export default async function CardPage({
           </div>
         </div>
 
+        {/* Recommended Buy sits directly under the marketplace price, because
+            the two answer the questions a buyer asks in that order. It stays
+            inside this section rather than moving into the hero: the metric is
+            per comparable group, and the group selector owns that state.
+
+            Streams in separately so a slow or failing eBay lookup never blocks
+            the card or its TCGplayer pricing. */}
+        <Suspense fallback={<EbaySoldLoading />}>
+          <EbaySoldSection card={card} identity={identity} pricing={card.pricing} />
+        </Suspense>
+
         {/* Reads a pre-built cache; never touches TCGCSV archives at render. */}
         <Suspense fallback={<PriceHistoryLoading />}>
           <PriceHistorySection identity={identity} />
-        </Suspense>
-
-        {/* Streams in separately so a slow or failing eBay lookup never blocks
-            the card or its TCGplayer pricing. */}
-        <Suspense fallback={<EbaySoldLoading />}>
-          <EbaySoldSection card={card} />
         </Suspense>
       </main>
 
