@@ -1,0 +1,251 @@
+[
+  {
+    "id": "swsh7-215",
+    "name": "Umbreon VMAX",
+    "setName": "Evolving Skies",
+    "number": "215",
+    "printedTotal": 203,
+    "rarity": "Secret Rare",
+    "imageUrl": "https://assets.tcgdex.net/en/swsh/swsh7/215/high.png",
+    "pricing": {
+      "kind": "market",
+      "market": 2244.47,
+      "listings": {
+        "low": 1808.22,
+        "mid": 2412.5,
+        "high": 6000
+      }
+    },
+    "priceUpdatedAt": "2026-08-17T18:00:43.509Z",
+    "priceSource": "tcgdex",
+    "ebayQuery": "Umbreon VMAX 215/203"
+  },
+  {
+    "id": "swsh11tg-TG17",
+    "name": "Pikachu VMAX",
+    "setName": "Lost Origin Trainer Gallery",
+    "number": "TG17",
+    "printedTotal": 30,
+    "rarity": "Ultra Rare",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/284283_200w.jpg",
+    "pricing": {
+      "kind": "market",
+      "market": 110.55,
+      "listings": {
+        "low": 106,
+        "mid": 124.47,
+        "high": 994.95
+      }
+    },
+    "priceUpdatedAt": null,
+    "priceSource": "tcgcsv",
+    "ebayQuery": "Pikachu VMAX TG17/TG30"
+  },
+  {
+    "id": "me02.5-284",
+    "name": "Mega Gengar ex",
+    "setName": "Ascended Heroes",
+    "number": "284",
+    "printedTotal": 217,
+    "rarity": "Special illustration rare",
+    "imageUrl": "https://assets.tcgdex.net/en/me/me02.5/284/high.png",
+    "pricing": {
+      "kind": "market",
+      "market": 1066.24,
+      "listings": {
+        "low": 986.01,
+        "mid": 1147.32,
+        "high": 2999.99
+      }
+    },
+    "priceUpdatedAt": "2026-08-17T18:00:49.689Z",
+    "priceSource": "tcgdex",
+    "ebayQuery": "Mega Gengar ex 284/217"
+  },
+  {
+    "id": "base1-4",
+    "name": "Charizard",
+    "setName": "Base Set",
+    "number": "4",
+    "printedTotal": 102,
+    "rarity": "Rare",
+    "imageUrl": "https://assets.tcgdex.net/en/base/base1/4/high.png",
+    "pricing": {
+      "kind": "market",
+      "market": 852.43,
+      "listings": {
+        "low": 510.07,
+        "mid": 919.49,
+        "high": 4587.48
+      }
+    },
+    "priceUpdatedAt": "2026-08-17T18:00:20.606Z",
+    "priceSource": "tcgdex",
+    "ebayQuery": "Charizard 4/102"
+  },
+  {
+    "id": "me05-116",
+    "name": "Mega Darkrai ex",
+    "setName": "Pitch Black",
+    "number": "116",
+    "printedTotal": 84,
+    "rarity": "Special illustration rare",
+    "imageUrl": "https://assets.tcgdex.net/en/me/me05/116/high.png",
+    "pricing": {
+      "kind": "market",
+      "market": 214.58,
+      "listings": {
+        "low": 214.58,
+        "mid": 271.28,
+        "high": 999.99
+      }
+    },
+    "priceUpdatedAt": "2026-08-17T18:00:50.211Z",
+    "priceSource": "tcgdex",
+    "ebayQuery": "Mega Darkrai ex 116/84"
+  },
+  {
+    "id": "sv03.5-199",
+    "name": "Charizard ex",
+    "setName": "151",
+    "number": "199",
+    "printedTotal": 165,
+    "rarity": "Special illustration rare",
+    "imageUrl": "https://assets.tcgdex.net/en/sv/sv03.5/199/high.png",
+    "pricing": {
+      "kind": "market",
+      "market": 362.96,
+      "listings": {
+        "low": 324,
+        "mid": 400.6,
+        "high": 10000
+      }
+    },
+    "priceUpdatedAt": "2026-08-17T18:00:46.960Z",
+    "priceSource": "tcgdex",
+    "ebayQuery": "Charizard ex 199/165"
+  },
+  {
+    "id": "sv02-185",
+    "name": "Iono",
+    "setName": "Paldea Evolved",
+    "number": "185",
+    "printedTotal": 193,
+    "rarity": "Uncommon",
+    "imageUrl": "https://assets.tcgdex.net/en/sv/sv02/185/high.png",
+    "pricing": {
+      "kind": "market",
+      "market": 0.34,
+      "listings": {
+        "low": 0.01,
+        "mid": 0.33,
+        "high": 19.68
+      }
+    },
+    "priceUpdatedAt": "2026-08-17T18:00:46.171Z",
+    "priceSource": "tcgdex",
+    "ebayQuery": "Iono 185/193"
+  },
+  {
+    "id": "swsh11-212",
+    "name": "Giratina VSTAR",
+    "setName": "Lost Origin",
+    "number": "212",
+    "printedTotal": 196,
+    "rarity": "Secret Rare",
+    "imageUrl": "https://assets.tcgdex.net/en/swsh/swsh11/212/high.png",
+    "pricing": {
+      "kind": "market",
+      "market": 18.46,
+      "listings": {
+        "low": 14.5,
+        "mid": 19.97,
+        "high": 223.6
+      }
+    },
+    "priceUpdatedAt": "2026-08-17T18:00:45.086Z",
+    "priceSource": "tcgdex",
+    "ebayQuery": "Giratina VSTAR 212/196"
+  },
+  {
+    "id": "neo1-9",
+    "name": "Lugia",
+    "setName": "Neo Genesis",
+    "number": "9",
+    "printedTotal": 111,
+    "rarity": "Rare",
+    "imageUrl": "https://assets.tcgdex.net/en/neo/neo1/9/high.png",
+    "pricing": {
+      "kind": "market",
+      "market": 1299.96,
+      "listings": {
+        "low": 2999.99,
+        "mid": 8000,
+        "high": 10000
+      }
+    },
+    "priceUpdatedAt": "2026-08-17T18:00:21.216Z",
+    "priceSource": "tcgdex",
+    "ebayQuery": "Lugia 9/111"
+  },
+  {
+    "id": "ecard3-146",
+    "name": "Charizard",
+    "setName": "Skyridge",
+    "number": "146",
+    "printedTotal": 144,
+    "rarity": "Rare",
+    "imageUrl": "https://assets.tcgdex.net/en/ecard/ecard3/146/high.png",
+    "pricing": {
+      "kind": "listings",
+      "low": 2999.99,
+      "mid": 3250,
+      "high": 3500
+    },
+    "priceUpdatedAt": "2026-08-17T18:00:21.975Z",
+    "priceSource": "tcgdex",
+    "ebayQuery": "Charizard 146/144"
+  },
+  {
+    "id": "sv03.5-205",
+    "name": "Mew ex",
+    "setName": "151",
+    "number": "205",
+    "printedTotal": 165,
+    "rarity": "Hyper rare",
+    "imageUrl": "https://assets.tcgdex.net/en/sv/sv03.5/205/high.png",
+    "pricing": {
+      "kind": "market",
+      "market": 30.08,
+      "listings": {
+        "low": 22.09,
+        "mid": 33.03,
+        "high": 267.66
+      }
+    },
+    "priceUpdatedAt": "2026-08-17T18:00:46.960Z",
+    "priceSource": "tcgdex",
+    "ebayQuery": "Mew ex 205/165"
+  },
+  {
+    "id": "gym2-2",
+    "name": "Blaine's Charizard",
+    "setName": "Gym Challenge",
+    "number": "2",
+    "printedTotal": 132,
+    "rarity": "Holo Rare",
+    "imageUrl": "https://assets.tcgdex.net/en/gym/gym2/2/high.png",
+    "pricing": {
+      "kind": "market",
+      "market": 699.99,
+      "listings": {
+        "low": 2000,
+        "mid": 2050,
+        "high": 2099.99
+      }
+    },
+    "priceUpdatedAt": "2026-08-17T18:00:21.124Z",
+    "priceSource": "tcgdex",
+    "ebayQuery": "Blaine's Charizard 2/132"
+  }
+]

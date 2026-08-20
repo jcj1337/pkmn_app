@@ -1,0 +1,227 @@
+[
+  {
+    "id": "swsh3.5-74",
+    "name": "Charizard VMAX",
+    "setName": "Champion's Path",
+    "number": "74",
+    "printedTotal": 73,
+    "rarity": "Secret Rare",
+    "imageUrl": "https://assets.tcgdex.net/en/swsh/swsh3.5/74/high.png",
+    "pricing": {
+      "kind": "market",
+      "market": 235.54,
+      "listings": {
+        "low": 150.21,
+        "mid": 256,
+        "high": 1500
+      }
+    },
+    "priceUpdatedAt": "2026-08-18T00:00:40.157Z",
+    "priceSource": "tcgdex",
+    "ebayQuery": "Charizard VMAX 74/73"
+  },
+  {
+    "id": "xy12-11",
+    "name": "Charizard",
+    "setName": "Evolutions",
+    "number": "11",
+    "printedTotal": 108,
+    "rarity": "Rare",
+    "imageUrl": "https://assets.tcgdex.net/en/xy/xy12/11/high.png",
+    "pricing": {
+      "kind": "market",
+      "market": 104.25,
+      "listings": {
+        "low": 75,
+        "mid": 111.37,
+        "high": 10000
+      }
+    },
+    "priceUpdatedAt": "2026-08-18T00:00:35.319Z",
+    "priceSource": "tcgdex",
+    "ebayQuery": "Charizard 11/108"
+  },
+  {
+    "id": "base1-58",
+    "name": "Pikachu",
+    "setName": "Base Set",
+    "number": "58",
+    "printedTotal": 102,
+    "rarity": "Common",
+    "imageUrl": "https://assets.tcgdex.net/en/base/base1/58/high.png",
+    "pricing": {
+      "kind": "market",
+      "market": 16.84,
+      "listings": {
+        "low": 3.3,
+        "mid": 9,
+        "high": 1000
+      }
+    },
+    "priceUpdatedAt": "2026-08-18T00:00:23.868Z",
+    "priceSource": "tcgdex",
+    "ebayQuery": "Pikachu 58/102"
+  },
+  {
+    "id": "base3-5",
+    "name": "Gengar",
+    "setName": "Fossil",
+    "number": "5",
+    "printedTotal": 62,
+    "rarity": "Rare",
+    "imageUrl": "https://assets.tcgdex.net/en/base/base3/5/high.png",
+    "pricing": {
+      "kind": "market",
+      "market": 601.49,
+      "listings": {
+        "low": 600,
+        "mid": 678.02,
+        "high": 799.99
+      }
+    },
+    "priceUpdatedAt": "2026-08-18T00:00:24.049Z",
+    "priceSource": "tcgdex",
+    "ebayQuery": "Gengar 5/62"
+  },
+  {
+    "id": "neo4-107",
+    "name": "Shining Charizard",
+    "setName": "Neo Destiny",
+    "number": "107",
+    "printedTotal": 105,
+    "rarity": "Rare",
+    "imageUrl": "https://assets.tcgdex.net/en/neo/neo4/107/high.png",
+    "pricing": {
+      "kind": "market",
+      "market": 1495,
+      "listings": {
+        "low": 4798.99,
+        "mid": 4899.99,
+        "high": 6504.97
+      }
+    },
+    "priceUpdatedAt": "2026-08-18T00:00:24.821Z",
+    "priceSource": "tcgdex",
+    "ebayQuery": "Shining Charizard 107/105"
+  },
+  {
+    "id": "swsh9tg-TG02",
+    "name": "Vaporeon",
+    "setName": "Brilliant Stars Trainer Gallery",
+    "number": "TG02",
+    "printedTotal": 30,
+    "rarity": "Rare",
+    "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/264211_200w.jpg",
+    "pricing": {
+      "kind": "market",
+      "market": 23.4,
+      "listings": {
+        "low": 19.9,
+        "mid": 27.19,
+        "high": 5000
+      }
+    },
+    "priceUpdatedAt": null,
+    "priceSource": "tcgcsv",
+    "ebayQuery": "Vaporeon TG02/TG30"
+  },
+  {
+    "id": "swsh7-211",
+    "name": "Sylveon VMAX",
+    "setName": "Evolving Skies",
+    "number": "211",
+    "printedTotal": 203,
+    "rarity": "Secret Rare",
+    "imageUrl": "https://assets.tcgdex.net/en/swsh/swsh7/211/high.png",
+    "pricing": {
+      "kind": "market",
+      "market": 61.76,
+      "listings": {
+        "low": 47,
+        "mid": 60.25,
+        "high": 450
+      }
+    },
+    "priceUpdatedAt": "2026-08-18T00:00:41.331Z",
+    "priceSource": "tcgdex",
+    "ebayQuery": "Sylveon VMAX 211/203"
+  },
+  {
+    "id": "sm7-177",
+    "name": "Rayquaza GX",
+    "setName": "Celestial Storm",
+    "number": "177",
+    "printedTotal": 168,
+    "rarity": "Secret Rare",
+    "imageUrl": "https://assets.tcgdex.net/en/sm/sm7/177/high.png",
+    "pricing": {
+      "kind": "market",
+      "market": 305.13,
+      "listings": {
+        "low": 333.44,
+        "mid": 693,
+        "high": 999.99
+      }
+    },
+    "priceUpdatedAt": "2026-08-18T00:00:37.127Z",
+    "priceSource": "tcgdex",
+    "ebayQuery": "Rayquaza GX 177/168"
+  },
+  {
+    "id": "base1-8",
+    "name": "Machamp",
+    "setName": "Base Set",
+    "number": "8",
+    "printedTotal": 102,
+    "rarity": "Rare",
+    "imageUrl": "https://assets.tcgdex.net/en/base/base1/8/high.png",
+    "pricing": {
+      "kind": "none"
+    },
+    "priceUpdatedAt": null,
+    "priceSource": null,
+    "ebayQuery": "Machamp 8/102"
+  },
+  {
+    "id": "swsh9-184",
+    "name": "Arceus VSTAR",
+    "setName": "Brilliant Stars",
+    "number": "184",
+    "printedTotal": 172,
+    "rarity": "Secret Rare",
+    "imageUrl": "https://assets.tcgdex.net/en/swsh/swsh9/184/high.png",
+    "pricing": {
+      "kind": "market",
+      "market": 16.11,
+      "listings": {
+        "low": 13.99,
+        "mid": 18.28,
+        "high": 2000
+      }
+    },
+    "priceUpdatedAt": "2026-08-18T00:00:42.027Z",
+    "priceSource": "tcgdex",
+    "ebayQuery": "Arceus VSTAR 184/172"
+  },
+  {
+    "id": "base1-10",
+    "name": "Mewtwo",
+    "setName": "Base Set",
+    "number": "10",
+    "printedTotal": 102,
+    "rarity": "Rare",
+    "imageUrl": "https://assets.tcgdex.net/en/base/base1/10/high.png",
+    "pricing": {
+      "kind": "market",
+      "market": 69.37,
+      "listings": {
+        "low": 39.23,
+        "mid": 68.03,
+        "high": 500
+      }
+    },
+    "priceUpdatedAt": "2026-08-18T00:00:23.868Z",
+    "priceSource": "tcgdex",
+    "ebayQuery": "Mewtwo 10/102"
+  }
+]

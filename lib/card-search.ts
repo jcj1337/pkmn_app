@@ -16,6 +16,7 @@ import { lookupCard, type TcgcsvPrices } from "./tcgcsv";
 import {
   getTcgdexCard,
   searchTcgdexCards,
+  type CardIdentity,
   type CardPricing,
   type CardResult,
   type TcgdexCard,
@@ -79,6 +80,20 @@ export async function searchCards(rawQuery: string): Promise<CardResult[]> {
 }
 
 export async function getCardById(id: string): Promise<CardResult | null> {
+  const result = await getCardWithIdentity(id);
+  return result ? result.card : null;
+}
+
+/**
+ * Card plus the structured identity used for TCGCSV matching. The price-history
+ * layer needs the identity to resolve the exact TCGplayer product and print,
+ * and reuses the same matcher as the pricing fallback rather than its own.
+ */
+export async function getCardWithIdentity(
+  id: string,
+): Promise<{ card: CardResult; identity: CardIdentity } | null> {
   const result = await getTcgdexCard(id);
-  return result ? withFallback(result) : null;
+  if (!result) return null;
+
+  return { card: await withFallback(result), identity: result.identity };
 }

@@ -32,6 +32,8 @@ export interface TcgcsvPrices {
 }
 
 export interface TcgcsvMatch {
+  /** TCGCSV group the product lives in; historical archives are keyed by it. */
+  groupId: number;
   productId: number;
   imageUrl: string | null;
   /**
@@ -272,6 +274,7 @@ export async function lookupCard(query: TcgcsvQuery): Promise<TcgcsvLookup> {
   return {
     status: "matched",
     match: {
+      groupId: group.groupId,
       productId: product.productId,
       imageUrl: product.imageUrl ?? null,
       prices: priced ? toPrices(priced.row) : null,

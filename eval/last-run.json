@@ -1,0 +1,2793 @@
+{
+  "ranAt": "2026-08-18T02:32:51.451Z",
+  "model": "claude-haiku-4-5-20251001",
+  "statsA": {
+    "correctTarget": 11,
+    "correctReject": 67,
+    "correctAbstain": 3,
+    "falseNeg": 2,
+    "falsePos": 1,
+    "correct": 81,
+    "total": 84
+  },
+  "statsB": {
+    "correctTarget": 13,
+    "correctReject": 67,
+    "correctAbstain": 3,
+    "falseNeg": 0,
+    "falsePos": 1,
+    "correct": 83,
+    "total": 84
+  },
+  "rows": [
+    {
+      "entry": {
+        "id": "swsh7-215:0",
+        "bucket": "semantic-trigger",
+        "target": {
+          "name": "Umbreon VMAX",
+          "setName": "Evolving Skies",
+          "number": "215",
+          "printedTotal": 203
+        },
+        "title": "Umbreon VMAX Alt Art Secret Rare Holo Single Strike 215/203 310 HP 2021",
+        "deterministic": {
+          "relevant": true,
+          "category": "RAW_UNKNOWN",
+          "reason": "Raw listing (condition not stated)",
+          "numberEvidence": "FRACTION",
+          "setMatch": "UNKNOWN",
+          "language": "UNKNOWN"
+        },
+        "triggersSemantic": true,
+        "expected": "TARGET",
+        "needsManualReview": false,
+        "note": null
+      },
+      "expected": "TARGET",
+      "accepted": true,
+      "category": "RAW_UNKNOWN",
+      "verdict": {
+        "relevant": "YES",
+        "targetMatch": "EXACT",
+        "reason": "Title specifies \"Umbreon VMAX Alt Art Secret Rare\" with card number \"215/203\", which uniquely identifies the target card.",
+        "confidence": 0.95
+      },
+      "rescued": false,
+      "reinforced": false
+    },
+    {
+      "entry": {
+        "id": "swsh7-215:1",
+        "bucket": "semantic-trigger",
+        "target": {
+          "name": "Umbreon VMAX",
+          "setName": "Evolving Skies",
+          "number": "215",
+          "printedTotal": 203
+        },
+        "title": "The Pokémon Company Umbreon VMAX 215/203 Secret Rare Alt Art Holo EN",
+        "deterministic": {
+          "relevant": true,
+          "category": "RAW_UNKNOWN",
+          "reason": "Raw listing (condition not stated)",
+          "numberEvidence": "FRACTION",
+          "setMatch": "UNKNOWN",
+          "language": "UNKNOWN"
+        },
+        "triggersSemantic": true,
+        "expected": "TARGET",
+        "needsManualReview": false,
+        "note": null
+      },
+      "expected": "TARGET",
+      "accepted": true,
+      "category": "RAW_UNKNOWN",
+      "verdict": {
+        "relevant": "YES",
+        "targetMatch": "EXACT",
+        "reason": "Title specifies \"Umbreon VMAX 215/203\", which uniquely matches the target card's number and card type.",
+        "confidence": 0.95
+      },
+      "rescued": false,
+      "reinforced": false
+    },
+    {
+      "entry": {
+        "id": "swsh7-215:2",
+        "bucket": "near-miss-reject",
+        "target": {
+          "name": "Umbreon VMAX",
+          "setName": "Evolving Skies",
+          "number": "215",
+          "printedTotal": 203
+        },
+        "title": "Umbreon VMAX Rainbow Secret Rare 214/203 Evolving Skies Pokemon TCG NM",
+        "deterministic": {
+          "relevant": false,
+          "category": "IRRELEVANT",
+          "reason": "Title names a different card number",
+          "numberEvidence": "FRACTION",
+          "setMatch": "EXACT",
+          "language": "UNKNOWN"
+        },
+        "triggersSemantic": false,
+        "expected": "NOT_TARGET",
+        "needsManualReview": false,
+        "note": null
+      },
+      "expected": "NOT_TARGET",
+      "accepted": false,
+      "category": "IRRELEVANT",
+      "verdict": null,
+      "rescued": false,
+      "reinforced": false
+    },
+    {
+      "entry": {
+        "id": "swsh11tg-TG17:0",
+        "bucket": "semantic-trigger",
+        "target": {
+          "name": "Pikachu VMAX",
+          "setName": "Lost Origin Trainer Gallery",
+          "number": "TG17",
+          "printedTotal": 30
+        },
+        "title": "Pikachu TG05/TG30 Ultra Rare SWSH11: Lost Origin Trainer Gallery NM",
+        "deterministic": {
+          "relevant": false,
+          "category": "IRRELEVANT",
+          "reason": "Card name not found in title",
+          "numberEvidence": "FRACTION",
+          "setMatch": "EXACT",
+          "language": "UNKNOWN"
+        },
+        "triggersSemantic": true,
+        "expected": "NOT_TARGET",
+        "needsManualReview": false,
+        "note": null
+      },
+      "expected": "NOT_TARGET",
+      "accepted": false,
+      "category": "IRRELEVANT",
+      "verdict": {
+        "relevant": "NO",
+        "targetMatch": "UNLIKELY",
+        "reason": "Title lists \"TG05/TG30\" which matches the non-target Pikachu (TG05/30), not the target Pikachu VMAX (TG17/30).",
+        "confidence": 0.95
+      },
+      "rescued": false,
+      "reinforced": false
+    },
+    {
+      "entry": {
+        "id": "swsh11tg-TG17:1",
+        "bucket": "semantic-trigger",
+        "target": {
+          "name": "Pikachu VMAX",
+          "setName": "Lost Origin Trainer Gallery",
+          "number": "TG17",
+          "printedTotal": 30
+        },
+        "title": "Full Art Pikachu - Pokémon Lost Origin Trainer Gallery BGS 9.5 GEM MINT",
+        "deterministic": {
+          "relevant": false,
+          "category": "IRRELEVANT",
+          "reason": "Card name not found in title",
+          "numberEvidence": "NONE",
+          "setMatch": "EXACT",
+          "language": "UNKNOWN"
+        },
+        "triggersSemantic": true,
+        "expected": "INSUFFICIENT_EVIDENCE",
+        "needsManualReview": true,
+        "note": "Says only Pikachu; set holds Pikachu TG05, Pikachu V TG16 and two Pikachu VMAX. No number given."
+      },
+      "expected": "INSUFFICIENT_EVIDENCE",
+      "accepted": false,
+      "category": "IRRELEVANT",
+      "verdict": {
+        "relevant": "UNCERTAIN",
+        "targetMatch": "UNKNOWN",
+        "reason": "Title contains \"Full Art Pikachu\" and \"Lost Origin Trainer Gallery\" but does not specify VMAX, V, or card number to distinguish among four Pikachu candidates in this set.",
+        "confidence": 0.5
+      },
+      "rescued": false,
+      "reinforced": false
+    },
+    {
+      "entry": {
+        "id": "swsh11tg-TG17:2",
+        "bucket": "semantic-trigger",
+        "target": {
+          "name": "Pikachu VMAX",
+          "setName": "Lost Origin Trainer Gallery",
+          "number": "TG17",
+          "printedTotal": 30
+        },
+        "title": "2022 Pokémon Pikachu TG05/TG30 Full Art Trainer Gallery Lost Origin PSA 8 NM-MT",
+        "deterministic": {
+          "relevant": false,
+          "category": "IRRELEVANT",
+          "reason": "Card name not found in title",
+          "numberEvidence": "FRACTION",
+          "setMatch": "UNKNOWN",
+          "language": "UNKNOWN"
+        },
+        "triggersSemantic": true,
+        "expected": "NOT_TARGET",
+        "needsManualReview": false,
+        "note": null
+      },
+      "expected": "NOT_TARGET",
+      "accepted": false,
+      "category": "IRRELEVANT",
+      "verdict": {
+        "relevant": "UNCERTAIN",
+        "targetMatch": "UNKNOWN",
+        "reason": "Title lists \"TG05/TG30\" which matches neither the target (#TG17/30) nor any single candidate uniquely.",
+        "confidence": 0.85
+      },
+      "rescued": false,
+      "reinforced": false
+    },
+    {
+      "entry": {
+        "id": "swsh11tg-TG17:3",
+        "bucket": "semantic-trigger",
+        "target": {
+          "name": "Pikachu VMAX",
+          "setName": "Lost Origin Trainer Gallery",
+          "number": "TG17",
+          "printedTotal": 30
+        },
+        "title": "Pokemon Pikachu VMAX TG17/TG30 Lost Origin",
+        "deterministic": {
+          "relevant": true,
+          "category": "RAW_UNKNOWN",
+          "reason": "Raw listing (condition not stated)",
+          "numberEvidence": "FRACTION",
+          "setMatch": "UNKNOWN",
+          "language": "UNKNOWN"
+        },
+        "triggersSemantic": true,
+        "expected": "TARGET",
+        "needsManualReview": false,
+        "note": null
+      },
+      "expected": "TARGET",
+      "accepted": true,
+      "category": "RAW_UNKNOWN",
+      "verdict": {
+        "relevant": "YES",
+        "targetMatch": "EXACT",
+        "reason": "Title specifies \"Pikachu VMAX TG17/TG30 Lost Origin\" — the card number TG17/30 uniquely identifies the target card among all candidates.",
+        "confidence": 0.95
+      },
+      "rescued": false,
+      "reinforced": false
+    },
+    {
+      "entry": {
+        "id": "swsh11tg-TG17:4",
+        "bucket": "semantic-trigger",
+        "target": {
+          "name": "Pikachu VMAX",
+          "setName": "Lost Origin Trainer Gallery",
+          "number": "TG17",
+          "printedTotal": 30
+        },
+        "title": "2022 Pokemon SWSH Lost Origin Pikachu VMAX Trainer Gallery #TG17/TG30",
+        "deterministic": {
+          "relevant": true,
+          "category": "RAW_UNKNOWN",
+          "reason": "Raw listing (condition not stated)",
+          "numberEvidence": "FRACTION",
+          "setMatch": "UNKNOWN",
+          "language": "UNKNOWN"
+        },
+        "triggersSemantic": true,
+        "expected": "TARGET",
+        "needsManualReview": false,
+        "note": null
+      },
+      "expected": "TARGET",
+      "accepted": true,
+      "category": "RAW_UNKNOWN",
+      "verdict": {
+        "relevant": "YES",
+        "targetMatch": "EXACT",
+        "reason": "Title specifies \"Pikachu VMAX Trainer Gallery #TG17/TG30\" which exactly matches the target card's name, form, subset, and card number.",
+        "confidence": 0.95
+      },
+      "rescued": false,
+      "reinforced": false
+    },
+    {
+      "entry": {
+        "id": "swsh11tg-TG17:5",
+        "bucket": "semantic-trigger",
+        "target": {
+          "name": "Pikachu VMAX",
+          "setName": "Lost Origin Trainer Gallery",
+          "number": "TG17",
+          "printedTotal": 30
+        },
+        "title": "The Pokémon Company Pikachu VMAX Lost Origin TG17/TG30 Ultra Rare Holo 310HP",
+        "deterministic": {
+          "relevant": true,
+          "category": "RAW_UNKNOWN",
+          "reason": "Raw listing (condition not stated)",
+          "numberEvidence": "FRACTION",
+          "setMatch": "UNKNOWN",
+          "language": "UNKNOWN"
+        },
+        "triggersSemantic": true,
+        "expected": "TARGET",
+        "needsManualReview": false,
+        "note": null
+      },
+      "expected": "TARGET",
+      "accepted": true,
+      "category": "RAW_UNKNOWN",
+      "verdict": {
+        "relevant": "YES",
+        "targetMatch": "EXACT",
+        "reason": "Title specifies \"Pikachu VMAX\" with card number \"TG17/TG30\", which exactly matches the target card #TG17/30.",
+        "confidence": 0.95
+      },
+      "rescued": false,
+      "reinforced": false
+    },
+    {
+      "entry": {
+        "id": "me02.5-284:0",
+        "bucket": "semantic-trigger",
+        "target": {
+          "name": "Mega Gengar ex",
+          "setName": "Ascended Heroes",
+          "number": "284",
+          "printedTotal": 217
+        },
+        "title": "Pokémon TCG Mega Gengar 284/217 Cosmic Eclipse Secret Rare",
+        "deterministic": {
+          "relevant": false,
+          "category": "IRRELEVANT",
+          "reason": "Card name not found in title",
+          "numberEvidence": "FRACTION",
+          "setMatch": "CONFLICT",
+          "language": "UNKNOWN"
+        },
+        "triggersSemantic": true,
+        "expected": "INSUFFICIENT_EVIDENCE",
+        "needsManualReview": true,
+        "note": "Number 284/217 uniquely identifies the target, but the title names Cosmic Eclipse, a set Mega Gengar is not in. Contradictory."
+      },
+      "expected": "INSUFFICIENT_EVIDENCE",
+      "accepted": false,
+      "category": "IRRELEVANT",
+      "verdict": {
+        "relevant": "NO",
+        "targetMatch": "UNLIKELY",
+        "reason": "Title states \"Cosmic Eclipse\" but target card is from \"Ascended Heroes\" set.",
+        "confidence": 0.95
+      },
+      "rescued": false,
+      "reinforced": false
+    },
+    {
+      "entry": {
+        "id": "me02.5-284:1",
+        "bucket": "semantic-trigger",
+        "target": {
+          "name": "Mega Gengar ex",
+          "setName": "Ascended Heroes",
+          "number": "284",
+          "printedTotal": 217
+        },
+        "title": "Pokémon TCG Mega Gengar 284/217 Cosmic Eclipse Secret Rare",
+        "deterministic": {
+          "relevant": false,
+          "category": "IRRELEVANT",
+          "reason": "Card name not found in title",
+          "numberEvidence": "FRACTION",
+          "setMatch": "CONFLICT",
+          "language": "UNKNOWN"
+        },
+        "triggersSemantic": true,
+        "expected": "INSUFFICIENT_EVIDENCE",
+        "needsManualReview": true,
+        "note": "Duplicate of the above listing."
+      },
+      "expected": "INSUFFICIENT_EVIDENCE",
+      "accepted": false,
+      "category": "IRRELEVANT",
+      "verdict": {
+        "relevant": "NO",
+        "targetMatch": "UNLIKELY",
+        "reason": "Title states \"Cosmic Eclipse\" but target card is from \"Ascended Heroes\" set.",
+        "confidence": 0.95
+      },
+      "rescued": false,
+      "reinforced": false
+    },
+    {
+      "entry": {
+        "id": "me02.5-284:2",
+        "bucket": "semantic-trigger",
+        "target": {
+          "name": "Mega Gengar ex",
+          "setName": "Ascended Heroes",
+          "number": "284",
+          "printedTotal": 217
+        },
+        "title": "Pokemon Ascended Heros Mega Gengar Ex 284/217 SIR",
+        "deterministic": {
+          "relevant": true,
+          "category": "RAW_UNKNOWN",
+          "reason": "Raw listing (condition not stated)",
+          "numberEvidence": "FRACTION",
+          "setMatch": "UNKNOWN",
+          "language": "UNKNOWN"
+        },
+        "triggersSemantic": true,
+        "expected": "TARGET",
+        "needsManualReview": false,
+        "note": null
+      },
+      "expected": "TARGET",
+      "accepted": true,
+      "category": "RAW_UNKNOWN",
+      "verdict": {
+        "relevant": "YES",
+        "targetMatch": "EXACT",
+        "reason": "Title specifies \"Mega Gengar Ex 284/217\" which exactly matches the target card's number and name.",
+        "confidence": 0.95
+      },
+      "rescued": false,
+      "reinforced": false
+    },
+    {
+      "entry": {
+        "id": "base1-4:0",
+        "bucket": "near-miss-reject",
+        "target": {
+          "name": "Charizard",
+          "setName": "Base Set",
+          "number": "4",
+          "printedTotal": 102
+        },
+        "title": "PSA 10 Charizard 4/102 Pokemon Celebrations Classic Collection Holo Graded Card",
+        "deterministic": {
+          "relevant": false,
+          "category": "IRRELEVANT",
+          "reason": "Title names a different set",
+          "numberEvidence": "FRACTION",
+          "setMatch": "CONFLICT",
+          "language": "UNKNOWN"
+        },
+        "triggersSemantic": false,
+        "expected": "NOT_TARGET",
+        "needsManualReview": false,
+        "note": null
+      },
+      "expected": "NOT_TARGET",
+      "accepted": false,
+      "category": "IRRELEVANT",
+      "verdict": null,
+      "rescued": false,
+      "reinforced": false
+    },
+    {
+      "entry": {
+        "id": "base1-4:1",
+        "bucket": "near-miss-reject",
+        "target": {
+          "name": "Charizard",
+          "setName": "Base Set",
+          "number": "4",
+          "printedTotal": 102
+        },
+        "title": "Pokemon Charizard 4/102 Celebrations Classic Collection Holo CGC GEM MINT 10",
+        "deterministic": {
+          "relevant": false,
+          "category": "IRRELEVANT",
+          "reason": "Title names a different set",
+          "numberEvidence": "FRACTION",
+          "setMatch": "CONFLICT",
+          "language": "UNKNOWN"
+        },
+        "triggersSemantic": false,
+        "expected": "NOT_TARGET",
+        "needsManualReview": false,
+        "note": null
+      },
+      "expected": "NOT_TARGET",
+      "accepted": false,
+      "category": "IRRELEVANT",
+      "verdict": null,
+      "rescued": false,
+      "reinforced": false
+    },
+    {
+      "entry": {
+        "id": "me05-116:0",
+        "bucket": "near-miss-reject",
+        "target": {
+          "name": "Mega Darkrai ex",
+          "setName": "Pitch Black",
+          "number": "116",
+          "printedTotal": 84
+        },
+        "title": "Mega Darkrai EX 101/084 Pitch Black Full Art Holo Eng",
+        "deterministic": {
+          "relevant": false,
+          "category": "IRRELEVANT",
+          "reason": "Title names a different card number",
+          "numberEvidence": "FRACTION",
+          "setMatch": "EXACT",
+          "language": "EN"
+        },
+        "triggersSemantic": false,
+        "expected": "NOT_TARGET",
+        "needsManualReview": false,
+        "note": null
+      },
+      "expected": "NOT_TARGET",
+      "accepted": false,
+      "category": "IRRELEVANT",
+      "verdict": null,
+      "rescued": false,
+      "reinforced": false
+    },
+    {
+      "entry": {
+        "id": "me05-116:1",
+        "bucket": "semantic-trigger",
+        "target": {
+          "name": "Mega Darkrai ex",
+          "setName": "Pitch Black",
+          "number": "116",
+          "printedTotal": 84
+        },
+        "title": "Pokémon Mega Darkrai Ex #116/84 Ultra Rare 🔥 Fresh PULL",
+        "deterministic": {
+          "relevant": true,
+          "category": "RAW_UNKNOWN",
+          "reason": "Raw listing (condition not stated)",
+          "numberEvidence": "FRACTION",
+          "setMatch": "UNKNOWN",
+          "language": "UNKNOWN"
+        },
+        "triggersSemantic": true,
+        "expected": "TARGET",
+        "needsManualReview": false,
+        "note": null
+      },
+      "expected": "TARGET",
+      "accepted": true,
+      "category": "RAW_UNKNOWN",
+      "verdict": {
+        "relevant": "YES",
+        "targetMatch": "EXACT",
+        "reason": "Title specifies \"Mega Darkrai Ex #116/84\", which uniquely matches the target card's number and set position.",
+        "confidence": 0.95
+      },
+      "rescued": false,
+      "reinforced": false
+    },
+    {
+      "entry": {
+        "id": "me05-116:2",
+        "bucket": "semantic-trigger",
+        "target": {
+          "name": "Mega Darkrai ex",
+          "setName": "Pitch Black",
+          "number": "116",
+          "printedTotal": 84
+        },
+        "title": "Pokémon Mega Darkrai Ex #116/84 Ultra Rare 🔥",
+        "deterministic": {
+          "relevant": true,
+          "category": "RAW_UNKNOWN",
+          "reason": "Raw listing (condition not stated)",
+          "numberEvidence": "FRACTION",
+          "setMatch": "UNKNOWN",
+          "language": "UNKNOWN"
+        },
+        "triggersSemantic": true,
+        "expected": "TARGET",
+        "needsManualReview": false,
+        "note": null
+      },
+      "expected": "TARGET",
+      "accepted": true,
+      "category": "RAW_UNKNOWN",
+      "verdict": {
+        "relevant": "YES",
+        "targetMatch": "EXACT",
+        "reason": "Title specifies \"Mega Darkrai Ex #116/84\", which exactly matches the target card's number and name.",
+        "confidence": 0.95
+      },
+      "rescued": false,
+      "reinforced": false
+    },
+    {
+      "entry": {
+        "id": "me05-116:3",
+        "bucket": "semantic-trigger",
+        "target": {
+          "name": "Mega Darkrai ex",
+          "setName": "Pitch Black",
+          "number": "116",
+          "printedTotal": 84
+        },
+        "title": "Mega Darkrai Ex Special Illustration Rare 116/84",
+        "deterministic": {
+          "relevant": true,
+          "category": "RAW_UNKNOWN",
+          "reason": "Raw listing (condition not stated)",
+          "numberEvidence": "FRACTION",
+          "setMatch": "UNKNOWN",
+          "language": "UNKNOWN"
+        },
+        "triggersSemantic": true,
+        "expected": "TARGET",
+        "needsManualReview": false,
+        "note": null
+      },
+      "expected": "TARGET",
+      "accepted": true,
+      "category": "RAW_UNKNOWN",
+      "verdict": {
+        "relevant": "YES",
+        "targetMatch": "EXACT",
+        "reason": "Title specifies \"Mega Darkrai Ex\" with card number \"116/84\", which uniquely matches the target card.",
+        "confidence": 0.95
+      },
+      "rescued": false,
+      "reinforced": false
+    },
+    {
+      "entry": {
+        "id": "me05-116:4",
+        "bucket": "semantic-trigger",
+        "target": {
+          "name": "Mega Darkrai ex",
+          "setName": "Pitch Black",
+          "number": "116",
+          "printedTotal": 84
+        },
+        "title": "Mega Darkrai EX 116/84",
+        "deterministic": {
+          "relevant": true,
+          "category": "RAW_UNKNOWN",
+          "reason": "Raw listing (condition not stated)",
+          "numberEvidence": "FRACTION",
+          "setMatch": "UNKNOWN",
+          "language": "UNKNOWN"
+        },
+        "triggersSemantic": true,
+        "expected": "TARGET",
+        "needsManualReview": false,
+        "note": null
+      },
+      "expected": "TARGET",
+      "accepted": true,
+      "category": "RAW_UNKNOWN",
+      "verdict": {
+        "relevant": "YES",
+        "targetMatch": "EXACT",
+        "reason": "Title specifies \"Mega Darkrai EX 116/84\", matching the target card's number exactly.",
+        "confidence": 0.95
+      },
+      "rescued": false,
+      "reinforced": false
+    },
+    {
+      "entry": {
+        "id": "sv03.5-199:0",
+        "bucket": "semantic-trigger",
+        "target": {
+          "name": "Charizard ex",
+          "setName": "151",
+          "number": "199",
+          "printedTotal": 165
+        },
+        "title": "Pokemon 151 Cards! Holo/Reverse Holo Ex Illustration Ultra Double Rare Card!",
+        "deterministic": {
+          "relevant": false,
+          "category": "IRRELEVANT",
+          "reason": "Card name not found in title",
+          "numberEvidence": "NONE",
+          "setMatch": "EXACT",
+          "language": "UNKNOWN"
+        },
+        "triggersSemantic": true,
+        "expected": "NOT_TARGET",
+        "needsManualReview": false,
+        "note": null
+      },
+      "expected": "NOT_TARGET",
+      "accepted": false,
+      "category": "IRRELEVANT",
+      "verdict": {
+        "relevant": "UNCERTAIN",
+        "targetMatch": "UNKNOWN",
+        "reason": "Title mentions \"Pokemon 151 Cards\" and \"Charizard ex\" characteristics but lacks the specific card number (#199/165, #6/165, or #183/165) needed to distinguish between three different Charizard ex cards in set 151.",
+        "confidence": 0.75
+      },
+      "rescued": false,
+      "reinforced": false
+    },
+    {
+      "entry": {
+        "id": "sv02-185:0",
+        "bucket": "semantic-trigger",
+        "target": {
+          "name": "Iono",
+          "setName": "Paldea Evolved",
+          "number": "185",
+          "printedTotal": 193
+        },
+        "title": "Pokemon Cards -  Scarlet & Violet -  Paldea Evolved - Holos & Reverse Holos",
+        "deterministic": {
+          "relevant": false,
+          "category": "IRRELEVANT",
+          "reason": "Card name not found in title",
+          "numberEvidence": "NONE",
+          "setMatch": "EXACT",
+          "language": "UNKNOWN"
+        },
+        "triggersSemantic": true,
+        "expected": "NOT_TARGET",
+        "needsManualReview": false,
+        "note": null
+      },
+      "expected": "NOT_TARGET",
+      "accepted": false,
+      "category": "IRRELEVANT",
+      "verdict": {
+        "relevant": "UNCERTAIN",
+        "targetMatch": "UNKNOWN",
+        "reason": "Title mentions \"Paldea Evolved\" and \"Holos & Reverse Holos\" but does not name the card \"Iono\" or specify any card number.",
+        "confidence": 0.95
+      },
+      "rescued": false,
+      "reinforced": false
+    },
+    {
+      "entry": {
+        "id": "sv02-185:1",
+        "bucket": "semantic-trigger",
+        "target": {
+          "name": "Iono",
+          "setName": "Paldea Evolved",
+          "number": "185",
+          "printedTotal": 193
+        },
+        "title": "Pokemon TCG Paldea Evolved Single Cards 1-193 YOU CHOOSE!! Ready to Ship",
+        "deterministic": {
+          "relevant": false,
+          "category": "IRRELEVANT",
+          "reason": "Card name not found in title",
+          "numberEvidence": "NONE",
+          "setMatch": "EXACT",
+          "language": "UNKNOWN"
+        },
+        "triggersSemantic": true,
+        "expected": "NOT_TARGET",
+        "needsManualReview": false,
+        "note": null
+      },
+      "expected": "NOT_TARGET",
+      "accepted": false,
+      "category": "IRRELEVANT",
+      "verdict": {
+        "relevant": "UNCERTAIN",
+        "targetMatch": "UNKNOWN",
+        "reason": "Title offers \"Single Cards 1-193 YOU CHOOSE\" but does not specify which card, making it impossible to determine if the target card #185/193 was actually sold.",
+        "confidence": 0.95
+      },
+      "rescued": false,
+      "reinforced": false
+    },
+    {
+      "entry": {
+        "id": "sv02-185:2",
+        "bucket": "semantic-trigger",
+        "target": {
+          "name": "Iono",
+          "setName": "Paldea Evolved",
+          "number": "185",
+          "printedTotal": 193
+        },
+        "title": "Pokemon Cards Paldea Evolved - Holo/Reverse Holo Ex Illustration Rare Card!",
+        "deterministic": {
+          "relevant": false,
+          "category": "IRRELEVANT",
+          "reason": "Card name not found in title",
+          "numberEvidence": "NONE",
+          "setMatch": "EXACT",
+          "language": "UNKNOWN"
+        },
+        "triggersSemantic": true,
+        "expected": "NOT_TARGET",
+        "needsManualReview": false,
+        "note": null
+      },
+      "expected": "NOT_TARGET",
+      "accepted": false,
+      "category": "IRRELEVANT",
+      "verdict": {
+        "relevant": "UNCERTAIN",
+        "targetMatch": "UNKNOWN",
+        "reason": "Title mentions \"Paldea Evolved\" and \"Holo/Reverse Holo Ex Illustration Rare\" but does not name \"Iono\" or specify a card number to distinguish among the three candidates.",
+        "confidence": 0.5
+      },
+      "rescued": false,
+      "reinforced": false
+    },
+    {
+      "entry": {
+        "id": "sv02-185:3",
+        "bucket": "semantic-trigger",
+        "target": {
+          "name": "Iono",
+          "setName": "Paldea Evolved",
+          "number": "185",
+          "printedTotal": 193
+        },
+        "title": "Pokemon - Paldea Evolved - Reverse Holo Cards - Scarlet & Violet Singles",
+        "deterministic": {
+          "relevant": false,
+          "category": "IRRELEVANT",
+          "reason": "Card name not found in title",
+          "numberEvidence": "NONE",
+          "setMatch": "EXACT",
+          "language": "UNKNOWN"
+        },
+        "triggersSemantic": true,
+        "expected": "NOT_TARGET",
+        "needsManualReview": false,
+        "note": null
+      },
+      "expected": "NOT_TARGET",
+      "accepted": false,
+      "category": "IRRELEVANT",
+      "verdict": {
+        "relevant": "UNCERTAIN",
+        "targetMatch": "UNKNOWN",
+        "reason": "Title mentions \"Paldea Evolved\" and \"Reverse Holo\" but does not specify card name or number, leaving three Iono candidates indistinguishable.",
+        "confidence": 0.95
+      },
+      "rescued": false,
+      "reinforced": false
+    },
+    {
+      "entry": {
+        "id": "neo1-9:0",
+        "bucket": "near-miss-reject",
+        "target": {
+          "name": "Lugia",
+          "setName": "Neo Genesis",
+          "number": "9",
+          "printedTotal": 111
+        },
+        "title": "Pokémon Lugia #20/64, 1st Edition Neo Revelation 2000 Wizards Of The Coast",
+        "deterministic": {
+          "relevant": false,
+          "category": "IRRELEVANT",
+          "reason": "Title names a different card number",
+          "numberEvidence": "FRACTION",
+          "setMatch": "CONFLICT",
+          "language": "UNKNOWN"
+        },
+        "triggersSemantic": false,
+        "expected": "NOT_TARGET",
+        "needsManualReview": false,
+        "note": null
+      },
+      "expected": "NOT_TARGET",
+      "accepted": false,
+      "category": "IRRELEVANT",
+      "verdict": null,
+      "rescued": false,
+      "reinforced": false
+    },
+    {
+      "entry": {
+        "id": "neo1-9:1",
+        "bucket": "semantic-trigger",
+        "target": {
+          "name": "Lugia",
+          "setName": "Neo Genesis",
+          "number": "9",
+          "printedTotal": 111
+        },
+        "title": "1st Edition Chinchou - Neo Genesis - #55/111 - Vintage Pokémon Card 2000 WOTC",
+        "deterministic": {
+          "relevant": false,
+          "category": "IRRELEVANT",
+          "reason": "Card name not found in title",
+          "numberEvidence": "FRACTION",
+          "setMatch": "EXACT",
+          "language": "UNKNOWN"
+        },
+        "triggersSemantic": true,
+        "expected": "NOT_TARGET",
+        "needsManualReview": false,
+        "note": null
+      },
+      "expected": "NOT_TARGET",
+      "accepted": false,
+      "category": "IRRELEVANT",
+      "verdict": {
+        "relevant": "NO",
+        "targetMatch": "UNLIKELY",
+        "reason": "Title explicitly names Chinchou #55/111, not Lugia #9/111.",
+        "confidence": 0.99
+      },
+      "rescued": false,
+      "reinforced": false
+    },
+    {
+      "entry": {
+        "id": "neo1-9:2",
+        "bucket": "semantic-trigger",
+        "target": {
+          "name": "Lugia",
+          "setName": "Neo Genesis",
+          "number": "9",
+          "printedTotal": 111
+        },
+        "title": "Pikachu NO. 025 Common Neo Genesis Non Holo Pokemon Japanese LP Clean",
+        "deterministic": {
+          "relevant": false,
+          "category": "IRRELEVANT",
+          "reason": "Card name not found in title",
+          "numberEvidence": "DECLARED",
+          "setMatch": "EXACT",
+          "language": "JP"
+        },
+        "triggersSemantic": true,
+        "expected": "NOT_TARGET",
+        "needsManualReview": false,
+        "note": null
+      },
+      "expected": "NOT_TARGET",
+      "accepted": false,
+      "category": "IRRELEVANT",
+      "verdict": {
+        "relevant": "NO",
+        "targetMatch": "UNLIKELY",
+        "reason": "Title explicitly names Pikachu #025, not Lugia #9.",
+        "confidence": 0.99
+      },
+      "rescued": false,
+      "reinforced": false
+    },
+    {
+      "entry": {
+        "id": "neo1-9:3",
+        "bucket": "near-miss-reject",
+        "target": {
+          "name": "Lugia",
+          "setName": "Neo Genesis",
+          "number": "9",
+          "printedTotal": 111
+        },
+        "title": "[NM] Lugia Pokemon Card Japanese No.249 Rare Neo Genesis Vintage Holo 9A23",
+        "deterministic": {
+          "relevant": false,
+          "category": "IRRELEVANT",
+          "reason": "Title names a different card number",
+          "numberEvidence": "DECLARED",
+          "setMatch": "EXACT",
+          "language": "JP"
+        },
+        "triggersSemantic": false,
+        "expected": "NOT_TARGET",
+        "needsManualReview": false,
+        "note": "Japanese Neo Genesis Lugia uses Pokedex No.249; a different printing from English 9/111."
+      },
+      "expected": "NOT_TARGET",
+      "accepted": false,
+      "category": "IRRELEVANT",
+      "verdict": null,
+      "rescued": false,
+      "reinforced": false
+    },
+    {
+      "entry": {
+        "id": "neo1-9:4",
+        "bucket": "near-miss-reject",
+        "target": {
+          "name": "Lugia",
+          "setName": "Neo Genesis",
+          "number": "9",
+          "printedTotal": 111
+        },
+        "title": "Pokémon TCG Lugia Neo Genesis Gold Silver #249 Holo Rare Japanese CGC 7 NM",
+        "deterministic": {
+          "relevant": false,
+          "category": "IRRELEVANT",
+          "reason": "Title names a different card number",
+          "numberEvidence": "DECLARED",
+          "setMatch": "EXACT",
+          "language": "JP"
+        },
+        "triggersSemantic": false,
+        "expected": "NOT_TARGET",
+        "needsManualReview": false,
+        "note": "Japanese printing, not the English 9/111 target."
+      },
+      "expected": "NOT_TARGET",
+      "accepted": false,
+      "category": "IRRELEVANT",
+      "verdict": null,
+      "rescued": false,
+      "reinforced": false
+    },
+    {
+      "entry": {
+        "id": "ecard3-146:0",
+        "bucket": "semantic-trigger",
+        "target": {
+          "name": "Charizard",
+          "setName": "Skyridge",
+          "number": "146",
+          "printedTotal": 144
+        },
+        "title": "Pokemon Charizard Skyridge Reverse Holo PSA 3",
+        "deterministic": {
+          "relevant": false,
+          "category": "IRRELEVANT",
+          "reason": "Printed card number not found in title",
+          "numberEvidence": "NONE",
+          "setMatch": "EXACT",
+          "language": "UNKNOWN"
+        },
+        "triggersSemantic": true,
+        "expected": "TARGET",
+        "needsManualReview": false,
+        "note": "Skyridge contains exactly one Charizard (#146); PSA 3 is a grade, not a card number."
+      },
+      "expected": "TARGET",
+      "accepted": true,
+      "category": "PSA_3",
+      "verdict": {
+        "relevant": "YES",
+        "targetMatch": "EXACT",
+        "reason": "Title names Charizard and Skyridge; no other card in this set shares the target's name, so the title uniquely identifies it.",
+        "confidence": 0.95
+      },
+      "rescued": true,
+      "reinforced": false
+    },
+    {
+      "entry": {
+        "id": "ecard3-146:1",
+        "bucket": "semantic-trigger",
+        "target": {
+          "name": "Charizard",
+          "setName": "Skyridge",
+          "number": "146",
+          "printedTotal": 144
+        },
+        "title": "Charizard 2003 Pokemon Skyridge Holo CGC 4 🔥💥📈",
+        "deterministic": {
+          "relevant": false,
+          "category": "IRRELEVANT",
+          "reason": "Printed card number not found in title",
+          "numberEvidence": "NONE",
+          "setMatch": "EXACT",
+          "language": "UNKNOWN"
+        },
+        "triggersSemantic": true,
+        "expected": "TARGET",
+        "needsManualReview": false,
+        "note": "Skyridge contains exactly one Charizard (#146); CGC 4 is a grade."
+      },
+      "expected": "TARGET",
+      "accepted": true,
+      "category": "CGC_4",
+      "verdict": {
+        "relevant": "YES",
+        "targetMatch": "EXACT",
+        "reason": "Title names \"Charizard\" and \"Skyridge\" set; no other card in this set shares the target's name, so the title uniquely identifies it.",
+        "confidence": 0.95
+      },
+      "rescued": true,
+      "reinforced": false
+    },
+    {
+      "entry": {
+        "id": "ecard3-146:2",
+        "bucket": "semantic-trigger",
+        "target": {
+          "name": "Charizard",
+          "setName": "Skyridge",
+          "number": "146",
+          "printedTotal": 144
+        },
+        "title": "2003 Pokemon Skyridge Star Piece Trainer Non Holo Vintage 139/144 MINT",
+        "deterministic": {
+          "relevant": false,
+          "category": "IRRELEVANT",
+          "reason": "Card name not found in title",
+          "numberEvidence": "FRACTION",
+          "setMatch": "EXACT",
+          "language": "UNKNOWN"
+        },
+        "triggersSemantic": true,
+        "expected": "NOT_TARGET",
+        "needsManualReview": false,
+        "note": null
+      },
+      "expected": "NOT_TARGET",
+      "accepted": false,
+      "category": "IRRELEVANT",
+      "verdict": {
+        "relevant": "NO",
+        "targetMatch": "UNLIKELY",
+        "reason": "Title lists card number 139/144, but target Charizard is 146/144; different card entirely.",
+        "confidence": 0.95
+      },
+      "rescued": false,
+      "reinforced": false
+    },
+    {
+      "entry": {
+        "id": "ecard3-146:3",
+        "bucket": "semantic-trigger",
+        "target": {
+          "name": "Charizard",
+          "setName": "Skyridge",
+          "number": "146",
+          "printedTotal": 144
+        },
+        "title": "Pokemon Charizard Crystal Holo Skyridge 146 BGS 9.5",
+        "deterministic": {
+          "relevant": true,
+          "category": "BGS_9_5",
+          "reason": "Graded listing (BGS 9.5)",
+          "numberEvidence": "BARE",
+          "setMatch": "EXACT",
+          "language": "UNKNOWN"
+        },
+        "triggersSemantic": true,
+        "expected": "TARGET",
+        "needsManualReview": false,
+        "note": null
+      },
+      "expected": "TARGET",
+      "accepted": true,
+      "category": "BGS_9_5",
+      "verdict": {
+        "relevant": "YES",
+        "targetMatch": "EXACT",
+        "reason": "Title explicitly names \"Charizard Crystal Holo Skyridge 146\", matching the target card's name, set, and card number.",
+        "confidence": 0.99
+      },
+      "rescued": false,
+      "reinforced": false
+    },
+    {
+      "entry": {
+        "id": "gym2-2:0",
+        "bucket": "near-miss-reject",
+        "target": {
+          "name": "Blaine's Charizard",
+          "setName": "Gym Challenge",
+          "number": "2",
+          "printedTotal": 132
+        },
+        "title": "The Pokémon Company Blaine's Charizard No.006 JP Holo Rare 1996",
+        "deterministic": {
+          "relevant": false,
+          "category": "IRRELEVANT",
+          "reason": "Title names a different card number",
+          "numberEvidence": "DECLARED",
+          "setMatch": "UNKNOWN",
+          "language": "JP"
+        },
+        "triggersSemantic": false,
+        "expected": "NOT_TARGET",
+        "needsManualReview": false,
+        "note": null
+      },
+      "expected": "NOT_TARGET",
+      "accepted": false,
+      "category": "IRRELEVANT",
+      "verdict": null,
+      "rescued": false,
+      "reinforced": false
+    },
+    {
+      "entry": {
+        "id": "gym2-2:1",
+        "bucket": "semantic-trigger",
+        "target": {
+          "name": "Blaine's Charizard",
+          "setName": "Gym Challenge",
+          "number": "2",
+          "printedTotal": 132
+        },
+        "title": "Blaine's Charizard 006 Challenge The Darkness Holo JP GOOD CARD SMALL CREASE",
+        "deterministic": {
+          "relevant": false,
+          "category": "IRRELEVANT",
+          "reason": "Printed card number not found in title",
+          "numberEvidence": "NONE",
+          "setMatch": "UNKNOWN",
+          "language": "JP"
+        },
+        "triggersSemantic": true,
+        "expected": "NOT_TARGET",
+        "needsManualReview": false,
+        "note": null
+      },
+      "expected": "NOT_TARGET",
+      "accepted": false,
+      "category": "IRRELEVANT",
+      "verdict": {
+        "relevant": "NO",
+        "targetMatch": "UNLIKELY",
+        "reason": "Title says \"006\" and \"JP\" but target is Gym Challenge #2/132 EN; \"006\" is a different card number entirely.",
+        "confidence": 0.95
+      },
+      "rescued": false,
+      "reinforced": false
+    },
+    {
+      "entry": {
+        "id": "gym2-2:2",
+        "bucket": "semantic-trigger",
+        "target": {
+          "name": "Blaine's Charizard",
+          "setName": "Gym Challenge",
+          "number": "2",
+          "printedTotal": 132
+        },
+        "title": "Blaine's Charizard Japanese Holo",
+        "deterministic": {
+          "relevant": false,
+          "category": "IRRELEVANT",
+          "reason": "Printed card number not found in title",
+          "numberEvidence": "NONE",
+          "setMatch": "UNKNOWN",
+          "language": "JP"
+        },
+        "triggersSemantic": true,
+        "expected": "NOT_TARGET",
+        "needsManualReview": false,
+        "note": null
+      },
+      "expected": "NOT_TARGET",
+      "accepted": false,
+      "category": "IRRELEVANT",
+      "verdict": {
+        "relevant": "UNCERTAIN",
+        "targetMatch": "UNKNOWN",
+        "reason": "Title matches \"Blaine's Charizard\" but language mismatch (JP listing vs EN target) and absence of card number creates ambiguity.",
+        "confidence": 0.5
+      },
+      "rescued": false,
+      "reinforced": false
+    },
+    {
+      "entry": {
+        "id": "gym2-2:3",
+        "bucket": "semantic-trigger",
+        "target": {
+          "name": "Blaine's Charizard",
+          "setName": "Gym Challenge",
+          "number": "2",
+          "printedTotal": 132
+        },
+        "title": "Pokemon Card Blaine's Charizard Gym Challenge 2 Holo Japanese PSA 9 MINT Graded",
+        "deterministic": {
+          "relevant": true,
+          "category": "PSA_9",
+          "reason": "Graded listing (PSA 9)",
+          "numberEvidence": "BARE",
+          "setMatch": "EXACT",
+          "language": "JP"
+        },
+        "triggersSemantic": true,
+        "expected": "INSUFFICIENT_EVIDENCE",
+        "needsManualReview": true,
+        "note": "Says both Gym Challenge 2 (English set) and Japanese. Contradictory printing."
+      },
+      "expected": "INSUFFICIENT_EVIDENCE",
+      "accepted": true,
+      "category": "PSA_9",
+      "verdict": {
+        "relevant": "YES",
+        "targetMatch": "EXACT",
+        "reason": "Title explicitly names \"Blaine's Charizard\" and cites \"Gym Challenge 2\", matching the target card's name and card number.",
+        "confidence": 0.95
+      },
+      "rescued": false,
+      "reinforced": false
+    },
+    {
+      "entry": {
+        "id": "gym2-2:4",
+        "bucket": "near-miss-reject",
+        "target": {
+          "name": "Blaine's Charizard",
+          "setName": "Gym Challenge",
+          "number": "2",
+          "printedTotal": 132
+        },
+        "title": "1999 POKEMON JAPANESE GYM 2 | #6 BLAINE'S CHARIZARD-HOLO | LP",
+        "deterministic": {
+          "relevant": false,
+          "category": "IRRELEVANT",
+          "reason": "Title names a different card number",
+          "numberEvidence": "DECLARED",
+          "setMatch": "UNKNOWN",
+          "language": "JP"
+        },
+        "triggersSemantic": false,
+        "expected": "NOT_TARGET",
+        "needsManualReview": false,
+        "note": null
+      },
+      "expected": "NOT_TARGET",
+      "accepted": false,
+      "category": "IRRELEVANT",
+      "verdict": null,
+      "rescued": false,
+      "reinforced": false
+    },
+    {
+      "entry": {
+        "id": "gym2-2:5",
+        "bucket": "near-miss-reject",
+        "target": {
+          "name": "Blaine's Charizard",
+          "setName": "Gym Challenge",
+          "number": "2",
+          "printedTotal": 132
+        },
+        "title": "[NM] Blaine's Charizard No 006 Pokemon Card Japanese Vintage Holo NT57",
+        "deterministic": {
+          "relevant": false,
+          "category": "IRRELEVANT",
+          "reason": "Title names a different card number",
+          "numberEvidence": "DECLARED",
+          "setMatch": "UNKNOWN",
+          "language": "JP"
+        },
+        "triggersSemantic": false,
+        "expected": "NOT_TARGET",
+        "needsManualReview": false,
+        "note": null
+      },
+      "expected": "NOT_TARGET",
+      "accepted": false,
+      "category": "IRRELEVANT",
+      "verdict": null,
+      "rescued": false,
+      "reinforced": false
+    },
+    {
+      "entry": {
+        "id": "gym2-2:6",
+        "bucket": "semantic-trigger",
+        "target": {
+          "name": "Blaine's Charizard",
+          "setName": "Gym Challenge",
+          "number": "2",
+          "printedTotal": 132
+        },
+        "title": "1X (NM) Team Rocket's Moltres ex - 031/182 Destined Rivals Stamp Double Rare",
+        "deterministic": {
+          "relevant": false,
+          "category": "IRRELEVANT",
+          "reason": "Card name not found in title",
+          "numberEvidence": "FRACTION",
+          "setMatch": "CONFLICT",
+          "language": "UNKNOWN"
+        },
+        "triggersSemantic": true,
+        "expected": "NOT_TARGET",
+        "needsManualReview": false,
+        "note": null
+      },
+      "expected": "NOT_TARGET",
+      "accepted": false,
+      "category": "IRRELEVANT",
+      "verdict": {
+        "relevant": "NO",
+        "targetMatch": "UNLIKELY",
+        "reason": "Title describes Team Rocket's Moltres ex from Destined Rivals, not Blaine's Charizard from Gym Challenge.",
+        "confidence": 0.99
+      },
+      "rescued": false,
+      "reinforced": false
+    },
+    {
+      "entry": {
+        "id": "gym2-2:7",
+        "bucket": "semantic-trigger",
+        "target": {
+          "name": "Blaine's Charizard",
+          "setName": "Gym Challenge",
+          "number": "2",
+          "printedTotal": 132
+        },
+        "title": "Pokemon TCG Blaine's Charizard 006 HP100 Holo Rare Japanese 1996",
+        "deterministic": {
+          "relevant": false,
+          "category": "IRRELEVANT",
+          "reason": "Printed card number not found in title",
+          "numberEvidence": "NONE",
+          "setMatch": "UNKNOWN",
+          "language": "JP"
+        },
+        "triggersSemantic": true,
+        "expected": "NOT_TARGET",
+        "needsManualReview": false,
+        "note": null
+      },
+      "expected": "NOT_TARGET",
+      "accepted": false,
+      "category": "IRRELEVANT",
+      "verdict": {
+        "relevant": "UNCERTAIN",
+        "targetMatch": "UNKNOWN",
+        "reason": "Title names \"Blaine's Charizard\" but lacks a card number; the \"006\" appears to be a Pokédex number, not a printed card number (#2/132).",
+        "confidence": 0.5
+      },
+      "rescued": false,
+      "reinforced": false
+    },
+    {
+      "entry": {
+        "id": "gym2-2:8",
+        "bucket": "near-miss-reject",
+        "target": {
+          "name": "Blaine's Charizard",
+          "setName": "Gym Challenge",
+          "number": "2",
+          "printedTotal": 132
+        },
+        "title": "Pokemon 1999 Blaine's Charizard #6 Japanese Gym Challenge PSA 9 Mint Holo Swirl",
+        "deterministic": {
+          "relevant": false,
+          "category": "IRRELEVANT",
+          "reason": "Title names a different card number",
+          "numberEvidence": "DECLARED",
+          "setMatch": "EXACT",
+          "language": "JP"
+        },
+        "triggersSemantic": false,
+        "expected": "NOT_TARGET",
+        "needsManualReview": false,
+        "note": null
+      },
+      "expected": "NOT_TARGET",
+      "accepted": false,
+      "category": "IRRELEVANT",
+      "verdict": null,
+      "rescued": false,
+      "reinforced": false
+    },
+    {
+      "entry": {
+        "id": "gym2-2:9",
+        "bucket": "semantic-trigger",
+        "target": {
+          "name": "Blaine's Charizard",
+          "setName": "Gym Challenge",
+          "number": "2",
+          "printedTotal": 132
+        },
+        "title": "2X (LP & LP-NM) Kabutops - Neo Discovery Holo Rare 6/75 -  World Tree Branch",
+        "deterministic": {
+          "relevant": false,
+          "category": "IRRELEVANT",
+          "reason": "Card name not found in title",
+          "numberEvidence": "FRACTION",
+          "setMatch": "CONFLICT",
+          "language": "UNKNOWN"
+        },
+        "triggersSemantic": true,
+        "expected": "NOT_TARGET",
+        "needsManualReview": false,
+        "note": null
+      },
+      "expected": "NOT_TARGET",
+      "accepted": false,
+      "category": "IRRELEVANT",
+      "verdict": {
+        "relevant": "NO",
+        "targetMatch": "UNLIKELY",
+        "reason": "Title mentions Kabutops from Neo Discovery, not Blaine's Charizard from Gym Challenge.",
+        "confidence": 0.99
+      },
+      "rescued": false,
+      "reinforced": false
+    },
+    {
+      "entry": {
+        "id": "gym2-2:10",
+        "bucket": "semantic-trigger",
+        "target": {
+          "name": "Blaine's Charizard",
+          "setName": "Gym Challenge",
+          "number": "2",
+          "printedTotal": 132
+        },
+        "title": "blaines charizard and charizard ex 2023 psa 10's",
+        "deterministic": {
+          "relevant": false,
+          "category": "IRRELEVANT",
+          "reason": "Printed card number not found in title",
+          "numberEvidence": "NONE",
+          "setMatch": "UNKNOWN",
+          "language": "UNKNOWN"
+        },
+        "triggersSemantic": true,
+        "expected": "NOT_TARGET",
+        "needsManualReview": false,
+        "note": null
+      },
+      "expected": "NOT_TARGET",
+      "accepted": false,
+      "category": "IRRELEVANT",
+      "verdict": {
+        "relevant": "NO",
+        "targetMatch": "UNLIKELY",
+        "reason": "Title mentions \"blaines charizard and charizard ex\" — a lot of two cards, not a single card.",
+        "confidence": 0.95
+      },
+      "rescued": false,
+      "reinforced": false
+    },
+    {
+      "entry": {
+        "id": "gym2-2:11",
+        "bucket": "near-miss-reject",
+        "target": {
+          "name": "Blaine's Charizard",
+          "setName": "Gym Challenge",
+          "number": "2",
+          "printedTotal": 132
+        },
+        "title": "1999 Pokemon Japanese Blaine’s Charizard No.006 Gym 2 Holo Vintage",
+        "deterministic": {
+          "relevant": false,
+          "category": "IRRELEVANT",
+          "reason": "Title names a different card number",
+          "numberEvidence": "DECLARED",
+          "setMatch": "UNKNOWN",
+          "language": "JP"
+        },
+        "triggersSemantic": false,
+        "expected": "NOT_TARGET",
+        "needsManualReview": false,
+        "note": null
+      },
+      "expected": "NOT_TARGET",
+      "accepted": false,
+      "category": "IRRELEVANT",
+      "verdict": null,
+      "rescued": false,
+      "reinforced": false
+    },
+    {
+      "entry": {
+        "id": "gym2-2:12",
+        "bucket": "near-miss-reject",
+        "target": {
+          "name": "Blaine's Charizard",
+          "setName": "Gym Challenge",
+          "number": "2",
+          "printedTotal": 132
+        },
+        "title": "1999 Pokemon Challenge from the Darkness JP Blaine's Charizard Rare Holo #006",
+        "deterministic": {
+          "relevant": false,
+          "category": "IRRELEVANT",
+          "reason": "Title names a different card number",
+          "numberEvidence": "DECLARED",
+          "setMatch": "UNKNOWN",
+          "language": "JP"
+        },
+        "triggersSemantic": false,
+        "expected": "NOT_TARGET",
+        "needsManualReview": false,
+        "note": "Japanese Challenge from the Darkness printing, #006."
+      },
+      "expected": "NOT_TARGET",
+      "accepted": false,
+      "category": "IRRELEVANT",
+      "verdict": null,
+      "rescued": false,
+      "reinforced": false
+    },
+    {
+      "entry": {
+        "id": "hard:0",
+        "bucket": "hard-reject",
+        "target": {
+          "name": "Umbreon VMAX",
+          "setName": "Evolving Skies",
+          "number": "215",
+          "printedTotal": 203
+        },
+        "title": "Mystery Pokemon grab Umbreon Vmax 215/203 -Read description",
+        "deterministic": {
+          "relevant": false,
+          "category": "IRRELEVANT",
+          "reason": "Mystery / random-contents listing",
+          "numberEvidence": "FRACTION",
+          "setMatch": "UNKNOWN",
+          "language": "UNKNOWN"
+        },
+        "triggersSemantic": false,
+        "expected": "NOT_TARGET",
+        "needsManualReview": false,
+        "note": "Deterministically rejected: Mystery / random-contents listing"
+      },
+      "expected": "NOT_TARGET",
+      "accepted": false,
+      "category": "IRRELEVANT",
+      "verdict": null,
+      "rescued": false,
+      "reinforced": false
+    },
+    {
+      "entry": {
+        "id": "hard:1",
+        "bucket": "hard-reject",
+        "target": {
+          "name": "Umbreon VMAX",
+          "setName": "Evolving Skies",
+          "number": "215",
+          "printedTotal": 203
+        },
+        "title": "Pokémon Umbreon VMAX 215/203 Extended Art Binder Insert",
+        "deterministic": {
+          "relevant": false,
+          "category": "IRRELEVANT",
+          "reason": "Novelty or non-standard product",
+          "numberEvidence": "FRACTION",
+          "setMatch": "UNKNOWN",
+          "language": "UNKNOWN"
+        },
+        "triggersSemantic": false,
+        "expected": "NOT_TARGET",
+        "needsManualReview": false,
+        "note": "Deterministically rejected: Novelty or non-standard product"
+      },
+      "expected": "NOT_TARGET",
+      "accepted": false,
+      "category": "IRRELEVANT",
+      "verdict": null,
+      "rescued": false,
+      "reinforced": false
+    },
+    {
+      "entry": {
+        "id": "hard:2",
+        "bucket": "hard-reject",
+        "target": {
+          "name": "Pikachu VMAX",
+          "setName": "Lost Origin Trainer Gallery",
+          "number": "TG17",
+          "printedTotal": 30
+        },
+        "title": "Flat Ship! Prismatic Evolutions Complete Your Set/Pick Your Card H/RH/EX Pokemon",
+        "deterministic": {
+          "relevant": false,
+          "category": "IRRELEVANT",
+          "reason": "Pick-your-card listing",
+          "numberEvidence": "NONE",
+          "setMatch": "CONFLICT",
+          "language": "UNKNOWN"
+        },
+        "triggersSemantic": false,
+        "expected": "NOT_TARGET",
+        "needsManualReview": false,
+        "note": "Deterministically rejected: Pick-your-card listing"
+      },
+      "expected": "NOT_TARGET",
+      "accepted": false,
+      "category": "IRRELEVANT",
+      "verdict": null,
+      "rescued": false,
+      "reinforced": false
+    },
+    {
+      "entry": {
+        "id": "hard:3",
+        "bucket": "hard-reject",
+        "target": {
+          "name": "Pikachu VMAX",
+          "setName": "Lost Origin Trainer Gallery",
+          "number": "TG17",
+          "printedTotal": 30
+        },
+        "title": "Pokemon Crown Zenith - Choose Your Card! Reverse Holo/Holos Ultra Rare GG",
+        "deterministic": {
+          "relevant": false,
+          "category": "IRRELEVANT",
+          "reason": "Pick-your-card listing",
+          "numberEvidence": "NONE",
+          "setMatch": "CONFLICT",
+          "language": "UNKNOWN"
+        },
+        "triggersSemantic": false,
+        "expected": "NOT_TARGET",
+        "needsManualReview": false,
+        "note": "Deterministically rejected: Pick-your-card listing"
+      },
+      "expected": "NOT_TARGET",
+      "accepted": false,
+      "category": "IRRELEVANT",
+      "verdict": null,
+      "rescued": false,
+      "reinforced": false
+    },
+    {
+      "entry": {
+        "id": "hard:4",
+        "bucket": "hard-reject",
+        "target": {
+          "name": "Pikachu VMAX",
+          "setName": "Lost Origin Trainer Gallery",
+          "number": "TG17",
+          "printedTotal": 30
+        },
+        "title": "Pokemon Trainer Gallery: Choose Your Card! English NM Full Art Galarian GG TG",
+        "deterministic": {
+          "relevant": false,
+          "category": "IRRELEVANT",
+          "reason": "Pick-your-card listing",
+          "numberEvidence": "NONE",
+          "setMatch": "UNKNOWN",
+          "language": "EN"
+        },
+        "triggersSemantic": false,
+        "expected": "NOT_TARGET",
+        "needsManualReview": false,
+        "note": "Deterministically rejected: Pick-your-card listing"
+      },
+      "expected": "NOT_TARGET",
+      "accepted": false,
+      "category": "IRRELEVANT",
+      "verdict": null,
+      "rescued": false,
+      "reinforced": false
+    },
+    {
+      "entry": {
+        "id": "hard:5",
+        "bucket": "hard-reject",
+        "target": {
+          "name": "Pikachu VMAX",
+          "setName": "Lost Origin Trainer Gallery",
+          "number": "TG17",
+          "printedTotal": 30
+        },
+        "title": "Pokemon TCG - Temporal Forces: Choose Your Card! - All Holos/Reverse Holos! NM",
+        "deterministic": {
+          "relevant": false,
+          "category": "IRRELEVANT",
+          "reason": "Pick-your-card listing",
+          "numberEvidence": "NONE",
+          "setMatch": "CONFLICT",
+          "language": "UNKNOWN"
+        },
+        "triggersSemantic": false,
+        "expected": "NOT_TARGET",
+        "needsManualReview": false,
+        "note": "Deterministically rejected: Pick-your-card listing"
+      },
+      "expected": "NOT_TARGET",
+      "accepted": false,
+      "category": "IRRELEVANT",
+      "verdict": null,
+      "rescued": false,
+      "reinforced": false
+    },
+    {
+      "entry": {
+        "id": "hard:6",
+        "bucket": "hard-reject",
+        "target": {
+          "name": "Pikachu VMAX",
+          "setName": "Lost Origin Trainer Gallery",
+          "number": "TG17",
+          "printedTotal": 30
+        },
+        "title": "Pokemon Trainer Gallery Galarian Gallery TG GG Choose Your Card English NM",
+        "deterministic": {
+          "relevant": false,
+          "category": "IRRELEVANT",
+          "reason": "Pick-your-card listing",
+          "numberEvidence": "NONE",
+          "setMatch": "UNKNOWN",
+          "language": "EN"
+        },
+        "triggersSemantic": false,
+        "expected": "NOT_TARGET",
+        "needsManualReview": false,
+        "note": "Deterministically rejected: Pick-your-card listing"
+      },
+      "expected": "NOT_TARGET",
+      "accepted": false,
+      "category": "IRRELEVANT",
+      "verdict": null,
+      "rescued": false,
+      "reinforced": false
+    },
+    {
+      "entry": {
+        "id": "hard:7",
+        "bucket": "hard-reject",
+        "target": {
+          "name": "Mega Gengar ex",
+          "setName": "Ascended Heroes",
+          "number": "284",
+          "printedTotal": 217
+        },
+        "title": "1-75 Chance Mega Gengar EX 284/217 🍀 Test Luck",
+        "deterministic": {
+          "relevant": false,
+          "category": "IRRELEVANT",
+          "reason": "Raffle or chance-to-win listing",
+          "numberEvidence": "FRACTION",
+          "setMatch": "UNKNOWN",
+          "language": "UNKNOWN"
+        },
+        "triggersSemantic": false,
+        "expected": "NOT_TARGET",
+        "needsManualReview": false,
+        "note": "Deterministically rejected: Raffle or chance-to-win listing"
+      },
+      "expected": "NOT_TARGET",
+      "accepted": false,
+      "category": "IRRELEVANT",
+      "verdict": null,
+      "rescued": false,
+      "reinforced": false
+    },
+    {
+      "entry": {
+        "id": "hard:8",
+        "bucket": "hard-reject",
+        "target": {
+          "name": "Charizard",
+          "setName": "Base Set",
+          "number": "4",
+          "printedTotal": 102
+        },
+        "title": "Pokemon - Gold Metal Charizard - Trading Card Celebrations Promo UPC 4/102",
+        "deterministic": {
+          "relevant": false,
+          "category": "IRRELEVANT",
+          "reason": "Novelty or non-standard product",
+          "numberEvidence": "FRACTION",
+          "setMatch": "CONFLICT",
+          "language": "UNKNOWN"
+        },
+        "triggersSemantic": false,
+        "expected": "NOT_TARGET",
+        "needsManualReview": false,
+        "note": "Deterministically rejected: Novelty or non-standard product"
+      },
+      "expected": "NOT_TARGET",
+      "accepted": false,
+      "category": "IRRELEVANT",
+      "verdict": null,
+      "rescued": false,
+      "reinforced": false
+    },
+    {
+      "entry": {
+        "id": "hard:9",
+        "bucket": "hard-reject",
+        "target": {
+          "name": "Charizard",
+          "setName": "Base Set",
+          "number": "4",
+          "printedTotal": 102
+        },
+        "title": "1st Edition Shadowless Charizard 4/102 Base Set Holo Pokemon * PRXY (REPLIK) *",
+        "deterministic": {
+          "relevant": false,
+          "category": "IRRELEVANT",
+          "reason": "Proxy, replica or custom card",
+          "numberEvidence": "FRACTION",
+          "setMatch": "EXACT",
+          "language": "UNKNOWN"
+        },
+        "triggersSemantic": false,
+        "expected": "NOT_TARGET",
+        "needsManualReview": false,
+        "note": "Deterministically rejected: Proxy, replica or custom card"
+      },
+      "expected": "NOT_TARGET",
+      "accepted": false,
+      "category": "IRRELEVANT",
+      "verdict": null,
+      "rescued": false,
+      "reinforced": false
+    },
+    {
+      "entry": {
+        "id": "hard:10",
+        "bucket": "hard-reject",
+        "target": {
+          "name": "Charizard",
+          "setName": "Base Set",
+          "number": "4",
+          "printedTotal": 102
+        },
+        "title": "1999 Pokemon Base Set: Choose Your Card! All Cards Available - 100% Authentic",
+        "deterministic": {
+          "relevant": false,
+          "category": "IRRELEVANT",
+          "reason": "Pick-your-card listing",
+          "numberEvidence": "NONE",
+          "setMatch": "EXACT",
+          "language": "UNKNOWN"
+        },
+        "triggersSemantic": false,
+        "expected": "NOT_TARGET",
+        "needsManualReview": false,
+        "note": "Deterministically rejected: Pick-your-card listing"
+      },
+      "expected": "NOT_TARGET",
+      "accepted": false,
+      "category": "IRRELEVANT",
+      "verdict": null,
+      "rescued": false,
+      "reinforced": false
+    },
+    {
+      "entry": {
+        "id": "hard:11",
+        "bucket": "hard-reject",
+        "target": {
+          "name": "Mega Darkrai ex",
+          "setName": "Pitch Black",
+          "number": "116",
+          "printedTotal": 84
+        },
+        "title": "PSA/TAG Mega Darkrai ex (116/84) Extended Art Graded Case",
+        "deterministic": {
+          "relevant": false,
+          "category": "IRRELEVANT",
+          "reason": "Empty case or holder only",
+          "numberEvidence": "FRACTION",
+          "setMatch": "UNKNOWN",
+          "language": "UNKNOWN"
+        },
+        "triggersSemantic": false,
+        "expected": "NOT_TARGET",
+        "needsManualReview": false,
+        "note": "Deterministically rejected: Empty case or holder only"
+      },
+      "expected": "NOT_TARGET",
+      "accepted": false,
+      "category": "IRRELEVANT",
+      "verdict": null,
+      "rescued": false,
+      "reinforced": false
+    },
+    {
+      "entry": {
+        "id": "hard:12",
+        "bucket": "hard-reject",
+        "target": {
+          "name": "Charizard ex",
+          "setName": "151",
+          "number": "199",
+          "printedTotal": 165
+        },
+        "title": "Pokemon Scarlet & Violet 151: Choose Your Card! - All Cards Available - NM",
+        "deterministic": {
+          "relevant": false,
+          "category": "IRRELEVANT",
+          "reason": "Pick-your-card listing",
+          "numberEvidence": "NONE",
+          "setMatch": "EXACT",
+          "language": "UNKNOWN"
+        },
+        "triggersSemantic": false,
+        "expected": "NOT_TARGET",
+        "needsManualReview": false,
+        "note": "Deterministically rejected: Pick-your-card listing"
+      },
+      "expected": "NOT_TARGET",
+      "accepted": false,
+      "category": "IRRELEVANT",
+      "verdict": null,
+      "rescued": false,
+      "reinforced": false
+    },
+    {
+      "entry": {
+        "id": "hard:13",
+        "bucket": "hard-reject",
+        "target": {
+          "name": "Charizard ex",
+          "setName": "151",
+          "number": "199",
+          "printedTotal": 165
+        },
+        "title": "Pokémon Scarlet & Violet-151 Choose Your Card! All Ex, Holo's, Full Art + in NM!",
+        "deterministic": {
+          "relevant": false,
+          "category": "IRRELEVANT",
+          "reason": "Pick-your-card listing",
+          "numberEvidence": "NONE",
+          "setMatch": "EXACT",
+          "language": "UNKNOWN"
+        },
+        "triggersSemantic": false,
+        "expected": "NOT_TARGET",
+        "needsManualReview": false,
+        "note": "Deterministically rejected: Pick-your-card listing"
+      },
+      "expected": "NOT_TARGET",
+      "accepted": false,
+      "category": "IRRELEVANT",
+      "verdict": null,
+      "rescued": false,
+      "reinforced": false
+    },
+    {
+      "entry": {
+        "id": "hard:14",
+        "bucket": "hard-reject",
+        "target": {
+          "name": "Charizard ex",
+          "setName": "151",
+          "number": "199",
+          "printedTotal": 165
+        },
+        "title": "Charizard ex 199/165 SIR FANART DIY Scarlet & Violet 151 Full Art Holo English",
+        "deterministic": {
+          "relevant": false,
+          "category": "IRRELEVANT",
+          "reason": "Proxy, replica or custom card",
+          "numberEvidence": "FRACTION",
+          "setMatch": "EXACT",
+          "language": "EN"
+        },
+        "triggersSemantic": false,
+        "expected": "NOT_TARGET",
+        "needsManualReview": false,
+        "note": "Deterministically rejected: Proxy, replica or custom card"
+      },
+      "expected": "NOT_TARGET",
+      "accepted": false,
+      "category": "IRRELEVANT",
+      "verdict": null,
+      "rescued": false,
+      "reinforced": false
+    },
+    {
+      "entry": {
+        "id": "hard:15",
+        "bucket": "hard-reject",
+        "target": {
+          "name": "Iono",
+          "setName": "Paldea Evolved",
+          "number": "185",
+          "printedTotal": 193
+        },
+        "title": "Pokémon Cosmos Holo Promo Card Singles YOU PICK - Scarlet & Violet SWSH NM/LP",
+        "deterministic": {
+          "relevant": false,
+          "category": "IRRELEVANT",
+          "reason": "Pick-your-card listing",
+          "numberEvidence": "NONE",
+          "setMatch": "UNKNOWN",
+          "language": "UNKNOWN"
+        },
+        "triggersSemantic": false,
+        "expected": "NOT_TARGET",
+        "needsManualReview": false,
+        "note": "Deterministically rejected: Pick-your-card listing"
+      },
+      "expected": "NOT_TARGET",
+      "accepted": false,
+      "category": "IRRELEVANT",
+      "verdict": null,
+      "rescued": false,
+      "reinforced": false
+    },
+    {
+      "entry": {
+        "id": "hard:16",
+        "bucket": "hard-reject",
+        "target": {
+          "name": "Iono",
+          "setName": "Paldea Evolved",
+          "number": "185",
+          "printedTotal": 193
+        },
+        "title": "Pokemon Paldea Evolved - Choose Your Card! - Holos/Reverse Holo EX Rare Cards!",
+        "deterministic": {
+          "relevant": false,
+          "category": "IRRELEVANT",
+          "reason": "Pick-your-card listing",
+          "numberEvidence": "NONE",
+          "setMatch": "EXACT",
+          "language": "UNKNOWN"
+        },
+        "triggersSemantic": false,
+        "expected": "NOT_TARGET",
+        "needsManualReview": false,
+        "note": "Deterministically rejected: Pick-your-card listing"
+      },
+      "expected": "NOT_TARGET",
+      "accepted": false,
+      "category": "IRRELEVANT",
+      "verdict": null,
+      "rescued": false,
+      "reinforced": false
+    },
+    {
+      "entry": {
+        "id": "hard:17",
+        "bucket": "hard-reject",
+        "target": {
+          "name": "Iono",
+          "setName": "Paldea Evolved",
+          "number": "185",
+          "printedTotal": 193
+        },
+        "title": "Pokemon - Paldea Evolved Reverse Holo Singles - Choose Your Card",
+        "deterministic": {
+          "relevant": false,
+          "category": "IRRELEVANT",
+          "reason": "Pick-your-card listing",
+          "numberEvidence": "NONE",
+          "setMatch": "EXACT",
+          "language": "UNKNOWN"
+        },
+        "triggersSemantic": false,
+        "expected": "NOT_TARGET",
+        "needsManualReview": false,
+        "note": "Deterministically rejected: Pick-your-card listing"
+      },
+      "expected": "NOT_TARGET",
+      "accepted": false,
+      "category": "IRRELEVANT",
+      "verdict": null,
+      "rescued": false,
+      "reinforced": false
+    },
+    {
+      "entry": {
+        "id": "hard:18",
+        "bucket": "hard-reject",
+        "target": {
+          "name": "Iono",
+          "setName": "Paldea Evolved",
+          "number": "185",
+          "printedTotal": 193
+        },
+        "title": "Paldea Evolved Pokemon Cards Reverse Holo Rare EX Master Set Singles You Pick",
+        "deterministic": {
+          "relevant": false,
+          "category": "IRRELEVANT",
+          "reason": "Pick-your-card listing",
+          "numberEvidence": "NONE",
+          "setMatch": "EXACT",
+          "language": "UNKNOWN"
+        },
+        "triggersSemantic": false,
+        "expected": "NOT_TARGET",
+        "needsManualReview": false,
+        "note": "Deterministically rejected: Pick-your-card listing"
+      },
+      "expected": "NOT_TARGET",
+      "accepted": false,
+      "category": "IRRELEVANT",
+      "verdict": null,
+      "rescued": false,
+      "reinforced": false
+    },
+    {
+      "entry": {
+        "id": "hard:19",
+        "bucket": "hard-reject",
+        "target": {
+          "name": "Iono",
+          "setName": "Paldea Evolved",
+          "number": "185",
+          "printedTotal": 193
+        },
+        "title": "Pokemon Paradox Temporal Stellar Evolved Obsidian Reverse Holo Choose Your Cards",
+        "deterministic": {
+          "relevant": false,
+          "category": "IRRELEVANT",
+          "reason": "Pick-your-card listing",
+          "numberEvidence": "NONE",
+          "setMatch": "UNKNOWN",
+          "language": "UNKNOWN"
+        },
+        "triggersSemantic": false,
+        "expected": "NOT_TARGET",
+        "needsManualReview": false,
+        "note": "Deterministically rejected: Pick-your-card listing"
+      },
+      "expected": "NOT_TARGET",
+      "accepted": false,
+      "category": "IRRELEVANT",
+      "verdict": null,
+      "rescued": false,
+      "reinforced": false
+    },
+    {
+      "entry": {
+        "id": "hard:20",
+        "bucket": "hard-reject",
+        "target": {
+          "name": "Iono",
+          "setName": "Paldea Evolved",
+          "number": "185",
+          "printedTotal": 193
+        },
+        "title": "Pokémon Paldea Evolved - Common/Uncommon Singles - Choose Your Card",
+        "deterministic": {
+          "relevant": false,
+          "category": "IRRELEVANT",
+          "reason": "Pick-your-card listing",
+          "numberEvidence": "NONE",
+          "setMatch": "EXACT",
+          "language": "UNKNOWN"
+        },
+        "triggersSemantic": false,
+        "expected": "NOT_TARGET",
+        "needsManualReview": false,
+        "note": "Deterministically rejected: Pick-your-card listing"
+      },
+      "expected": "NOT_TARGET",
+      "accepted": false,
+      "category": "IRRELEVANT",
+      "verdict": null,
+      "rescued": false,
+      "reinforced": false
+    },
+    {
+      "entry": {
+        "id": "hard:21",
+        "bucket": "hard-reject",
+        "target": {
+          "name": "Iono",
+          "setName": "Paldea Evolved",
+          "number": "185",
+          "printedTotal": 193
+        },
+        "title": "Pokémon Paldea Evolved - Reverse Holo Singles - Choose Your Card",
+        "deterministic": {
+          "relevant": false,
+          "category": "IRRELEVANT",
+          "reason": "Pick-your-card listing",
+          "numberEvidence": "NONE",
+          "setMatch": "EXACT",
+          "language": "UNKNOWN"
+        },
+        "triggersSemantic": false,
+        "expected": "NOT_TARGET",
+        "needsManualReview": false,
+        "note": "Deterministically rejected: Pick-your-card listing"
+      },
+      "expected": "NOT_TARGET",
+      "accepted": false,
+      "category": "IRRELEVANT",
+      "verdict": null,
+      "rescued": false,
+      "reinforced": false
+    },
+    {
+      "entry": {
+        "id": "hard:22",
+        "bucket": "hard-reject",
+        "target": {
+          "name": "Iono",
+          "setName": "Paldea Evolved",
+          "number": "185",
+          "printedTotal": 193
+        },
+        "title": "Pokemon TCG Paldea Evolved Uncommon & Common - Pick Your Cards - Free Shipping!",
+        "deterministic": {
+          "relevant": false,
+          "category": "IRRELEVANT",
+          "reason": "Pick-your-card listing",
+          "numberEvidence": "NONE",
+          "setMatch": "EXACT",
+          "language": "UNKNOWN"
+        },
+        "triggersSemantic": false,
+        "expected": "NOT_TARGET",
+        "needsManualReview": false,
+        "note": "Deterministically rejected: Pick-your-card listing"
+      },
+      "expected": "NOT_TARGET",
+      "accepted": false,
+      "category": "IRRELEVANT",
+      "verdict": null,
+      "rescued": false,
+      "reinforced": false
+    },
+    {
+      "entry": {
+        "id": "hard:23",
+        "bucket": "hard-reject",
+        "target": {
+          "name": "Iono",
+          "setName": "Paldea Evolved",
+          "number": "185",
+          "printedTotal": 193
+        },
+        "title": "Paldea Evolved - Reverse/Holo/EX/etc - M/NM - Choose your card - Pokemon TCG",
+        "deterministic": {
+          "relevant": false,
+          "category": "IRRELEVANT",
+          "reason": "Pick-your-card listing",
+          "numberEvidence": "NONE",
+          "setMatch": "EXACT",
+          "language": "UNKNOWN"
+        },
+        "triggersSemantic": false,
+        "expected": "NOT_TARGET",
+        "needsManualReview": false,
+        "note": "Deterministically rejected: Pick-your-card listing"
+      },
+      "expected": "NOT_TARGET",
+      "accepted": false,
+      "category": "IRRELEVANT",
+      "verdict": null,
+      "rescued": false,
+      "reinforced": false
+    },
+    {
+      "entry": {
+        "id": "hard:24",
+        "bucket": "hard-reject",
+        "target": {
+          "name": "Iono",
+          "setName": "Paldea Evolved",
+          "number": "185",
+          "printedTotal": 193
+        },
+        "title": "Pokemon Tcg Paldea Evolved Pick Your Card Complete Your Set",
+        "deterministic": {
+          "relevant": false,
+          "category": "IRRELEVANT",
+          "reason": "Pick-your-card listing",
+          "numberEvidence": "NONE",
+          "setMatch": "EXACT",
+          "language": "UNKNOWN"
+        },
+        "triggersSemantic": false,
+        "expected": "NOT_TARGET",
+        "needsManualReview": false,
+        "note": "Deterministically rejected: Pick-your-card listing"
+      },
+      "expected": "NOT_TARGET",
+      "accepted": false,
+      "category": "IRRELEVANT",
+      "verdict": null,
+      "rescued": false,
+      "reinforced": false
+    },
+    {
+      "entry": {
+        "id": "hard:25",
+        "bucket": "hard-reject",
+        "target": {
+          "name": "Giratina VSTAR",
+          "setName": "Lost Origin",
+          "number": "212",
+          "printedTotal": 196
+        },
+        "title": "Pokemon TCG SWSH Lost Origin | Choose Your Card | Reverse Holo/Holo/Ultra Rare",
+        "deterministic": {
+          "relevant": false,
+          "category": "IRRELEVANT",
+          "reason": "Pick-your-card listing",
+          "numberEvidence": "NONE",
+          "setMatch": "EXACT",
+          "language": "UNKNOWN"
+        },
+        "triggersSemantic": false,
+        "expected": "NOT_TARGET",
+        "needsManualReview": false,
+        "note": "Deterministically rejected: Pick-your-card listing"
+      },
+      "expected": "NOT_TARGET",
+      "accepted": false,
+      "category": "IRRELEVANT",
+      "verdict": null,
+      "rescued": false,
+      "reinforced": false
+    },
+    {
+      "entry": {
+        "id": "hard:26",
+        "bucket": "hard-reject",
+        "target": {
+          "name": "Giratina VSTAR",
+          "setName": "Lost Origin",
+          "number": "212",
+          "printedTotal": 196
+        },
+        "title": "Pokemon Lost Origin CHOOSE YOUR CARD! Holo Reverse Holo Full Art Trainer Gallery",
+        "deterministic": {
+          "relevant": false,
+          "category": "IRRELEVANT",
+          "reason": "Pick-your-card listing",
+          "numberEvidence": "NONE",
+          "setMatch": "EXACT",
+          "language": "UNKNOWN"
+        },
+        "triggersSemantic": false,
+        "expected": "NOT_TARGET",
+        "needsManualReview": false,
+        "note": "Deterministically rejected: Pick-your-card listing"
+      },
+      "expected": "NOT_TARGET",
+      "accepted": false,
+      "category": "IRRELEVANT",
+      "verdict": null,
+      "rescued": false,
+      "reinforced": false
+    },
+    {
+      "entry": {
+        "id": "hard:27",
+        "bucket": "hard-reject",
+        "target": {
+          "name": "Lugia",
+          "setName": "Neo Genesis",
+          "number": "9",
+          "printedTotal": 111
+        },
+        "title": "French Pokémon Neo Genesis Unlimited WOTC ***YOU PICK*** ***COMBINED SHIPPING***",
+        "deterministic": {
+          "relevant": false,
+          "category": "IRRELEVANT",
+          "reason": "Pick-your-card listing",
+          "numberEvidence": "NONE",
+          "setMatch": "EXACT",
+          "language": "FR"
+        },
+        "triggersSemantic": false,
+        "expected": "NOT_TARGET",
+        "needsManualReview": false,
+        "note": "Deterministically rejected: Pick-your-card listing"
+      },
+      "expected": "NOT_TARGET",
+      "accepted": false,
+      "category": "IRRELEVANT",
+      "verdict": null,
+      "rescued": false,
+      "reinforced": false
+    },
+    {
+      "entry": {
+        "id": "hard:28",
+        "bucket": "hard-reject",
+        "target": {
+          "name": "Charizard",
+          "setName": "Skyridge",
+          "number": "146",
+          "printedTotal": 144
+        },
+        "title": "Vintage Pokémon Cards! Holo Rare Heavy Played/Damaged E Reader Choose Your Card!",
+        "deterministic": {
+          "relevant": false,
+          "category": "IRRELEVANT",
+          "reason": "Pick-your-card listing",
+          "numberEvidence": "NONE",
+          "setMatch": "UNKNOWN",
+          "language": "UNKNOWN"
+        },
+        "triggersSemantic": false,
+        "expected": "NOT_TARGET",
+        "needsManualReview": false,
+        "note": "Deterministically rejected: Pick-your-card listing"
+      },
+      "expected": "NOT_TARGET",
+      "accepted": false,
+      "category": "IRRELEVANT",
+      "verdict": null,
+      "rescued": false,
+      "reinforced": false
+    },
+    {
+      "entry": {
+        "id": "hard:29",
+        "bucket": "hard-reject",
+        "target": {
+          "name": "Charizard",
+          "setName": "Skyridge",
+          "number": "146",
+          "printedTotal": 144
+        },
+        "title": "Glurak CGC 10 GEM MINT Charizard Skyridge Box Topper 2003 Pokemon #3 German",
+        "deterministic": {
+          "relevant": false,
+          "category": "IRRELEVANT",
+          "reason": "Novelty or non-standard product",
+          "numberEvidence": "DECLARED",
+          "setMatch": "EXACT",
+          "language": "DE"
+        },
+        "triggersSemantic": false,
+        "expected": "NOT_TARGET",
+        "needsManualReview": false,
+        "note": "Deterministically rejected: Novelty or non-standard product"
+      },
+      "expected": "NOT_TARGET",
+      "accepted": false,
+      "category": "IRRELEVANT",
+      "verdict": null,
+      "rescued": false,
+      "reinforced": false
+    },
+    {
+      "entry": {
+        "id": "hard:30",
+        "bucket": "hard-reject",
+        "target": {
+          "name": "Charizard",
+          "setName": "Skyridge",
+          "number": "146",
+          "printedTotal": 144
+        },
+        "title": "2003 Pokemon Skyridge #9 Charizard Jumbo Box Topper Crystal Holo BGS 9 MINT",
+        "deterministic": {
+          "relevant": false,
+          "category": "IRRELEVANT",
+          "reason": "Novelty or non-standard product",
+          "numberEvidence": "DECLARED",
+          "setMatch": "EXACT",
+          "language": "UNKNOWN"
+        },
+        "triggersSemantic": false,
+        "expected": "NOT_TARGET",
+        "needsManualReview": false,
+        "note": "Deterministically rejected: Novelty or non-standard product"
+      },
+      "expected": "NOT_TARGET",
+      "accepted": false,
+      "category": "IRRELEVANT",
+      "verdict": null,
+      "rescued": false,
+      "reinforced": false
+    },
+    {
+      "entry": {
+        "id": "hard:31",
+        "bucket": "hard-reject",
+        "target": {
+          "name": "Mew ex",
+          "setName": "151",
+          "number": "205",
+          "printedTotal": 165
+        },
+        "title": "Mew ex (151 Metal Card) 205/165 Double Rare SV: Scarlet & Violet 151 Pokemon NM",
+        "deterministic": {
+          "relevant": false,
+          "category": "IRRELEVANT",
+          "reason": "Novelty or non-standard product",
+          "numberEvidence": "FRACTION",
+          "setMatch": "EXACT",
+          "language": "UNKNOWN"
+        },
+        "triggersSemantic": false,
+        "expected": "NOT_TARGET",
+        "needsManualReview": false,
+        "note": "Deterministically rejected: Novelty or non-standard product"
+      },
+      "expected": "NOT_TARGET",
+      "accepted": false,
+      "category": "IRRELEVANT",
+      "verdict": null,
+      "rescued": false,
+      "reinforced": false
+    },
+    {
+      "entry": {
+        "id": "hard:32",
+        "bucket": "hard-reject",
+        "target": {
+          "name": "Mew ex",
+          "setName": "151",
+          "number": "205",
+          "printedTotal": 165
+        },
+        "title": "Mew ex (151 Metal Card) 205/165 Double Rare SV: Scarlet & Violet 151 Pokemon NM",
+        "deterministic": {
+          "relevant": false,
+          "category": "IRRELEVANT",
+          "reason": "Novelty or non-standard product",
+          "numberEvidence": "FRACTION",
+          "setMatch": "EXACT",
+          "language": "UNKNOWN"
+        },
+        "triggersSemantic": false,
+        "expected": "NOT_TARGET",
+        "needsManualReview": false,
+        "note": "Deterministically rejected: Novelty or non-standard product"
+      },
+      "expected": "NOT_TARGET",
+      "accepted": false,
+      "category": "IRRELEVANT",
+      "verdict": null,
+      "rescued": false,
+      "reinforced": false
+    },
+    {
+      "entry": {
+        "id": "hard:33",
+        "bucket": "hard-reject",
+        "target": {
+          "name": "Mew ex",
+          "setName": "151",
+          "number": "205",
+          "printedTotal": 165
+        },
+        "title": "Pokemon Scarlet & Violet 151: Choose Your Card! - All Cards Available - NM",
+        "deterministic": {
+          "relevant": false,
+          "category": "IRRELEVANT",
+          "reason": "Pick-your-card listing",
+          "numberEvidence": "NONE",
+          "setMatch": "EXACT",
+          "language": "UNKNOWN"
+        },
+        "triggersSemantic": false,
+        "expected": "NOT_TARGET",
+        "needsManualReview": false,
+        "note": "Deterministically rejected: Pick-your-card listing"
+      },
+      "expected": "NOT_TARGET",
+      "accepted": false,
+      "category": "IRRELEVANT",
+      "verdict": null,
+      "rescued": false,
+      "reinforced": false
+    },
+    {
+      "entry": {
+        "id": "hard:34",
+        "bucket": "hard-reject",
+        "target": {
+          "name": "Mew ex",
+          "setName": "151",
+          "number": "205",
+          "printedTotal": 165
+        },
+        "title": "Mew EX 205/165 151 Ultra-Premium Collection UPC Metal Pokemon PSA 10",
+        "deterministic": {
+          "relevant": false,
+          "category": "IRRELEVANT",
+          "reason": "Novelty or non-standard product",
+          "numberEvidence": "FRACTION",
+          "setMatch": "EXACT",
+          "language": "UNKNOWN"
+        },
+        "triggersSemantic": false,
+        "expected": "NOT_TARGET",
+        "needsManualReview": false,
+        "note": "Deterministically rejected: Novelty or non-standard product"
+      },
+      "expected": "NOT_TARGET",
+      "accepted": false,
+      "category": "IRRELEVANT",
+      "verdict": null,
+      "rescued": false,
+      "reinforced": false
+    },
+    {
+      "entry": {
+        "id": "hard:35",
+        "bucket": "hard-reject",
+        "target": {
+          "name": "Mew ex",
+          "setName": "151",
+          "number": "205",
+          "printedTotal": 165
+        },
+        "title": "Mew ex - 205/165 - Pokemon 151 Secret Rare Metal Card NM",
+        "deterministic": {
+          "relevant": false,
+          "category": "IRRELEVANT",
+          "reason": "Novelty or non-standard product",
+          "numberEvidence": "FRACTION",
+          "setMatch": "EXACT",
+          "language": "UNKNOWN"
+        },
+        "triggersSemantic": false,
+        "expected": "NOT_TARGET",
+        "needsManualReview": false,
+        "note": "Deterministically rejected: Novelty or non-standard product"
+      },
+      "expected": "NOT_TARGET",
+      "accepted": false,
+      "category": "IRRELEVANT",
+      "verdict": null,
+      "rescued": false,
+      "reinforced": false
+    },
+    {
+      "entry": {
+        "id": "hard:36",
+        "bucket": "hard-reject",
+        "target": {
+          "name": "Mew ex",
+          "setName": "151",
+          "number": "205",
+          "printedTotal": 165
+        },
+        "title": "Mew ex 205/165 MEW EN-151 Metal Ultra Premium Collection Promo Pokemon Card NM",
+        "deterministic": {
+          "relevant": false,
+          "category": "IRRELEVANT",
+          "reason": "Novelty or non-standard product",
+          "numberEvidence": "FRACTION",
+          "setMatch": "EXACT",
+          "language": "UNKNOWN"
+        },
+        "triggersSemantic": false,
+        "expected": "NOT_TARGET",
+        "needsManualReview": false,
+        "note": "Deterministically rejected: Novelty or non-standard product"
+      },
+      "expected": "NOT_TARGET",
+      "accepted": false,
+      "category": "IRRELEVANT",
+      "verdict": null,
+      "rescued": false,
+      "reinforced": false
+    },
+    {
+      "entry": {
+        "id": "hard:37",
+        "bucket": "hard-reject",
+        "target": {
+          "name": "Mew ex",
+          "setName": "151",
+          "number": "205",
+          "printedTotal": 165
+        },
+        "title": "Mew EX 205/165 Holo Metal Card Scarlet & Violet 151 Series Ace 10",
+        "deterministic": {
+          "relevant": false,
+          "category": "IRRELEVANT",
+          "reason": "Novelty or non-standard product",
+          "numberEvidence": "FRACTION",
+          "setMatch": "EXACT",
+          "language": "UNKNOWN"
+        },
+        "triggersSemantic": false,
+        "expected": "NOT_TARGET",
+        "needsManualReview": false,
+        "note": "Deterministically rejected: Novelty or non-standard product"
+      },
+      "expected": "NOT_TARGET",
+      "accepted": false,
+      "category": "IRRELEVANT",
+      "verdict": null,
+      "rescued": false,
+      "reinforced": false
+    }
+  ]
+}

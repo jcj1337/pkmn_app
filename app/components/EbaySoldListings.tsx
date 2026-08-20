@@ -1,36 +1,12 @@
-import { getSoldListings, type SoldListing } from "@/lib/ebay-sold";
-import {
-  classifyListings,
-  groupClassified,
-  type ClassifiedListing,
-  type ClassifierCard,
-} from "@/lib/listing-classifier";
-import { formatMoney, type Currency } from "@/lib/currency";
+import { getSoldListings } from "@/lib/ebay-sold";
+import { groupClassified, type ClassifierCard } from "@/lib/listing-classifier";
+import { reviewListings } from "@/lib/listing-review";
 import { getSetNames } from "@/lib/tcgdex";
-
-const dateFormatter = new Intl.DateTimeFormat("en-US", {
-  month: "short",
-  day: "numeric",
-  year: "numeric",
-});
-
-function formatSoldDate(value: string | null): string {
-  if (!value) return "—";
-  const parsed = new Date(value);
-  return Number.isNaN(parsed.getTime()) ? "—" : dateFormatter.format(parsed);
-}
-
-function formatSoldPrice(listing: SoldListing): string {
-  if (listing.soldPrice === null) return "—";
-
-  // Listings can settle in a non-USD currency; fall back to a plain suffix if
-  // the code is not one the formatter knows.
-  try {
-    return formatMoney(listing.soldPrice, listing.currency as Currency);
-  } catch {
-    return `${listing.soldPrice} ${listing.currency}`;
-  }
-}
+import {
+  ListingRow,
+  SoldListingGroups,
+  formatSoldDate,
+} from "./SoldListingGroups";
 
 function Section({ children }: { children: React.ReactNode }) {
   return (
@@ -39,8 +15,9 @@ function Section({ children }: { children: React.ReactNode }) {
         Recent eBay Sold Listings
       </h2>
       <p className="mt-1 text-xs text-slate-400 dark:text-slate-500">
-        Grouped by rule-based classification. Comparability is not guaranteed —
-        no price filtering or outlier removal is applied.
+        Grouped into comparable markets by rule-based classification — same
+        condition or grade, same edition, same printing. No price filtering or
+        outlier removal is applied.
       </p>
       <div className="mt-3">{children}</div>
     </section>
@@ -75,95 +52,6 @@ export function EbaySoldLoading() {
       </ul>
     </Section>
   );
-}
-
-function Thumbnail({ url }: { url: string | null }) {
-  if (!url) {
-    return <div className="h-14 w-14 shrink-0 rounded bg-slate-100 dark:bg-slate-800" />;
-  }
-
-  // Plain <img>: eBay serves thumbnails from CDN hosts we do not whitelist.
-  return (
-    <img
-      src={url}
-      alt=""
-      width={56}
-      height={56}
-      loading="lazy"
-      className="h-14 w-14 shrink-0 rounded object-contain"
-    />
-  );
-}
-
-function ListingRow({
-  listing,
-  meta,
-  dimmed = false,
-}: {
-  listing: ClassifiedListing;
-  meta: string;
-  dimmed?: boolean;
-}) {
-  const body = (
-    <>
-      <Thumbnail url={listing.imageUrl} />
-
-      <div className="min-w-0 flex-1">
-        <p className="truncate text-sm">{listing.title}</p>
-        <p className="mt-0.5 truncate text-xs text-slate-400 dark:text-slate-500">
-          {meta}
-        </p>
-      </div>
-
-      <div className="shrink-0 text-right font-semibold tabular-nums">
-        {formatSoldPrice(listing)}
-      </div>
-    </>
-  );
-
-  return (
-    <li
-      className={`rounded-xl border border-slate-200 bg-white/70 transition-colors hover:border-slate-300 dark:border-slate-800 dark:bg-slate-900/60 dark:hover:border-slate-700 ${
-        dimmed ? "opacity-60" : ""
-      }`}
-    >
-      {listing.url ? (
-        <a
-          href={listing.url}
-          target="_blank"
-          rel="noopener noreferrer"
-          className="flex items-center gap-4 p-3"
-        >
-          {body}
-        </a>
-      ) : (
-        <div className="flex items-center gap-4 p-3">{body}</div>
-      )}
-    </li>
-  );
-}
-
-function acceptedMeta(listing: ClassifiedListing): string {
-  const parts = [formatSoldDate(listing.soldDate)];
-
-  if (listing.isGraded) {
-    parts.push(
-      listing.grade !== null
-        ? `${listing.gradingCompany ?? "Graded"} ${listing.grade}`
-        : "Graded, grade unknown",
-    );
-  } else {
-    parts.push(listing.rawCondition ?? "condition not stated");
-  }
-
-  // Surfaced only when known and non-English, so foreign sales stay visible
-  // as separate comps rather than silently mixing in.
-  if (listing.language !== "EN" && listing.language !== "UNKNOWN") {
-    parts.push(listing.language);
-  }
-
-  parts.push(`confidence ${listing.confidence.toFixed(2)}`);
-  return parts.join(" · ");
 }
 
 export async function EbaySoldSection({ card }: { card: ClassifierCard }) {
@@ -206,7 +94,16 @@ export async function EbaySoldSection({ card }: { card: ClassifierCard }) {
 
   // Set vocabulary is cached upstream; failure only weakens conflict detection.
   const knownSetNames = await getSetNames().catch(() => undefined);
-  const classified = classifyListings(result.listings, card, { knownSetNames });
+
+  // Semantic review stays off unless explicitly enabled, so LLM verdicts
+  // cannot silently change displayed results while it is being evaluated.
+  const classified = await reviewListings(result.listings, card, {
+    knownSetNames,
+    enableSemanticReview: process.env.ENABLE_LLM_FALLBACK === "true",
+  });
+
+  // Grouping comes from the classifier so the page and the pricing analysis
+  // can never disagree about what counts as a comparable sale.
   const groups = groupClassified(classified);
   const excluded = classified.filter((listing) => !listing.relevant);
 
@@ -215,24 +112,7 @@ export async function EbaySoldSection({ card }: { card: ClassifierCard }) {
       {groups.length === 0 ? (
         <Panel>No listings passed relevance classification.</Panel>
       ) : (
-        <div className="space-y-6">
-          {groups.map((group) => (
-            <div key={group.key}>
-              <h3 className="text-[10px] tracking-wide text-slate-400 uppercase dark:text-slate-500">
-                {group.label} · {group.listings.length}
-              </h3>
-              <ul className="mt-2 space-y-3">
-                {group.listings.map((listing) => (
-                  <ListingRow
-                    key={listing.itemId}
-                    listing={listing}
-                    meta={acceptedMeta(listing)}
-                  />
-                ))}
-              </ul>
-            </div>
-          ))}
-        </div>
+        <SoldListingGroups groups={groups} />
       )}
 
       {excluded.length > 0 && (
@@ -255,7 +135,8 @@ export async function EbaySoldSection({ card }: { card: ClassifierCard }) {
 
       <p className="mt-4 text-xs text-slate-400 dark:text-slate-500">
         Searched eBay for “{result.query}” · {classified.length} listings,{" "}
-        {classified.length - excluded.length} accepted.
+        {classified.length - excluded.length} accepted across {groups.length}{" "}
+        comparable {groups.length === 1 ? "group" : "groups"}.
       </p>
     </Section>
   );

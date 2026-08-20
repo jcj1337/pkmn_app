@@ -1,0 +1,2801 @@
+{
+  "ranAt": "2026-08-18T02:42:51.929Z",
+  "model": "claude-haiku-4-5-20251001",
+  "statsA": {
+    "correctTarget": 13,
+    "correctReject": 55,
+    "correctAbstain": 2,
+    "falseNeg": 8,
+    "falsePos": 3,
+    "correct": 70,
+    "total": 81
+  },
+  "statsB": {
+    "correctTarget": 18,
+    "correctReject": 55,
+    "correctAbstain": 2,
+    "falseNeg": 3,
+    "falsePos": 3,
+    "correct": 75,
+    "total": 81
+  },
+  "rows": [
+    {
+      "entry": {
+        "id": "xy12-11:0",
+        "bucket": "near-miss-reject",
+        "target": {
+          "name": "Charizard",
+          "setName": "Evolutions",
+          "number": "11",
+          "printedTotal": 108
+        },
+        "title": "Pokemon TCG Charizard V SWSH03 19/189",
+        "soldPrice": 5.99,
+        "deterministic": {
+          "relevant": false,
+          "category": "IRRELEVANT",
+          "reason": "Title names a different card number",
+          "numberEvidence": "FRACTION",
+          "setMatch": "UNKNOWN",
+          "language": "UNKNOWN"
+        },
+        "triggersSemantic": false,
+        "expected": "NOT_TARGET",
+        "needsManualReview": false,
+        "note": null
+      },
+      "expected": "NOT_TARGET",
+      "accepted": false,
+      "category": "IRRELEVANT",
+      "verdict": null,
+      "rescued": false,
+      "reinforced": false
+    },
+    {
+      "entry": {
+        "id": "xy12-11:1",
+        "bucket": "semantic-trigger",
+        "target": {
+          "name": "Charizard",
+          "setName": "Evolutions",
+          "number": "11",
+          "printedTotal": 108
+        },
+        "title": "Pokémon TCG Dedenne #57/162 Reverse Holo XY - BREAKthrough NM",
+        "soldPrice": 5.69,
+        "deterministic": {
+          "relevant": false,
+          "category": "IRRELEVANT",
+          "reason": "Card name not found in title",
+          "numberEvidence": "FRACTION",
+          "setMatch": "CONFLICT",
+          "language": "UNKNOWN"
+        },
+        "triggersSemantic": true,
+        "expected": "NOT_TARGET",
+        "needsManualReview": false,
+        "note": null
+      },
+      "expected": "NOT_TARGET",
+      "accepted": false,
+      "category": "IRRELEVANT",
+      "verdict": {
+        "relevant": "NO",
+        "targetMatch": "UNLIKELY",
+        "reason": "Title identifies Dedenne #57/162 from XY-BREAKthrough, not any Charizard card from Evolutions.",
+        "confidence": 0.99
+      },
+      "rescued": false,
+      "reinforced": false
+    },
+    {
+      "entry": {
+        "id": "xy12-11:2",
+        "bucket": "near-miss-reject",
+        "target": {
+          "name": "Charizard",
+          "setName": "Evolutions",
+          "number": "11",
+          "printedTotal": 108
+        },
+        "title": "2016 POKEMON XY EVOLUTIONS #75 CHARIZARD SPIRIT LINK-REVERSE FOIL PSA 8",
+        "soldPrice": 44.99,
+        "deterministic": {
+          "relevant": false,
+          "category": "IRRELEVANT",
+          "reason": "Title names a different card number",
+          "numberEvidence": "DECLARED",
+          "setMatch": "EXACT",
+          "language": "UNKNOWN"
+        },
+        "triggersSemantic": false,
+        "expected": "NOT_TARGET",
+        "needsManualReview": false,
+        "note": null
+      },
+      "expected": "NOT_TARGET",
+      "accepted": false,
+      "category": "IRRELEVANT",
+      "verdict": null,
+      "rescued": false,
+      "reinforced": false
+    },
+    {
+      "entry": {
+        "id": "xy12-11:3",
+        "bucket": "near-miss-reject",
+        "target": {
+          "name": "Charizard",
+          "setName": "Evolutions",
+          "number": "11",
+          "printedTotal": 108
+        },
+        "title": "Pokémon TCG Charizard 025/185 Vivid Voltage Sword & Shield Cracked Ice Holo NM",
+        "soldPrice": 14.99,
+        "deterministic": {
+          "relevant": false,
+          "category": "IRRELEVANT",
+          "reason": "Title names a different card number",
+          "numberEvidence": "FRACTION",
+          "setMatch": "CONFLICT",
+          "language": "UNKNOWN"
+        },
+        "triggersSemantic": false,
+        "expected": "NOT_TARGET",
+        "needsManualReview": false,
+        "note": null
+      },
+      "expected": "NOT_TARGET",
+      "accepted": false,
+      "category": "IRRELEVANT",
+      "verdict": null,
+      "rescued": false,
+      "reinforced": false
+    },
+    {
+      "entry": {
+        "id": "xy12-11:4",
+        "bucket": "semantic-trigger",
+        "target": {
+          "name": "Charizard",
+          "setName": "Evolutions",
+          "number": "11",
+          "printedTotal": 108
+        },
+        "title": "The Pokémon Company Charizard VMAX SWSH261 SWSH Promo Holo EN 330 HP",
+        "soldPrice": 54.95,
+        "deterministic": {
+          "relevant": false,
+          "category": "IRRELEVANT",
+          "reason": "Printed card number not found in title",
+          "numberEvidence": "NONE",
+          "setMatch": "UNKNOWN",
+          "language": "UNKNOWN"
+        },
+        "triggersSemantic": true,
+        "expected": "NOT_TARGET",
+        "needsManualReview": false,
+        "note": null
+      },
+      "expected": "NOT_TARGET",
+      "accepted": false,
+      "category": "IRRELEVANT",
+      "verdict": {
+        "relevant": "NO",
+        "targetMatch": "UNLIKELY",
+        "reason": "Title specifies \"Charizard VMAX\" and \"SWSH261\" promo, neither of which match the target Charizard from Evolutions #11/108.",
+        "confidence": 0.95
+      },
+      "rescued": false,
+      "reinforced": false
+    },
+    {
+      "entry": {
+        "id": "xy12-11:5",
+        "bucket": "semantic-trigger",
+        "target": {
+          "name": "Charizard",
+          "setName": "Evolutions",
+          "number": "11",
+          "printedTotal": 108
+        },
+        "title": "Mitsuhiro Arita Signed & Sketched Charizard PSA Auto 10 - 11/108 XY Stamped",
+        "soldPrice": 2846.03,
+        "deterministic": {
+          "relevant": true,
+          "category": "RAW_UNKNOWN",
+          "reason": "Raw listing (condition not stated)",
+          "numberEvidence": "FRACTION",
+          "setMatch": "UNKNOWN",
+          "language": "UNKNOWN"
+        },
+        "triggersSemantic": true,
+        "expected": "INSUFFICIENT_EVIDENCE",
+        "needsManualReview": true,
+        "note": "Artist-signed and hand-sketched with PSA Auto grade, and XY Stamped; identity as a standard 11/108 is unclear."
+      },
+      "expected": "INSUFFICIENT_EVIDENCE",
+      "accepted": true,
+      "category": "RAW_UNKNOWN",
+      "verdict": {
+        "relevant": "YES",
+        "targetMatch": "EXACT",
+        "reason": "Title specifies \"11/108\" which uniquely identifies Charizard #11/108 from Evolutions among all candidates.",
+        "confidence": 0.95
+      },
+      "rescued": false,
+      "reinforced": false
+    },
+    {
+      "entry": {
+        "id": "xy12-11:6",
+        "bucket": "semantic-trigger",
+        "target": {
+          "name": "Charizard",
+          "setName": "Evolutions",
+          "number": "11",
+          "printedTotal": 108
+        },
+        "title": "The Pokémon Company Charizard VMAX SWSH261 SWSH Promo Holo VMAX EN 330",
+        "soldPrice": 37.5,
+        "deterministic": {
+          "relevant": false,
+          "category": "IRRELEVANT",
+          "reason": "Printed card number not found in title",
+          "numberEvidence": "NONE",
+          "setMatch": "UNKNOWN",
+          "language": "UNKNOWN"
+        },
+        "triggersSemantic": true,
+        "expected": "NOT_TARGET",
+        "needsManualReview": false,
+        "note": null
+      },
+      "expected": "NOT_TARGET",
+      "accepted": false,
+      "category": "IRRELEVANT",
+      "verdict": {
+        "relevant": "NO",
+        "targetMatch": "UNLIKELY",
+        "reason": "Title specifies \"Charizard VMAX SWSH261\" which is a different Pokémon card entirely, not from Evolutions set.",
+        "confidence": 0.95
+      },
+      "rescued": false,
+      "reinforced": false
+    },
+    {
+      "entry": {
+        "id": "xy12-11:7",
+        "bucket": "semantic-trigger",
+        "target": {
+          "name": "Charizard",
+          "setName": "Evolutions",
+          "number": "11",
+          "printedTotal": 108
+        },
+        "title": "2016 Charizard pokemon xy evolutions psa 10",
+        "soldPrice": 1888,
+        "deterministic": {
+          "relevant": false,
+          "category": "IRRELEVANT",
+          "reason": "Printed card number not found in title",
+          "numberEvidence": "NONE",
+          "setMatch": "EXACT",
+          "language": "UNKNOWN"
+        },
+        "triggersSemantic": true,
+        "expected": "TARGET",
+        "needsManualReview": false,
+        "note": "Evolutions has exactly one plain Charizard (#11); Charizard EX/M Charizard EX/Spirit Link are differently named."
+      },
+      "expected": "TARGET",
+      "accepted": false,
+      "category": "IRRELEVANT",
+      "verdict": {
+        "relevant": "UNCERTAIN",
+        "targetMatch": "UNKNOWN",
+        "reason": "Title names \"Charizard\" but lacks card number; five Charizard variants exist in Evolutions set.",
+        "confidence": 0.5
+      },
+      "rescued": false,
+      "reinforced": false
+    },
+    {
+      "entry": {
+        "id": "xy12-11:8",
+        "bucket": "semantic-trigger",
+        "target": {
+          "name": "Charizard",
+          "setName": "Evolutions",
+          "number": "11",
+          "printedTotal": 108
+        },
+        "title": "Charizard",
+        "soldPrice": 10,
+        "deterministic": {
+          "relevant": false,
+          "category": "IRRELEVANT",
+          "reason": "Printed card number not found in title",
+          "numberEvidence": "NONE",
+          "setMatch": "UNKNOWN",
+          "language": "UNKNOWN"
+        },
+        "triggersSemantic": true,
+        "expected": "INSUFFICIENT_EVIDENCE",
+        "needsManualReview": false,
+        "note": "Title is the single word Charizard. No set, no number."
+      },
+      "expected": "INSUFFICIENT_EVIDENCE",
+      "accepted": false,
+      "category": "IRRELEVANT",
+      "verdict": {
+        "relevant": "UNCERTAIN",
+        "targetMatch": "UNKNOWN",
+        "reason": "Title \"Charizard\" matches multiple candidates in Evolutions set without distinguishing number or modifier.",
+        "confidence": 0.95
+      },
+      "rescued": false,
+      "reinforced": false
+    },
+    {
+      "entry": {
+        "id": "base1-58:0",
+        "bucket": "semantic-trigger",
+        "target": {
+          "name": "Pikachu",
+          "setName": "Base Set",
+          "number": "58",
+          "printedTotal": 102
+        },
+        "title": "1999 Pokemon Unlimited Pikachu Common #58/102",
+        "soldPrice": 4,
+        "deterministic": {
+          "relevant": true,
+          "category": "RAW_UNKNOWN",
+          "reason": "Raw listing (condition not stated)",
+          "numberEvidence": "FRACTION",
+          "setMatch": "UNKNOWN",
+          "language": "UNKNOWN"
+        },
+        "triggersSemantic": true,
+        "expected": "TARGET",
+        "needsManualReview": false,
+        "note": null
+      },
+      "expected": "TARGET",
+      "accepted": true,
+      "category": "RAW_UNKNOWN",
+      "verdict": {
+        "relevant": "YES",
+        "targetMatch": "EXACT",
+        "reason": "Title specifies \"1999 Pokemon Unlimited Pikachu Common #58/102\" which exactly matches the target card's name, set era, and card number.",
+        "confidence": 0.95
+      },
+      "rescued": false,
+      "reinforced": false
+    },
+    {
+      "entry": {
+        "id": "base1-58:1",
+        "bucket": "semantic-trigger",
+        "target": {
+          "name": "Pikachu",
+          "setName": "Base Set",
+          "number": "58",
+          "printedTotal": 102
+        },
+        "title": "1999 Pokemon Shadowless Pikachu #58/102",
+        "soldPrice": 46.67,
+        "deterministic": {
+          "relevant": true,
+          "category": "RAW_UNKNOWN",
+          "reason": "Raw listing (condition not stated)",
+          "numberEvidence": "FRACTION",
+          "setMatch": "UNKNOWN",
+          "language": "UNKNOWN"
+        },
+        "triggersSemantic": true,
+        "expected": "TARGET",
+        "needsManualReview": false,
+        "note": null
+      },
+      "expected": "TARGET",
+      "accepted": true,
+      "category": "RAW_UNKNOWN",
+      "verdict": {
+        "relevant": "YES",
+        "targetMatch": "LIKELY",
+        "reason": "Title specifies \"1999 Pokemon Shadowless Pikachu #58/102\" matching the target's name, number, and era.",
+        "confidence": 0.85
+      },
+      "rescued": false,
+      "reinforced": false
+    },
+    {
+      "entry": {
+        "id": "base1-58:2",
+        "bucket": "semantic-trigger",
+        "target": {
+          "name": "Pikachu",
+          "setName": "Base Set",
+          "number": "58",
+          "printedTotal": 102
+        },
+        "title": "Pokemon Cards PSA 8.5 NM-MT Pikachu Shadowless base Set Yellow Cheeks 1999",
+        "soldPrice": 120,
+        "deterministic": {
+          "relevant": false,
+          "category": "IRRELEVANT",
+          "reason": "Printed card number not found in title",
+          "numberEvidence": "NONE",
+          "setMatch": "EXACT",
+          "language": "UNKNOWN"
+        },
+        "triggersSemantic": true,
+        "expected": "TARGET",
+        "needsManualReview": false,
+        "note": "Base Set contains exactly one Pikachu (#58); Yellow Cheeks is a known #58 variant."
+      },
+      "expected": "TARGET",
+      "accepted": true,
+      "category": "PSA_8_5",
+      "verdict": {
+        "relevant": "YES",
+        "targetMatch": "EXACT",
+        "reason": "Title names \"Pikachu\" and \"base Set\" which uniquely identify the target card; no other candidate shares this name in the set.",
+        "confidence": 0.95
+      },
+      "rescued": true,
+      "reinforced": false
+    },
+    {
+      "entry": {
+        "id": "base1-58:3",
+        "bucket": "near-miss-reject",
+        "target": {
+          "name": "Pikachu",
+          "setName": "Base Set",
+          "number": "58",
+          "printedTotal": 102
+        },
+        "title": "Pikachu Common SWSH01: Sword & Shield Base Set 065/202 NM",
+        "soldPrice": 0.99,
+        "deterministic": {
+          "relevant": false,
+          "category": "IRRELEVANT",
+          "reason": "Title names a different card number",
+          "numberEvidence": "FRACTION",
+          "setMatch": "EXACT",
+          "language": "UNKNOWN"
+        },
+        "triggersSemantic": false,
+        "expected": "NOT_TARGET",
+        "needsManualReview": false,
+        "note": null
+      },
+      "expected": "NOT_TARGET",
+      "accepted": false,
+      "category": "IRRELEVANT",
+      "verdict": null,
+      "rescued": false,
+      "reinforced": false
+    },
+    {
+      "entry": {
+        "id": "base3-5:0",
+        "bucket": "near-miss-reject",
+        "target": {
+          "name": "Gengar",
+          "setName": "Fossil",
+          "number": "5",
+          "printedTotal": 62
+        },
+        "title": "1999 Pokemon Fossil #20 Gengar PSA 8 NM-MT",
+        "soldPrice": 91,
+        "deterministic": {
+          "relevant": false,
+          "category": "IRRELEVANT",
+          "reason": "Title names a different card number",
+          "numberEvidence": "DECLARED",
+          "setMatch": "EXACT",
+          "language": "UNKNOWN"
+        },
+        "triggersSemantic": false,
+        "expected": "NOT_TARGET",
+        "needsManualReview": false,
+        "note": null
+      },
+      "expected": "NOT_TARGET",
+      "accepted": false,
+      "category": "IRRELEVANT",
+      "verdict": null,
+      "rescued": false,
+      "reinforced": false
+    },
+    {
+      "entry": {
+        "id": "base3-5:1",
+        "bucket": "near-miss-reject",
+        "target": {
+          "name": "Gengar",
+          "setName": "Fossil",
+          "number": "5",
+          "printedTotal": 62
+        },
+        "title": "Gengar 20/62 Fossil Rare Non Holo EN 80 HP 1999",
+        "soldPrice": 27,
+        "deterministic": {
+          "relevant": false,
+          "category": "IRRELEVANT",
+          "reason": "Title names a different card number",
+          "numberEvidence": "FRACTION",
+          "setMatch": "EXACT",
+          "language": "UNKNOWN"
+        },
+        "triggersSemantic": false,
+        "expected": "NOT_TARGET",
+        "needsManualReview": false,
+        "note": null
+      },
+      "expected": "NOT_TARGET",
+      "accepted": false,
+      "category": "IRRELEVANT",
+      "verdict": null,
+      "rescued": false,
+      "reinforced": false
+    },
+    {
+      "entry": {
+        "id": "base3-5:2",
+        "bucket": "near-miss-reject",
+        "target": {
+          "name": "Gengar",
+          "setName": "Fossil",
+          "number": "5",
+          "printedTotal": 62
+        },
+        "title": "1999 POKEMON FOSSIL #20 GENGAR PSA 9",
+        "soldPrice": 175.5,
+        "deterministic": {
+          "relevant": false,
+          "category": "IRRELEVANT",
+          "reason": "Title names a different card number",
+          "numberEvidence": "DECLARED",
+          "setMatch": "EXACT",
+          "language": "UNKNOWN"
+        },
+        "triggersSemantic": false,
+        "expected": "NOT_TARGET",
+        "needsManualReview": false,
+        "note": null
+      },
+      "expected": "NOT_TARGET",
+      "accepted": false,
+      "category": "IRRELEVANT",
+      "verdict": null,
+      "rescued": false,
+      "reinforced": false
+    },
+    {
+      "entry": {
+        "id": "base3-5:3",
+        "bucket": "near-miss-reject",
+        "target": {
+          "name": "Gengar",
+          "setName": "Fossil",
+          "number": "5",
+          "printedTotal": 62
+        },
+        "title": "Gengar 20/62 Fossil Regular Ungraded Gread Condition Rare",
+        "soldPrice": 19,
+        "deterministic": {
+          "relevant": false,
+          "category": "IRRELEVANT",
+          "reason": "Title names a different card number",
+          "numberEvidence": "FRACTION",
+          "setMatch": "EXACT",
+          "language": "UNKNOWN"
+        },
+        "triggersSemantic": false,
+        "expected": "NOT_TARGET",
+        "needsManualReview": false,
+        "note": null
+      },
+      "expected": "NOT_TARGET",
+      "accepted": false,
+      "category": "IRRELEVANT",
+      "verdict": null,
+      "rescued": false,
+      "reinforced": false
+    },
+    {
+      "entry": {
+        "id": "base3-5:4",
+        "bucket": "near-miss-reject",
+        "target": {
+          "name": "Gengar",
+          "setName": "Fossil",
+          "number": "5",
+          "printedTotal": 62
+        },
+        "title": "1999 Pokemon - Gengar 20/62 Rare Non-Holo - Very Nice High Grade",
+        "soldPrice": 20.5,
+        "deterministic": {
+          "relevant": false,
+          "category": "IRRELEVANT",
+          "reason": "Title names a different card number",
+          "numberEvidence": "FRACTION",
+          "setMatch": "UNKNOWN",
+          "language": "UNKNOWN"
+        },
+        "triggersSemantic": false,
+        "expected": "NOT_TARGET",
+        "needsManualReview": false,
+        "note": null
+      },
+      "expected": "NOT_TARGET",
+      "accepted": false,
+      "category": "IRRELEVANT",
+      "verdict": null,
+      "rescued": false,
+      "reinforced": false
+    },
+    {
+      "entry": {
+        "id": "base3-5:5",
+        "bucket": "near-miss-reject",
+        "target": {
+          "name": "Gengar",
+          "setName": "Fossil",
+          "number": "5",
+          "printedTotal": 62
+        },
+        "title": "1999 Pokemon Fossil Gengar #20/62",
+        "soldPrice": 32,
+        "deterministic": {
+          "relevant": false,
+          "category": "IRRELEVANT",
+          "reason": "Title names a different card number",
+          "numberEvidence": "FRACTION",
+          "setMatch": "EXACT",
+          "language": "UNKNOWN"
+        },
+        "triggersSemantic": false,
+        "expected": "NOT_TARGET",
+        "needsManualReview": false,
+        "note": null
+      },
+      "expected": "NOT_TARGET",
+      "accepted": false,
+      "category": "IRRELEVANT",
+      "verdict": null,
+      "rescued": false,
+      "reinforced": false
+    },
+    {
+      "entry": {
+        "id": "base3-5:6",
+        "bucket": "semantic-trigger",
+        "target": {
+          "name": "Gengar",
+          "setName": "Fossil",
+          "number": "5",
+          "printedTotal": 62
+        },
+        "title": "1999 Articuno Fossil Set 2/62 Unlimited Edition Holo Lightly Played VERY RARE",
+        "soldPrice": 32,
+        "deterministic": {
+          "relevant": false,
+          "category": "IRRELEVANT",
+          "reason": "Card name not found in title",
+          "numberEvidence": "FRACTION",
+          "setMatch": "EXACT",
+          "language": "UNKNOWN"
+        },
+        "triggersSemantic": true,
+        "expected": "NOT_TARGET",
+        "needsManualReview": false,
+        "note": null
+      },
+      "expected": "NOT_TARGET",
+      "accepted": false,
+      "category": "IRRELEVANT",
+      "verdict": {
+        "relevant": "NO",
+        "targetMatch": "UNLIKELY",
+        "reason": "Title mentions Articuno, not Gengar; card number 2/62 does not match either candidate (5/62 or 20/62).",
+        "confidence": 0.95
+      },
+      "rescued": false,
+      "reinforced": false
+    },
+    {
+      "entry": {
+        "id": "base3-5:7",
+        "bucket": "near-miss-reject",
+        "target": {
+          "name": "Gengar",
+          "setName": "Fossil",
+          "number": "5",
+          "printedTotal": 62
+        },
+        "title": "1997 POKEMON JAPANESE FOSSIL #94 GENGAR-HOLO PSA 8",
+        "soldPrice": 349.99,
+        "deterministic": {
+          "relevant": false,
+          "category": "IRRELEVANT",
+          "reason": "Title names a different card number",
+          "numberEvidence": "DECLARED",
+          "setMatch": "EXACT",
+          "language": "JP"
+        },
+        "triggersSemantic": false,
+        "expected": "NOT_TARGET",
+        "needsManualReview": false,
+        "note": null
+      },
+      "expected": "NOT_TARGET",
+      "accepted": false,
+      "category": "IRRELEVANT",
+      "verdict": null,
+      "rescued": false,
+      "reinforced": false
+    },
+    {
+      "entry": {
+        "id": "base3-5:8",
+        "bucket": "near-miss-reject",
+        "target": {
+          "name": "Gengar",
+          "setName": "Fossil",
+          "number": "5",
+          "printedTotal": 62
+        },
+        "title": "Gengar 20/62 Rare Non-Holo - Fossil Set - 1999 WOTC Pokémon Card LP",
+        "soldPrice": 18,
+        "deterministic": {
+          "relevant": false,
+          "category": "IRRELEVANT",
+          "reason": "Title names a different card number",
+          "numberEvidence": "FRACTION",
+          "setMatch": "EXACT",
+          "language": "UNKNOWN"
+        },
+        "triggersSemantic": false,
+        "expected": "NOT_TARGET",
+        "needsManualReview": false,
+        "note": null
+      },
+      "expected": "NOT_TARGET",
+      "accepted": false,
+      "category": "IRRELEVANT",
+      "verdict": null,
+      "rescued": false,
+      "reinforced": false
+    },
+    {
+      "entry": {
+        "id": "base3-5:9",
+        "bucket": "semantic-trigger",
+        "target": {
+          "name": "Gengar",
+          "setName": "Fossil",
+          "number": "5",
+          "printedTotal": 62
+        },
+        "title": "Gengar Fossil Holo Rare First Edition Holofoil",
+        "soldPrice": 249.99,
+        "deterministic": {
+          "relevant": false,
+          "category": "IRRELEVANT",
+          "reason": "Printed card number not found in title",
+          "numberEvidence": "NONE",
+          "setMatch": "EXACT",
+          "language": "UNKNOWN"
+        },
+        "triggersSemantic": true,
+        "expected": "TARGET",
+        "needsManualReview": false,
+        "note": "Fossil has Gengar #5 (holo) and #20 (non-holo); Holo disambiguates to #5."
+      },
+      "expected": "TARGET",
+      "accepted": false,
+      "category": "IRRELEVANT",
+      "verdict": {
+        "relevant": "UNCERTAIN",
+        "targetMatch": "UNKNOWN",
+        "reason": "Title names Gengar Fossil Holo but lacks card number; both #5/62 and #20/62 fit equally.",
+        "confidence": 0.5
+      },
+      "rescued": false,
+      "reinforced": false
+    },
+    {
+      "entry": {
+        "id": "neo4-107:0",
+        "bucket": "semantic-trigger",
+        "target": {
+          "name": "Shining Charizard",
+          "setName": "Neo Destiny",
+          "number": "107",
+          "printedTotal": 105
+        },
+        "title": "2001 Pokemon Neo Destiny Houndour Non Holo Rare 43/105 Vintage WOTC MP",
+        "soldPrice": 2.99,
+        "deterministic": {
+          "relevant": false,
+          "category": "IRRELEVANT",
+          "reason": "Card name not found in title",
+          "numberEvidence": "FRACTION",
+          "setMatch": "EXACT",
+          "language": "UNKNOWN"
+        },
+        "triggersSemantic": true,
+        "expected": "NOT_TARGET",
+        "needsManualReview": false,
+        "note": null
+      },
+      "expected": "NOT_TARGET",
+      "accepted": false,
+      "category": "IRRELEVANT",
+      "verdict": {
+        "relevant": "NO",
+        "targetMatch": "UNLIKELY",
+        "reason": "Title explicitly names Houndour #43/105, not Shining Charizard #107/105.",
+        "confidence": 0.99
+      },
+      "rescued": false,
+      "reinforced": false
+    },
+    {
+      "entry": {
+        "id": "neo4-107:1",
+        "bucket": "semantic-trigger",
+        "target": {
+          "name": "Shining Charizard",
+          "setName": "Neo Destiny",
+          "number": "107",
+          "printedTotal": 105
+        },
+        "title": "Work of art by a fan of Charizard Shinning Charizard 107/105 1st Edition",
+        "soldPrice": 29,
+        "deterministic": {
+          "relevant": false,
+          "category": "IRRELEVANT",
+          "reason": "Card name not found in title",
+          "numberEvidence": "FRACTION",
+          "setMatch": "UNKNOWN",
+          "language": "UNKNOWN"
+        },
+        "triggersSemantic": true,
+        "expected": "NOT_TARGET",
+        "needsManualReview": false,
+        "note": "Explicitly fan art."
+      },
+      "expected": "NOT_TARGET",
+      "accepted": true,
+      "category": "RAW_UNKNOWN",
+      "verdict": {
+        "relevant": "YES",
+        "targetMatch": "EXACT",
+        "reason": "Title contains \"Shinning Charizard 107/105\" which matches the target card's name, set number, and card number exactly.",
+        "confidence": 0.95
+      },
+      "rescued": true,
+      "reinforced": false
+    },
+    {
+      "entry": {
+        "id": "swsh9tg-TG02:0",
+        "bucket": "semantic-trigger",
+        "target": {
+          "name": "Vaporeon",
+          "setName": "Brilliant Stars Trainer Gallery",
+          "number": "TG02",
+          "printedTotal": 30
+        },
+        "title": "2022 Pokemon SWSH Brilliant Stars Vaporeon Trainer Gallery Holo #TG02/TG30",
+        "soldPrice": 20.5,
+        "deterministic": {
+          "relevant": true,
+          "category": "RAW_UNKNOWN",
+          "reason": "Raw listing (condition not stated)",
+          "numberEvidence": "FRACTION",
+          "setMatch": "UNKNOWN",
+          "language": "UNKNOWN"
+        },
+        "triggersSemantic": true,
+        "expected": "TARGET",
+        "needsManualReview": false,
+        "note": null
+      },
+      "expected": "TARGET",
+      "accepted": true,
+      "category": "RAW_UNKNOWN",
+      "verdict": {
+        "relevant": "YES",
+        "targetMatch": "EXACT",
+        "reason": "Title specifies \"Brilliant Stars Vaporeon Trainer Gallery #TG02/TG30\" which exactly matches the target card's set, name, and card number.",
+        "confidence": 0.95
+      },
+      "rescued": false,
+      "reinforced": false
+    },
+    {
+      "entry": {
+        "id": "swsh9tg-TG02:1",
+        "bucket": "near-miss-reject",
+        "target": {
+          "name": "Vaporeon",
+          "setName": "Brilliant Stars Trainer Gallery",
+          "number": "TG02",
+          "printedTotal": 30
+        },
+        "title": "Pokemon Vaporeon Lost Origin Trainer Gallery TG02/TG30 Holo",
+        "soldPrice": 17,
+        "deterministic": {
+          "relevant": false,
+          "category": "IRRELEVANT",
+          "reason": "Title names a different set",
+          "numberEvidence": "FRACTION",
+          "setMatch": "CONFLICT",
+          "language": "UNKNOWN"
+        },
+        "triggersSemantic": false,
+        "expected": "INSUFFICIENT_EVIDENCE",
+        "needsManualReview": true,
+        "note": "Title names Lost Origin Trainer Gallery but TG02 with Vaporeon matches Brilliant Stars. Contradictory set."
+      },
+      "expected": "INSUFFICIENT_EVIDENCE",
+      "accepted": false,
+      "category": "IRRELEVANT",
+      "verdict": null,
+      "rescued": false,
+      "reinforced": false
+    },
+    {
+      "entry": {
+        "id": "swsh9tg-TG02:2",
+        "bucket": "semantic-trigger",
+        "target": {
+          "name": "Vaporeon",
+          "setName": "Brilliant Stars Trainer Gallery",
+          "number": "TG02",
+          "printedTotal": 30
+        },
+        "title": "Pokemon. Flareon, Vaporeon, Jolteon, and Eevee From SWSH Brilliant Stars TG Set.",
+        "soldPrice": 69.99,
+        "deterministic": {
+          "relevant": false,
+          "category": "IRRELEVANT",
+          "reason": "Printed card number not found in title",
+          "numberEvidence": "NONE",
+          "setMatch": "UNKNOWN",
+          "language": "UNKNOWN"
+        },
+        "triggersSemantic": true,
+        "expected": "NOT_TARGET",
+        "needsManualReview": false,
+        "note": null
+      },
+      "expected": "NOT_TARGET",
+      "accepted": false,
+      "category": "IRRELEVANT",
+      "verdict": {
+        "relevant": "UNCERTAIN",
+        "targetMatch": "UNKNOWN",
+        "reason": "Title lists four cards including Vaporeon from Brilliant Stars TG set, but does not specify which individual card is being sold.",
+        "confidence": 0.85
+      },
+      "rescued": false,
+      "reinforced": false
+    },
+    {
+      "entry": {
+        "id": "swsh9tg-TG02:3",
+        "bucket": "semantic-trigger",
+        "target": {
+          "name": "Vaporeon",
+          "setName": "Brilliant Stars Trainer Gallery",
+          "number": "TG02",
+          "printedTotal": 30
+        },
+        "title": "Aquana Trainer Gallery SWSH09: Strahlende Sterne TG02/TG30 EXC DE",
+        "soldPrice": 26.6,
+        "deterministic": {
+          "relevant": false,
+          "category": "IRRELEVANT",
+          "reason": "Card name not found in title",
+          "numberEvidence": "FRACTION",
+          "setMatch": "UNKNOWN",
+          "language": "UNKNOWN"
+        },
+        "triggersSemantic": true,
+        "expected": "NOT_TARGET",
+        "needsManualReview": false,
+        "note": "German printing (Aquana / Strahlende Sterne / DE)."
+      },
+      "expected": "NOT_TARGET",
+      "accepted": true,
+      "category": "RAW_UNKNOWN",
+      "verdict": {
+        "relevant": "YES",
+        "targetMatch": "EXACT",
+        "reason": "Title contains \"Aquana\" (German name for Vaporeon), \"Trainer Gallery\", set code \"TG02/TG30\", and set identifier \"SWSH09: Strahlende Sterne\" (German for Brilliant Stars).",
+        "confidence": 0.95
+      },
+      "rescued": true,
+      "reinforced": false
+    },
+    {
+      "entry": {
+        "id": "swsh9tg-TG02:4",
+        "bucket": "semantic-trigger",
+        "target": {
+          "name": "Vaporeon",
+          "setName": "Brilliant Stars Trainer Gallery",
+          "number": "TG02",
+          "printedTotal": 30
+        },
+        "title": "Vaporeon (Full Art) - Pokemon TCG - TG02/TG30 - Brilliant Stars",
+        "soldPrice": 18,
+        "deterministic": {
+          "relevant": true,
+          "category": "RAW_UNKNOWN",
+          "reason": "Raw listing (condition not stated)",
+          "numberEvidence": "FRACTION",
+          "setMatch": "UNKNOWN",
+          "language": "UNKNOWN"
+        },
+        "triggersSemantic": true,
+        "expected": "TARGET",
+        "needsManualReview": false,
+        "note": null
+      },
+      "expected": "TARGET",
+      "accepted": true,
+      "category": "RAW_UNKNOWN",
+      "verdict": {
+        "relevant": "YES",
+        "targetMatch": "EXACT",
+        "reason": "Title specifies Vaporeon, Brilliant Stars set, and card number TG02/TG30 matching the target.",
+        "confidence": 0.95
+      },
+      "rescued": false,
+      "reinforced": false
+    },
+    {
+      "entry": {
+        "id": "swsh9tg-TG02:5",
+        "bucket": "semantic-trigger",
+        "target": {
+          "name": "Vaporeon",
+          "setName": "Brilliant Stars Trainer Gallery",
+          "number": "TG02",
+          "printedTotal": 30
+        },
+        "title": "Pokemon TCG Brilliant Star Holo & Rare & Reverse  Ultra Complete your Master Set",
+        "soldPrice": 1,
+        "deterministic": {
+          "relevant": false,
+          "category": "IRRELEVANT",
+          "reason": "Card name not found in title",
+          "numberEvidence": "NONE",
+          "setMatch": "UNKNOWN",
+          "language": "UNKNOWN"
+        },
+        "triggersSemantic": true,
+        "expected": "NOT_TARGET",
+        "needsManualReview": false,
+        "note": null
+      },
+      "expected": "NOT_TARGET",
+      "accepted": false,
+      "category": "IRRELEVANT",
+      "verdict": {
+        "relevant": "NO",
+        "targetMatch": "UNLIKELY",
+        "reason": "Title describes a bulk lot (\"Holo & Rare & Reverse Ultra Complete your Master Set\") rather than a single card.",
+        "confidence": 0.95
+      },
+      "rescued": false,
+      "reinforced": false
+    },
+    {
+      "entry": {
+        "id": "swsh9tg-TG02:6",
+        "bucket": "semantic-trigger",
+        "target": {
+          "name": "Vaporeon",
+          "setName": "Brilliant Stars Trainer Gallery",
+          "number": "TG02",
+          "printedTotal": 30
+        },
+        "title": "Pokémon Vaporeon TG02 Brilliant Stars",
+        "soldPrice": 12,
+        "deterministic": {
+          "relevant": true,
+          "category": "RAW_UNKNOWN",
+          "reason": "Raw listing (condition not stated)",
+          "numberEvidence": "BARE",
+          "setMatch": "UNKNOWN",
+          "language": "UNKNOWN"
+        },
+        "triggersSemantic": true,
+        "expected": "TARGET",
+        "needsManualReview": false,
+        "note": null
+      },
+      "expected": "TARGET",
+      "accepted": true,
+      "category": "RAW_UNKNOWN",
+      "verdict": {
+        "relevant": "YES",
+        "targetMatch": "EXACT",
+        "reason": "Title contains \"Vaporeon TG02 Brilliant Stars\" which matches the target card's name, card number, and set.",
+        "confidence": 0.95
+      },
+      "rescued": false,
+      "reinforced": false
+    },
+    {
+      "entry": {
+        "id": "swsh7-211:0",
+        "bucket": "semantic-trigger",
+        "target": {
+          "name": "Sylveon VMAX",
+          "setName": "Evolving Skies",
+          "number": "211",
+          "printedTotal": 203
+        },
+        "title": "Pokemon TCG - Sylveon Vmax | 211/203 | Secret Rare | Full Art Holo Rainbow",
+        "soldPrice": 59.99,
+        "deterministic": {
+          "relevant": true,
+          "category": "RAW_UNKNOWN",
+          "reason": "Raw listing (condition not stated)",
+          "numberEvidence": "FRACTION",
+          "setMatch": "UNKNOWN",
+          "language": "UNKNOWN"
+        },
+        "triggersSemantic": true,
+        "expected": "TARGET",
+        "needsManualReview": false,
+        "note": null
+      },
+      "expected": "TARGET",
+      "accepted": true,
+      "category": "RAW_UNKNOWN",
+      "verdict": {
+        "relevant": "YES",
+        "targetMatch": "EXACT",
+        "reason": "Title specifies \"Sylveon Vmax\" with card number \"211/203\", which uniquely matches the target card.",
+        "confidence": 0.95
+      },
+      "rescued": false,
+      "reinforced": false
+    },
+    {
+      "entry": {
+        "id": "sm7-177:0",
+        "bucket": "semantic-trigger",
+        "target": {
+          "name": "Rayquaza GX",
+          "setName": "Celestial Storm",
+          "number": "177",
+          "printedTotal": 168
+        },
+        "title": "Rayquaza GX 177/168Celestial Storm Rainbow Rare PERFECT CLEAN CONDITION CARD",
+        "soldPrice": 535,
+        "deterministic": {
+          "relevant": true,
+          "category": "RAW_UNKNOWN",
+          "reason": "Raw listing (condition not stated)",
+          "numberEvidence": "BARE",
+          "setMatch": "EXACT",
+          "language": "UNKNOWN"
+        },
+        "triggersSemantic": true,
+        "expected": "TARGET",
+        "needsManualReview": false,
+        "note": null
+      },
+      "expected": "TARGET",
+      "accepted": true,
+      "category": "RAW_UNKNOWN",
+      "verdict": {
+        "relevant": "YES",
+        "targetMatch": "EXACT",
+        "reason": "Title explicitly states \"177/168\" which uniquely identifies the target card among the three candidates.",
+        "confidence": 0.99
+      },
+      "rescued": false,
+      "reinforced": false
+    },
+    {
+      "entry": {
+        "id": "base1-8:0",
+        "bucket": "near-miss-reject",
+        "target": {
+          "name": "Machamp",
+          "setName": "Base Set",
+          "number": "8",
+          "printedTotal": 102
+        },
+        "title": "2531 Machamp 2001 Pokemon Japanese #121/128 Expedition 1st Edition Holo PSA 9",
+        "soldPrice": 204.5,
+        "deterministic": {
+          "relevant": false,
+          "category": "IRRELEVANT",
+          "reason": "Title names a different card number",
+          "numberEvidence": "FRACTION",
+          "setMatch": "UNKNOWN",
+          "language": "JP"
+        },
+        "triggersSemantic": false,
+        "expected": "NOT_TARGET",
+        "needsManualReview": false,
+        "note": null
+      },
+      "expected": "NOT_TARGET",
+      "accepted": false,
+      "category": "IRRELEVANT",
+      "verdict": null,
+      "rescued": false,
+      "reinforced": false
+    },
+    {
+      "entry": {
+        "id": "base1-8:1",
+        "bucket": "near-miss-reject",
+        "target": {
+          "name": "Machamp",
+          "setName": "Base Set",
+          "number": "8",
+          "printedTotal": 102
+        },
+        "title": "MACHAMP 1ST EDITION 051/092 JAPANESE STORMFRONT LP",
+        "soldPrice": 4.96,
+        "deterministic": {
+          "relevant": false,
+          "category": "IRRELEVANT",
+          "reason": "Title names a different card number",
+          "numberEvidence": "FRACTION",
+          "setMatch": "CONFLICT",
+          "language": "JP"
+        },
+        "triggersSemantic": false,
+        "expected": "NOT_TARGET",
+        "needsManualReview": false,
+        "note": null
+      },
+      "expected": "NOT_TARGET",
+      "accepted": false,
+      "category": "IRRELEVANT",
+      "verdict": null,
+      "rescued": false,
+      "reinforced": false
+    },
+    {
+      "entry": {
+        "id": "base1-8:2",
+        "bucket": "semantic-trigger",
+        "target": {
+          "name": "Machamp",
+          "setName": "Base Set",
+          "number": "8",
+          "printedTotal": 102
+        },
+        "title": "Machamp 8/102 Holo Holo Rare Deck Exclusives Pokemon 1st Edition Holo",
+        "soldPrice": 10.68,
+        "deterministic": {
+          "relevant": true,
+          "category": "RAW_UNKNOWN",
+          "reason": "Raw listing (condition not stated)",
+          "numberEvidence": "FRACTION",
+          "setMatch": "UNKNOWN",
+          "language": "UNKNOWN"
+        },
+        "triggersSemantic": true,
+        "expected": "TARGET",
+        "needsManualReview": false,
+        "note": null
+      },
+      "expected": "TARGET",
+      "accepted": true,
+      "category": "RAW_UNKNOWN",
+      "verdict": {
+        "relevant": "YES",
+        "targetMatch": "EXACT",
+        "reason": "Title specifies \"Machamp 8/102\" with card number matching the target's exact position in Base Set.",
+        "confidence": 0.95
+      },
+      "rescued": false,
+      "reinforced": false
+    },
+    {
+      "entry": {
+        "id": "base1-8:3",
+        "bucket": "semantic-trigger",
+        "target": {
+          "name": "Machamp",
+          "setName": "Base Set",
+          "number": "8",
+          "printedTotal": 102
+        },
+        "title": "Pokémon TCG Machamp 8/102 Deck Exclusives Holo Rare 1st Ed English 100HP",
+        "soldPrice": 6,
+        "deterministic": {
+          "relevant": true,
+          "category": "RAW_UNKNOWN",
+          "reason": "Raw listing (condition not stated)",
+          "numberEvidence": "FRACTION",
+          "setMatch": "UNKNOWN",
+          "language": "EN"
+        },
+        "triggersSemantic": true,
+        "expected": "TARGET",
+        "needsManualReview": false,
+        "note": null
+      },
+      "expected": "TARGET",
+      "accepted": true,
+      "category": "RAW_UNKNOWN",
+      "verdict": {
+        "relevant": "YES",
+        "targetMatch": "EXACT",
+        "reason": "Title specifies Machamp 8/102, which uniquely identifies the Base Set card; no other candidate shares this number.",
+        "confidence": 0.95
+      },
+      "rescued": false,
+      "reinforced": false
+    },
+    {
+      "entry": {
+        "id": "base1-8:4",
+        "bucket": "semantic-trigger",
+        "target": {
+          "name": "Machamp",
+          "setName": "Base Set",
+          "number": "8",
+          "printedTotal": 102
+        },
+        "title": "Pokemon TCG Machamp 8/102 Deck Exclusives Holo Rare English 100 HP 1st Ed",
+        "soldPrice": 5,
+        "deterministic": {
+          "relevant": true,
+          "category": "RAW_UNKNOWN",
+          "reason": "Raw listing (condition not stated)",
+          "numberEvidence": "FRACTION",
+          "setMatch": "UNKNOWN",
+          "language": "EN"
+        },
+        "triggersSemantic": true,
+        "expected": "TARGET",
+        "needsManualReview": false,
+        "note": null
+      },
+      "expected": "TARGET",
+      "accepted": true,
+      "category": "RAW_UNKNOWN",
+      "verdict": {
+        "relevant": "YES",
+        "targetMatch": "EXACT",
+        "reason": "Title specifies Machamp 8/102, which uniquely identifies the Base Set card; no other candidate shares this number.",
+        "confidence": 0.95
+      },
+      "rescued": false,
+      "reinforced": false
+    },
+    {
+      "entry": {
+        "id": "base1-8:5",
+        "bucket": "semantic-trigger",
+        "target": {
+          "name": "Machamp",
+          "setName": "Base Set",
+          "number": "8",
+          "printedTotal": 102
+        },
+        "title": "1999 Pokemon 1st Edition Machamp Holo CGC 9",
+        "soldPrice": 151.34,
+        "deterministic": {
+          "relevant": false,
+          "category": "IRRELEVANT",
+          "reason": "Printed card number not found in title",
+          "numberEvidence": "NONE",
+          "setMatch": "UNKNOWN",
+          "language": "UNKNOWN"
+        },
+        "triggersSemantic": true,
+        "expected": "TARGET",
+        "needsManualReview": false,
+        "note": "Base Set Machamp is the only 1999 1st Edition holo Machamp."
+      },
+      "expected": "TARGET",
+      "accepted": true,
+      "category": "CGC_9",
+      "verdict": {
+        "relevant": "YES",
+        "targetMatch": "EXACT",
+        "reason": "Title specifies \"1999 Pokemon 1st Edition Machamp Holo\" which exactly identifies the Base Set Machamp #8/102; no other candidate exists in this set.",
+        "confidence": 0.98
+      },
+      "rescued": true,
+      "reinforced": false
+    },
+    {
+      "entry": {
+        "id": "base1-8:6",
+        "bucket": "semantic-trigger",
+        "target": {
+          "name": "Machamp",
+          "setName": "Base Set",
+          "number": "8",
+          "printedTotal": 102
+        },
+        "title": "1999 Pokemon Shadowless Machamp 1st Edition Holo #8/102",
+        "soldPrice": 55.32,
+        "deterministic": {
+          "relevant": true,
+          "category": "RAW_UNKNOWN",
+          "reason": "Raw listing (condition not stated)",
+          "numberEvidence": "FRACTION",
+          "setMatch": "UNKNOWN",
+          "language": "UNKNOWN"
+        },
+        "triggersSemantic": true,
+        "expected": "TARGET",
+        "needsManualReview": false,
+        "note": null
+      },
+      "expected": "TARGET",
+      "accepted": true,
+      "category": "RAW_UNKNOWN",
+      "verdict": {
+        "relevant": "YES",
+        "targetMatch": "EXACT",
+        "reason": "Title specifies \"1999 Pokemon Shadowless Machamp 1st Edition Holo #8/102\" — the card number, name, and shadowless/1st edition characteristics uniquely identify Base Set Machamp #8/102.",
+        "confidence": 0.95
+      },
+      "rescued": false,
+      "reinforced": false
+    },
+    {
+      "entry": {
+        "id": "base1-8:7",
+        "bucket": "semantic-trigger",
+        "target": {
+          "name": "Machamp",
+          "setName": "Base Set",
+          "number": "8",
+          "printedTotal": 102
+        },
+        "title": "PSA 8 1st Edition Machamp Shadowless Holo Pokemon Base Set NM Mint Thick Stamp",
+        "soldPrice": 405,
+        "deterministic": {
+          "relevant": true,
+          "category": "PSA_8",
+          "reason": "Graded listing (PSA 8)",
+          "numberEvidence": "BARE",
+          "setMatch": "EXACT",
+          "language": "UNKNOWN"
+        },
+        "triggersSemantic": true,
+        "expected": "TARGET",
+        "needsManualReview": false,
+        "note": null
+      },
+      "expected": "TARGET",
+      "accepted": true,
+      "category": "PSA_8",
+      "verdict": {
+        "relevant": "YES",
+        "targetMatch": "EXACT",
+        "reason": "Title explicitly names \"Machamp\" from \"Base Set\" with \"Holo\" designation, matching the target card exactly.",
+        "confidence": 0.98
+      },
+      "rescued": false,
+      "reinforced": false
+    },
+    {
+      "entry": {
+        "id": "base1-8:8",
+        "bucket": "near-miss-reject",
+        "target": {
+          "name": "Machamp",
+          "setName": "Base Set",
+          "number": "8",
+          "printedTotal": 102
+        },
+        "title": "Pokemon TCG: Light Machamp - Neo Destiny 1st Edition Rare 25/105 [NM]",
+        "soldPrice": 64.99,
+        "deterministic": {
+          "relevant": false,
+          "category": "IRRELEVANT",
+          "reason": "Title names a different card number",
+          "numberEvidence": "FRACTION",
+          "setMatch": "CONFLICT",
+          "language": "UNKNOWN"
+        },
+        "triggersSemantic": false,
+        "expected": "NOT_TARGET",
+        "needsManualReview": false,
+        "note": null
+      },
+      "expected": "NOT_TARGET",
+      "accepted": false,
+      "category": "IRRELEVANT",
+      "verdict": null,
+      "rescued": false,
+      "reinforced": false
+    },
+    {
+      "entry": {
+        "id": "base1-8:9",
+        "bucket": "near-miss-reject",
+        "target": {
+          "name": "Machamp",
+          "setName": "Base Set",
+          "number": "8",
+          "printedTotal": 102
+        },
+        "title": "champ (Machamp) #68 - Pookiemoot Gen 1 - Pokemon",
+        "soldPrice": 0.99,
+        "deterministic": {
+          "relevant": false,
+          "category": "IRRELEVANT",
+          "reason": "Title names a different card number",
+          "numberEvidence": "DECLARED",
+          "setMatch": "UNKNOWN",
+          "language": "UNKNOWN"
+        },
+        "triggersSemantic": false,
+        "expected": "NOT_TARGET",
+        "needsManualReview": false,
+        "note": "Pookiemoot is a knockoff brand, not a Pokemon TCG card."
+      },
+      "expected": "NOT_TARGET",
+      "accepted": false,
+      "category": "IRRELEVANT",
+      "verdict": null,
+      "rescued": false,
+      "reinforced": false
+    },
+    {
+      "entry": {
+        "id": "base1-8:10",
+        "bucket": "near-miss-reject",
+        "target": {
+          "name": "Machamp",
+          "setName": "Base Set",
+          "number": "8",
+          "printedTotal": 102
+        },
+        "title": "Machamp 051/092 1st Edition Intense Fight in the Destroyed Sky Japanese Pokemon",
+        "soldPrice": 2.99,
+        "deterministic": {
+          "relevant": false,
+          "category": "IRRELEVANT",
+          "reason": "Title names a different card number",
+          "numberEvidence": "FRACTION",
+          "setMatch": "UNKNOWN",
+          "language": "JP"
+        },
+        "triggersSemantic": false,
+        "expected": "NOT_TARGET",
+        "needsManualReview": false,
+        "note": null
+      },
+      "expected": "NOT_TARGET",
+      "accepted": false,
+      "category": "IRRELEVANT",
+      "verdict": null,
+      "rescued": false,
+      "reinforced": false
+    },
+    {
+      "entry": {
+        "id": "base1-8:11",
+        "bucket": "semantic-trigger",
+        "target": {
+          "name": "Machamp",
+          "setName": "Base Set",
+          "number": "8",
+          "printedTotal": 102
+        },
+        "title": "1999 Hitmonchan Base Set 7/102 Unlimited Edition Holo Lightly Played VERY RARE",
+        "soldPrice": 10,
+        "deterministic": {
+          "relevant": false,
+          "category": "IRRELEVANT",
+          "reason": "Card name not found in title",
+          "numberEvidence": "FRACTION",
+          "setMatch": "EXACT",
+          "language": "UNKNOWN"
+        },
+        "triggersSemantic": true,
+        "expected": "NOT_TARGET",
+        "needsManualReview": false,
+        "note": null
+      },
+      "expected": "NOT_TARGET",
+      "accepted": false,
+      "category": "IRRELEVANT",
+      "verdict": {
+        "relevant": "NO",
+        "targetMatch": "UNLIKELY",
+        "reason": "Title names Hitmonchan #7/102, not Machamp #8/102.",
+        "confidence": 0.99
+      },
+      "rescued": false,
+      "reinforced": false
+    },
+    {
+      "entry": {
+        "id": "base1-8:12",
+        "bucket": "semantic-trigger",
+        "target": {
+          "name": "Machamp",
+          "setName": "Base Set",
+          "number": "8",
+          "printedTotal": 102
+        },
+        "title": "Pokémon Machamp 066 Base Set Holo Rare Japanese 100 HP Stage 2 Card",
+        "soldPrice": 13,
+        "deterministic": {
+          "relevant": false,
+          "category": "IRRELEVANT",
+          "reason": "Printed card number not found in title",
+          "numberEvidence": "NONE",
+          "setMatch": "EXACT",
+          "language": "JP"
+        },
+        "triggersSemantic": true,
+        "expected": "NOT_TARGET",
+        "needsManualReview": false,
+        "note": null
+      },
+      "expected": "NOT_TARGET",
+      "accepted": false,
+      "category": "IRRELEVANT",
+      "verdict": {
+        "relevant": "NO",
+        "targetMatch": "UNLIKELY",
+        "reason": "Title lists card number 066, but target Machamp is #8/102 from Base Set; the number mismatch indicates a different card.",
+        "confidence": 0.95
+      },
+      "rescued": false,
+      "reinforced": false
+    },
+    {
+      "entry": {
+        "id": "swsh9-184:0",
+        "bucket": "semantic-trigger",
+        "target": {
+          "name": "Arceus VSTAR",
+          "setName": "Brilliant Stars",
+          "number": "184",
+          "printedTotal": 172
+        },
+        "title": "2022 Pokemon SWSH Brilliant Stars Arceus VST Full Art #184/172",
+        "soldPrice": 11.75,
+        "deterministic": {
+          "relevant": false,
+          "category": "IRRELEVANT",
+          "reason": "Card name not found in title",
+          "numberEvidence": "FRACTION",
+          "setMatch": "EXACT",
+          "language": "UNKNOWN"
+        },
+        "triggersSemantic": true,
+        "expected": "TARGET",
+        "needsManualReview": false,
+        "note": null
+      },
+      "expected": "TARGET",
+      "accepted": true,
+      "category": "RAW_UNKNOWN",
+      "verdict": {
+        "relevant": "YES",
+        "targetMatch": "EXACT",
+        "reason": "Title specifies \"Arceus VST Full Art #184/172\", which exactly matches the target card's number and set.",
+        "confidence": 0.95
+      },
+      "rescued": true,
+      "reinforced": false
+    },
+    {
+      "entry": {
+        "id": "swsh9-184:1",
+        "bucket": "semantic-trigger",
+        "target": {
+          "name": "Arceus VSTAR",
+          "setName": "Brilliant Stars",
+          "number": "184",
+          "printedTotal": 172
+        },
+        "title": "2022 Pokemon SWSH Brilliant Stars Arceus VST #184/172",
+        "soldPrice": 17.16,
+        "deterministic": {
+          "relevant": false,
+          "category": "IRRELEVANT",
+          "reason": "Card name not found in title",
+          "numberEvidence": "FRACTION",
+          "setMatch": "EXACT",
+          "language": "UNKNOWN"
+        },
+        "triggersSemantic": true,
+        "expected": "TARGET",
+        "needsManualReview": false,
+        "note": null
+      },
+      "expected": "TARGET",
+      "accepted": true,
+      "category": "RAW_UNKNOWN",
+      "verdict": {
+        "relevant": "YES",
+        "targetMatch": "EXACT",
+        "reason": "Title specifies \"Arceus VST #184/172\" which exactly matches the target card's number and set.",
+        "confidence": 0.95
+      },
+      "rescued": true,
+      "reinforced": false
+    },
+    {
+      "entry": {
+        "id": "swsh9-184:2",
+        "bucket": "near-miss-reject",
+        "target": {
+          "name": "Arceus VSTAR",
+          "setName": "Brilliant Stars",
+          "number": "184",
+          "printedTotal": 172
+        },
+        "title": "Arceus VSTAR (Secret) 176/172 Swsh09: Brilliant Stars Holo",
+        "soldPrice": 13,
+        "deterministic": {
+          "relevant": false,
+          "category": "IRRELEVANT",
+          "reason": "Title names a different card number",
+          "numberEvidence": "FRACTION",
+          "setMatch": "EXACT",
+          "language": "UNKNOWN"
+        },
+        "triggersSemantic": false,
+        "expected": "NOT_TARGET",
+        "needsManualReview": false,
+        "note": null
+      },
+      "expected": "NOT_TARGET",
+      "accepted": false,
+      "category": "IRRELEVANT",
+      "verdict": null,
+      "rescued": false,
+      "reinforced": false
+    },
+    {
+      "entry": {
+        "id": "swsh9-184:3",
+        "bucket": "near-miss-reject",
+        "target": {
+          "name": "Arceus VSTAR",
+          "setName": "Brilliant Stars",
+          "number": "184",
+          "printedTotal": 172
+        },
+        "title": "Pokemon Card Arceus VSTAR 184/172 Gold Secret Rare Beckett 9 BGS Sub Grades",
+        "soldPrice": 54.99,
+        "deterministic": {
+          "relevant": false,
+          "category": "IRRELEVANT",
+          "reason": "Title names a different set",
+          "numberEvidence": "FRACTION",
+          "setMatch": "CONFLICT",
+          "language": "UNKNOWN"
+        },
+        "triggersSemantic": false,
+        "expected": "TARGET",
+        "needsManualReview": false,
+        "note": "Number 184/172 is explicit; Gold Secret Rare is the target print."
+      },
+      "expected": "TARGET",
+      "accepted": false,
+      "category": "IRRELEVANT",
+      "verdict": null,
+      "rescued": false,
+      "reinforced": false
+    },
+    {
+      "entry": {
+        "id": "swsh9-184:4",
+        "bucket": "near-miss-reject",
+        "target": {
+          "name": "Arceus VSTAR",
+          "setName": "Brilliant Stars",
+          "number": "184",
+          "printedTotal": 172
+        },
+        "title": "Pokémon Arceus VSTAR 176/172 Secret Rare Brilliant Stars AGS Gem Mint 10 Slab",
+        "soldPrice": 26,
+        "deterministic": {
+          "relevant": false,
+          "category": "IRRELEVANT",
+          "reason": "Title names a different card number",
+          "numberEvidence": "FRACTION",
+          "setMatch": "EXACT",
+          "language": "UNKNOWN"
+        },
+        "triggersSemantic": false,
+        "expected": "NOT_TARGET",
+        "needsManualReview": false,
+        "note": null
+      },
+      "expected": "NOT_TARGET",
+      "accepted": false,
+      "category": "IRRELEVANT",
+      "verdict": null,
+      "rescued": false,
+      "reinforced": false
+    },
+    {
+      "entry": {
+        "id": "swsh9-184:5",
+        "bucket": "semantic-trigger",
+        "target": {
+          "name": "Arceus VSTAR",
+          "setName": "Brilliant Stars",
+          "number": "184",
+          "printedTotal": 172
+        },
+        "title": "Pokemon Cards! Brilliant Stars Holo/Reverse Holo UltraRare V VMAX Full Art Card",
+        "soldPrice": 0.99,
+        "deterministic": {
+          "relevant": false,
+          "category": "IRRELEVANT",
+          "reason": "Card name not found in title",
+          "numberEvidence": "NONE",
+          "setMatch": "EXACT",
+          "language": "UNKNOWN"
+        },
+        "triggersSemantic": true,
+        "expected": "NOT_TARGET",
+        "needsManualReview": false,
+        "note": null
+      },
+      "expected": "NOT_TARGET",
+      "accepted": false,
+      "category": "IRRELEVANT",
+      "verdict": {
+        "relevant": "UNCERTAIN",
+        "targetMatch": "UNKNOWN",
+        "reason": "Title mentions \"Brilliant Stars\" and \"V VMAX\" but does not specify card name, number, or distinguish between multiple Arceus V/VSTAR candidates in the set.",
+        "confidence": 0.15
+      },
+      "rescued": false,
+      "reinforced": false
+    },
+    {
+      "entry": {
+        "id": "swsh9-184:6",
+        "bucket": "near-miss-reject",
+        "target": {
+          "name": "Arceus VSTAR",
+          "setName": "Brilliant Stars",
+          "number": "184",
+          "printedTotal": 172
+        },
+        "title": "Arceus Vstar 176/172 ACE 10 Brilliant Stars Pokemon Card Game",
+        "soldPrice": 64.97,
+        "deterministic": {
+          "relevant": false,
+          "category": "IRRELEVANT",
+          "reason": "Title names a different card number",
+          "numberEvidence": "FRACTION",
+          "setMatch": "EXACT",
+          "language": "UNKNOWN"
+        },
+        "triggersSemantic": false,
+        "expected": "NOT_TARGET",
+        "needsManualReview": false,
+        "note": null
+      },
+      "expected": "NOT_TARGET",
+      "accepted": false,
+      "category": "IRRELEVANT",
+      "verdict": null,
+      "rescued": false,
+      "reinforced": false
+    },
+    {
+      "entry": {
+        "id": "swsh9-184:7",
+        "bucket": "near-miss-reject",
+        "target": {
+          "name": "Arceus VSTAR",
+          "setName": "Brilliant Stars",
+          "number": "184",
+          "printedTotal": 172
+        },
+        "title": "Arceus VSTAR 176/172 Brilliant Stars Secret Rainbow Rare Card , Near Mint",
+        "soldPrice": 10.95,
+        "deterministic": {
+          "relevant": false,
+          "category": "IRRELEVANT",
+          "reason": "Title names a different card number",
+          "numberEvidence": "FRACTION",
+          "setMatch": "EXACT",
+          "language": "UNKNOWN"
+        },
+        "triggersSemantic": false,
+        "expected": "NOT_TARGET",
+        "needsManualReview": false,
+        "note": null
+      },
+      "expected": "NOT_TARGET",
+      "accepted": false,
+      "category": "IRRELEVANT",
+      "verdict": null,
+      "rescued": false,
+      "reinforced": false
+    },
+    {
+      "entry": {
+        "id": "base1-10:0",
+        "bucket": "near-miss-reject",
+        "target": {
+          "name": "Mewtwo",
+          "setName": "Base Set",
+          "number": "10",
+          "printedTotal": 102
+        },
+        "title": "Pokemon MEWTWO Japanese GREEN Back Ace of Spades POKER Playing Card #150 - PSA 9",
+        "soldPrice": 149.99,
+        "deterministic": {
+          "relevant": false,
+          "category": "IRRELEVANT",
+          "reason": "Title names a different card number",
+          "numberEvidence": "DECLARED",
+          "setMatch": "UNKNOWN",
+          "language": "JP"
+        },
+        "triggersSemantic": false,
+        "expected": "NOT_TARGET",
+        "needsManualReview": false,
+        "note": "A poker playing card, not a TCG card."
+      },
+      "expected": "NOT_TARGET",
+      "accepted": false,
+      "category": "IRRELEVANT",
+      "verdict": null,
+      "rescued": false,
+      "reinforced": false
+    },
+    {
+      "entry": {
+        "id": "base1-10:1",
+        "bucket": "semantic-trigger",
+        "target": {
+          "name": "Mewtwo",
+          "setName": "Base Set",
+          "number": "10",
+          "printedTotal": 102
+        },
+        "title": "Pokémon Mewtwo (Movie Promo) - WoTC promo (PR) LP+",
+        "soldPrice": 16.5,
+        "deterministic": {
+          "relevant": false,
+          "category": "IRRELEVANT",
+          "reason": "Printed card number not found in title",
+          "numberEvidence": "NONE",
+          "setMatch": "UNKNOWN",
+          "language": "UNKNOWN"
+        },
+        "triggersSemantic": true,
+        "expected": "NOT_TARGET",
+        "needsManualReview": false,
+        "note": null
+      },
+      "expected": "NOT_TARGET",
+      "accepted": false,
+      "category": "IRRELEVANT",
+      "verdict": {
+        "relevant": "NO",
+        "targetMatch": "UNLIKELY",
+        "reason": "Title specifies \"Movie Promo\" and \"WoTC promo (PR)\" designation, which does not match Base Set #10/102.",
+        "confidence": 0.95
+      },
+      "rescued": false,
+      "reinforced": false
+    },
+    {
+      "entry": {
+        "id": "base1-10:2",
+        "bucket": "semantic-trigger",
+        "target": {
+          "name": "Mewtwo",
+          "setName": "Base Set",
+          "number": "10",
+          "printedTotal": 102
+        },
+        "title": "2000 Pokemon 2 Mewtwo Holo #10/130",
+        "soldPrice": 20.5,
+        "deterministic": {
+          "relevant": true,
+          "category": "RAW_UNKNOWN",
+          "reason": "Raw listing (condition not stated)",
+          "numberEvidence": "FRACTION",
+          "setMatch": "UNKNOWN",
+          "language": "UNKNOWN"
+        },
+        "triggersSemantic": true,
+        "expected": "NOT_TARGET",
+        "needsManualReview": false,
+        "note": "#10/130 is Base Set 2, a different set from Base Set 10/102."
+      },
+      "expected": "NOT_TARGET",
+      "accepted": false,
+      "category": "IRRELEVANT",
+      "verdict": {
+        "relevant": "NO",
+        "targetMatch": "UNLIKELY",
+        "reason": "Title shows #10/130, but Base Set Mewtwo is #10/102; the card number mismatch indicates a different set.",
+        "confidence": 0.95
+      },
+      "rescued": false,
+      "reinforced": true
+    },
+    {
+      "entry": {
+        "id": "base1-10:3",
+        "bucket": "semantic-trigger",
+        "target": {
+          "name": "Mewtwo",
+          "setName": "Base Set",
+          "number": "10",
+          "printedTotal": 102
+        },
+        "title": "1999 Pokemon Shadowless Mewtwo Holo #10/102",
+        "soldPrice": 125.95,
+        "deterministic": {
+          "relevant": true,
+          "category": "RAW_UNKNOWN",
+          "reason": "Raw listing (condition not stated)",
+          "numberEvidence": "FRACTION",
+          "setMatch": "UNKNOWN",
+          "language": "UNKNOWN"
+        },
+        "triggersSemantic": true,
+        "expected": "TARGET",
+        "needsManualReview": false,
+        "note": null
+      },
+      "expected": "TARGET",
+      "accepted": true,
+      "category": "RAW_UNKNOWN",
+      "verdict": {
+        "relevant": "YES",
+        "targetMatch": "LIKELY",
+        "reason": "Title specifies \"1999 Pokemon Shadowless Mewtwo Holo #10/102\" matching the target's name, number, and Base Set era.",
+        "confidence": 0.85
+      },
+      "rescued": false,
+      "reinforced": false
+    },
+    {
+      "entry": {
+        "id": "base1-10:4",
+        "bucket": "semantic-trigger",
+        "target": {
+          "name": "Mewtwo",
+          "setName": "Base Set",
+          "number": "10",
+          "printedTotal": 102
+        },
+        "title": "Mewtwo Holo Base Set Pokemon Rare",
+        "soldPrice": 75,
+        "deterministic": {
+          "relevant": false,
+          "category": "IRRELEVANT",
+          "reason": "Printed card number not found in title",
+          "numberEvidence": "NONE",
+          "setMatch": "EXACT",
+          "language": "UNKNOWN"
+        },
+        "triggersSemantic": true,
+        "expected": "TARGET",
+        "needsManualReview": false,
+        "note": "Base Set contains exactly one Mewtwo (#10), and it is holo."
+      },
+      "expected": "TARGET",
+      "accepted": true,
+      "category": "RAW_UNKNOWN",
+      "verdict": {
+        "relevant": "YES",
+        "targetMatch": "EXACT",
+        "reason": "Title names \"Mewtwo Holo Base Set\" which exactly identifies the target card; no other card in Base Set shares this name.",
+        "confidence": 0.95
+      },
+      "rescued": true,
+      "reinforced": false
+    },
+    {
+      "entry": {
+        "id": "base1-10:5",
+        "bucket": "semantic-trigger",
+        "target": {
+          "name": "Mewtwo",
+          "setName": "Base Set",
+          "number": "10",
+          "printedTotal": 102
+        },
+        "title": "2000 Pokemon 2 Mewtwo Holo #10/130",
+        "soldPrice": 34,
+        "deterministic": {
+          "relevant": true,
+          "category": "RAW_UNKNOWN",
+          "reason": "Raw listing (condition not stated)",
+          "numberEvidence": "FRACTION",
+          "setMatch": "UNKNOWN",
+          "language": "UNKNOWN"
+        },
+        "triggersSemantic": true,
+        "expected": "NOT_TARGET",
+        "needsManualReview": false,
+        "note": "#10/130 is Base Set 2, a different set from Base Set 10/102."
+      },
+      "expected": "NOT_TARGET",
+      "accepted": false,
+      "category": "IRRELEVANT",
+      "verdict": {
+        "relevant": "NO",
+        "targetMatch": "UNLIKELY",
+        "reason": "Title shows #10/130, but Base Set Mewtwo is #10/102; the card number mismatch indicates a different set.",
+        "confidence": 0.95
+      },
+      "rescued": false,
+      "reinforced": true
+    },
+    {
+      "entry": {
+        "id": "base1-10:6",
+        "bucket": "near-miss-reject",
+        "target": {
+          "name": "Mewtwo",
+          "setName": "Base Set",
+          "number": "10",
+          "printedTotal": 102
+        },
+        "title": "1999 Mewtwo Base Set 101/102 Unlimited Edition Holo Lightly Played VERY RARE",
+        "soldPrice": 34,
+        "deterministic": {
+          "relevant": false,
+          "category": "IRRELEVANT",
+          "reason": "Title names a different card number",
+          "numberEvidence": "FRACTION",
+          "setMatch": "EXACT",
+          "language": "UNKNOWN"
+        },
+        "triggersSemantic": false,
+        "expected": "NOT_TARGET",
+        "needsManualReview": false,
+        "note": null
+      },
+      "expected": "NOT_TARGET",
+      "accepted": false,
+      "category": "IRRELEVANT",
+      "verdict": null,
+      "rescued": false,
+      "reinforced": false
+    },
+    {
+      "entry": {
+        "id": "hard:0",
+        "bucket": "hard-reject",
+        "target": {
+          "name": "Charizard VMAX",
+          "setName": "Champion's Path",
+          "number": "74",
+          "printedTotal": 73
+        },
+        "title": "Charizard VMAX 74/73 - Pokemon Custom-Art Premium Gold Metal Promo Card",
+        "soldPrice": 8.45,
+        "deterministic": {
+          "relevant": false,
+          "category": "IRRELEVANT",
+          "reason": "Proxy, replica or custom card",
+          "numberEvidence": "FRACTION",
+          "setMatch": "UNKNOWN",
+          "language": "UNKNOWN"
+        },
+        "triggersSemantic": false,
+        "expected": "NOT_TARGET",
+        "needsManualReview": false,
+        "note": "Deterministically rejected: Proxy, replica or custom card"
+      },
+      "expected": "NOT_TARGET",
+      "accepted": false,
+      "category": "IRRELEVANT",
+      "verdict": null,
+      "rescued": false,
+      "reinforced": false
+    },
+    {
+      "entry": {
+        "id": "hard:1",
+        "bucket": "hard-reject",
+        "target": {
+          "name": "Charizard VMAX",
+          "setName": "Champion's Path",
+          "number": "74",
+          "printedTotal": 73
+        },
+        "title": "Charizard Rainbow VMAX 74/73 Pokemon Premium Collectible Gold Metal Card",
+        "soldPrice": 8.95,
+        "deterministic": {
+          "relevant": false,
+          "category": "IRRELEVANT",
+          "reason": "Novelty or non-standard product",
+          "numberEvidence": "FRACTION",
+          "setMatch": "UNKNOWN",
+          "language": "UNKNOWN"
+        },
+        "triggersSemantic": false,
+        "expected": "NOT_TARGET",
+        "needsManualReview": false,
+        "note": "Deterministically rejected: Novelty or non-standard product"
+      },
+      "expected": "NOT_TARGET",
+      "accepted": false,
+      "category": "IRRELEVANT",
+      "verdict": null,
+      "rescued": false,
+      "reinforced": false
+    },
+    {
+      "entry": {
+        "id": "hard:2",
+        "bucket": "hard-reject",
+        "target": {
+          "name": "Charizard VMAX",
+          "setName": "Champion's Path",
+          "number": "74",
+          "printedTotal": 73
+        },
+        "title": "Pokemon Rainbow Secret Rare - Choose Your Card! English Near Mint 100% Authentic",
+        "soldPrice": 6,
+        "deterministic": {
+          "relevant": false,
+          "category": "IRRELEVANT",
+          "reason": "Pick-your-card listing",
+          "numberEvidence": "NONE",
+          "setMatch": "UNKNOWN",
+          "language": "EN"
+        },
+        "triggersSemantic": false,
+        "expected": "NOT_TARGET",
+        "needsManualReview": false,
+        "note": "Deterministically rejected: Pick-your-card listing"
+      },
+      "expected": "NOT_TARGET",
+      "accepted": false,
+      "category": "IRRELEVANT",
+      "verdict": null,
+      "rescued": false,
+      "reinforced": false
+    },
+    {
+      "entry": {
+        "id": "hard:3",
+        "bucket": "hard-reject",
+        "target": {
+          "name": "Charizard VMAX",
+          "setName": "Champion's Path",
+          "number": "74",
+          "printedTotal": 73
+        },
+        "title": "Charizard Rainbow VMAX 74/73 Pokemon Premium Collectible Gold Metal Card",
+        "soldPrice": 5.5,
+        "deterministic": {
+          "relevant": false,
+          "category": "IRRELEVANT",
+          "reason": "Novelty or non-standard product",
+          "numberEvidence": "FRACTION",
+          "setMatch": "UNKNOWN",
+          "language": "UNKNOWN"
+        },
+        "triggersSemantic": false,
+        "expected": "NOT_TARGET",
+        "needsManualReview": false,
+        "note": "Deterministically rejected: Novelty or non-standard product"
+      },
+      "expected": "NOT_TARGET",
+      "accepted": false,
+      "category": "IRRELEVANT",
+      "verdict": null,
+      "rescued": false,
+      "reinforced": false
+    },
+    {
+      "entry": {
+        "id": "hard:4",
+        "bucket": "hard-reject",
+        "target": {
+          "name": "Charizard VMAX",
+          "setName": "Champion's Path",
+          "number": "74",
+          "printedTotal": 73
+        },
+        "title": "Charizard VMax HP330 Claw Slash #74/73 Rainbow Custom Holo Fan Art Display Card",
+        "soldPrice": 8.5,
+        "deterministic": {
+          "relevant": false,
+          "category": "IRRELEVANT",
+          "reason": "Proxy, replica or custom card",
+          "numberEvidence": "FRACTION",
+          "setMatch": "UNKNOWN",
+          "language": "UNKNOWN"
+        },
+        "triggersSemantic": false,
+        "expected": "NOT_TARGET",
+        "needsManualReview": false,
+        "note": "Deterministically rejected: Proxy, replica or custom card"
+      },
+      "expected": "NOT_TARGET",
+      "accepted": false,
+      "category": "IRRELEVANT",
+      "verdict": null,
+      "rescued": false,
+      "reinforced": false
+    },
+    {
+      "entry": {
+        "id": "hard:5",
+        "bucket": "hard-reject",
+        "target": {
+          "name": "Charizard VMAX",
+          "setName": "Champion's Path",
+          "number": "74",
+          "printedTotal": 73
+        },
+        "title": "Charizard VMax HP330 Claw Slash #74/73 Rainbow Custom Holo Fan Art Display Card",
+        "soldPrice": 6,
+        "deterministic": {
+          "relevant": false,
+          "category": "IRRELEVANT",
+          "reason": "Proxy, replica or custom card",
+          "numberEvidence": "FRACTION",
+          "setMatch": "UNKNOWN",
+          "language": "UNKNOWN"
+        },
+        "triggersSemantic": false,
+        "expected": "NOT_TARGET",
+        "needsManualReview": false,
+        "note": "Deterministically rejected: Proxy, replica or custom card"
+      },
+      "expected": "NOT_TARGET",
+      "accepted": false,
+      "category": "IRRELEVANT",
+      "verdict": null,
+      "rescued": false,
+      "reinforced": false
+    },
+    {
+      "entry": {
+        "id": "hard:6",
+        "bucket": "hard-reject",
+        "target": {
+          "name": "Pikachu",
+          "setName": "Base Set",
+          "number": "58",
+          "printedTotal": 102
+        },
+        "title": "Jumbo Pokemon Promo Card #58/102  Pikachu Nintendo 1999-2000",
+        "soldPrice": 28.99,
+        "deterministic": {
+          "relevant": false,
+          "category": "IRRELEVANT",
+          "reason": "Novelty or non-standard product",
+          "numberEvidence": "FRACTION",
+          "setMatch": "UNKNOWN",
+          "language": "UNKNOWN"
+        },
+        "triggersSemantic": false,
+        "expected": "NOT_TARGET",
+        "needsManualReview": false,
+        "note": "Deterministically rejected: Novelty or non-standard product"
+      },
+      "expected": "NOT_TARGET",
+      "accepted": false,
+      "category": "IRRELEVANT",
+      "verdict": null,
+      "rescued": false,
+      "reinforced": false
+    },
+    {
+      "entry": {
+        "id": "hard:7",
+        "bucket": "hard-reject",
+        "target": {
+          "name": "Pikachu",
+          "setName": "Base Set",
+          "number": "58",
+          "printedTotal": 102
+        },
+        "title": "Heavy Play x 1 Pikachu - 58/102 - Common - METAL CARD Celebrations: Classic Coll",
+        "soldPrice": 85.98,
+        "deterministic": {
+          "relevant": false,
+          "category": "IRRELEVANT",
+          "reason": "Novelty or non-standard product",
+          "numberEvidence": "FRACTION",
+          "setMatch": "CONFLICT",
+          "language": "UNKNOWN"
+        },
+        "triggersSemantic": false,
+        "expected": "NOT_TARGET",
+        "needsManualReview": false,
+        "note": "Deterministically rejected: Novelty or non-standard product"
+      },
+      "expected": "NOT_TARGET",
+      "accepted": false,
+      "category": "IRRELEVANT",
+      "verdict": null,
+      "rescued": false,
+      "reinforced": false
+    },
+    {
+      "entry": {
+        "id": "hard:8",
+        "bucket": "hard-reject",
+        "target": {
+          "name": "Shining Charizard",
+          "setName": "Neo Destiny",
+          "number": "107",
+          "printedTotal": 105
+        },
+        "title": "2001 Pokemon Neo Destiny: Choose Your Card!",
+        "soldPrice": 1.99,
+        "deterministic": {
+          "relevant": false,
+          "category": "IRRELEVANT",
+          "reason": "Pick-your-card listing",
+          "numberEvidence": "NONE",
+          "setMatch": "EXACT",
+          "language": "UNKNOWN"
+        },
+        "triggersSemantic": false,
+        "expected": "NOT_TARGET",
+        "needsManualReview": false,
+        "note": "Deterministically rejected: Pick-your-card listing"
+      },
+      "expected": "NOT_TARGET",
+      "accepted": false,
+      "category": "IRRELEVANT",
+      "verdict": null,
+      "rescued": false,
+      "reinforced": false
+    },
+    {
+      "entry": {
+        "id": "hard:9",
+        "bucket": "hard-reject",
+        "target": {
+          "name": "Shining Charizard",
+          "setName": "Neo Destiny",
+          "number": "107",
+          "printedTotal": 105
+        },
+        "title": "Shining Charizard 107/105 Gold metal Card Pokemon Card 1st Edition",
+        "soldPrice": 7.5,
+        "deterministic": {
+          "relevant": false,
+          "category": "IRRELEVANT",
+          "reason": "Novelty or non-standard product",
+          "numberEvidence": "FRACTION",
+          "setMatch": "UNKNOWN",
+          "language": "UNKNOWN"
+        },
+        "triggersSemantic": false,
+        "expected": "NOT_TARGET",
+        "needsManualReview": false,
+        "note": "Deterministically rejected: Novelty or non-standard product"
+      },
+      "expected": "NOT_TARGET",
+      "accepted": false,
+      "category": "IRRELEVANT",
+      "verdict": null,
+      "rescued": false,
+      "reinforced": false
+    },
+    {
+      "entry": {
+        "id": "hard:10",
+        "bucket": "hard-reject",
+        "target": {
+          "name": "Shining Charizard",
+          "setName": "Neo Destiny",
+          "number": "107",
+          "printedTotal": 105
+        },
+        "title": "Shining Charizard 107/105 Gold Foil Pokemon Fan Art Card",
+        "soldPrice": 6.99,
+        "deterministic": {
+          "relevant": false,
+          "category": "IRRELEVANT",
+          "reason": "Proxy, replica or custom card",
+          "numberEvidence": "FRACTION",
+          "setMatch": "UNKNOWN",
+          "language": "UNKNOWN"
+        },
+        "triggersSemantic": false,
+        "expected": "NOT_TARGET",
+        "needsManualReview": false,
+        "note": "Deterministically rejected: Proxy, replica or custom card"
+      },
+      "expected": "NOT_TARGET",
+      "accepted": false,
+      "category": "IRRELEVANT",
+      "verdict": null,
+      "rescued": false,
+      "reinforced": false
+    },
+    {
+      "entry": {
+        "id": "hard:11",
+        "bucket": "hard-reject",
+        "target": {
+          "name": "Vaporeon",
+          "setName": "Brilliant Stars Trainer Gallery",
+          "number": "TG02",
+          "printedTotal": 30
+        },
+        "title": "Pokemon Trading Card Sword & Shield/S&M/X&Y Trainer Gallery: Choose Your Card",
+        "soldPrice": 2.99,
+        "deterministic": {
+          "relevant": false,
+          "category": "IRRELEVANT",
+          "reason": "Pick-your-card listing",
+          "numberEvidence": "NONE",
+          "setMatch": "UNKNOWN",
+          "language": "UNKNOWN"
+        },
+        "triggersSemantic": false,
+        "expected": "NOT_TARGET",
+        "needsManualReview": false,
+        "note": "Deterministically rejected: Pick-your-card listing"
+      },
+      "expected": "NOT_TARGET",
+      "accepted": false,
+      "category": "IRRELEVANT",
+      "verdict": null,
+      "rescued": false,
+      "reinforced": false
+    },
+    {
+      "entry": {
+        "id": "hard:12",
+        "bucket": "hard-reject",
+        "target": {
+          "name": "Vaporeon",
+          "setName": "Brilliant Stars Trainer Gallery",
+          "number": "TG02",
+          "printedTotal": 30
+        },
+        "title": "Pokemon Trainer Gallery: Choose Your Card! English NM Full Art Galarian GG TG",
+        "soldPrice": 4,
+        "deterministic": {
+          "relevant": false,
+          "category": "IRRELEVANT",
+          "reason": "Pick-your-card listing",
+          "numberEvidence": "NONE",
+          "setMatch": "UNKNOWN",
+          "language": "EN"
+        },
+        "triggersSemantic": false,
+        "expected": "NOT_TARGET",
+        "needsManualReview": false,
+        "note": "Deterministically rejected: Pick-your-card listing"
+      },
+      "expected": "NOT_TARGET",
+      "accepted": false,
+      "category": "IRRELEVANT",
+      "verdict": null,
+      "rescued": false,
+      "reinforced": false
+    },
+    {
+      "entry": {
+        "id": "hard:13",
+        "bucket": "hard-reject",
+        "target": {
+          "name": "Sylveon VMAX",
+          "setName": "Evolving Skies",
+          "number": "211",
+          "printedTotal": 203
+        },
+        "title": "Evolving Skies Master Set - Choose Your Card! - Every Alt Art, Promo and More!",
+        "soldPrice": 2.98,
+        "deterministic": {
+          "relevant": false,
+          "category": "IRRELEVANT",
+          "reason": "Pick-your-card listing",
+          "numberEvidence": "NONE",
+          "setMatch": "EXACT",
+          "language": "UNKNOWN"
+        },
+        "triggersSemantic": false,
+        "expected": "NOT_TARGET",
+        "needsManualReview": false,
+        "note": "Deterministically rejected: Pick-your-card listing"
+      },
+      "expected": "NOT_TARGET",
+      "accepted": false,
+      "category": "IRRELEVANT",
+      "verdict": null,
+      "rescued": false,
+      "reinforced": false
+    },
+    {
+      "entry": {
+        "id": "hard:14",
+        "bucket": "hard-reject",
+        "target": {
+          "name": "Sylveon VMAX",
+          "setName": "Evolving Skies",
+          "number": "211",
+          "printedTotal": 203
+        },
+        "title": "Pokemon TCG - Evolving Skies: Choose Your Card! - All Holos/Reverse Holo Cards!",
+        "soldPrice": 1.49,
+        "deterministic": {
+          "relevant": false,
+          "category": "IRRELEVANT",
+          "reason": "Pick-your-card listing",
+          "numberEvidence": "NONE",
+          "setMatch": "EXACT",
+          "language": "UNKNOWN"
+        },
+        "triggersSemantic": false,
+        "expected": "NOT_TARGET",
+        "needsManualReview": false,
+        "note": "Deterministically rejected: Pick-your-card listing"
+      },
+      "expected": "NOT_TARGET",
+      "accepted": false,
+      "category": "IRRELEVANT",
+      "verdict": null,
+      "rescued": false,
+      "reinforced": false
+    },
+    {
+      "entry": {
+        "id": "hard:15",
+        "bucket": "hard-reject",
+        "target": {
+          "name": "Rayquaza GX",
+          "setName": "Celestial Storm",
+          "number": "177",
+          "printedTotal": 168
+        },
+        "title": "Custom Rayquaza GX HP180 #177/168 Stormy Winds Rainbow Holo Fan Art Display Card",
+        "soldPrice": 2.99,
+        "deterministic": {
+          "relevant": false,
+          "category": "IRRELEVANT",
+          "reason": "Proxy, replica or custom card",
+          "numberEvidence": "FRACTION",
+          "setMatch": "UNKNOWN",
+          "language": "UNKNOWN"
+        },
+        "triggersSemantic": false,
+        "expected": "NOT_TARGET",
+        "needsManualReview": false,
+        "note": "Deterministically rejected: Proxy, replica or custom card"
+      },
+      "expected": "NOT_TARGET",
+      "accepted": false,
+      "category": "IRRELEVANT",
+      "verdict": null,
+      "rescued": false,
+      "reinforced": false
+    },
+    {
+      "entry": {
+        "id": "hard:16",
+        "bucket": "hard-reject",
+        "target": {
+          "name": "Rayquaza GX",
+          "setName": "Celestial Storm",
+          "number": "177",
+          "printedTotal": 168
+        },
+        "title": "Rayquaza GX 177/168 SM Celestial Storm Secret FAN ART Holo EN",
+        "soldPrice": 0.99,
+        "deterministic": {
+          "relevant": false,
+          "category": "IRRELEVANT",
+          "reason": "Proxy, replica or custom card",
+          "numberEvidence": "FRACTION",
+          "setMatch": "EXACT",
+          "language": "UNKNOWN"
+        },
+        "triggersSemantic": false,
+        "expected": "NOT_TARGET",
+        "needsManualReview": false,
+        "note": "Deterministically rejected: Proxy, replica or custom card"
+      },
+      "expected": "NOT_TARGET",
+      "accepted": false,
+      "category": "IRRELEVANT",
+      "verdict": null,
+      "rescued": false,
+      "reinforced": false
+    },
+    {
+      "entry": {
+        "id": "hard:17",
+        "bucket": "hard-reject",
+        "target": {
+          "name": "Rayquaza GX",
+          "setName": "Celestial Storm",
+          "number": "177",
+          "printedTotal": 168
+        },
+        "title": "Custom Rayquaza GX HP180 #177/168 Stormy Winds Rainbow Holo Fan Art Display Card",
+        "soldPrice": 2.99,
+        "deterministic": {
+          "relevant": false,
+          "category": "IRRELEVANT",
+          "reason": "Proxy, replica or custom card",
+          "numberEvidence": "FRACTION",
+          "setMatch": "UNKNOWN",
+          "language": "UNKNOWN"
+        },
+        "triggersSemantic": false,
+        "expected": "NOT_TARGET",
+        "needsManualReview": false,
+        "note": "Deterministically rejected: Proxy, replica or custom card"
+      },
+      "expected": "NOT_TARGET",
+      "accepted": false,
+      "category": "IRRELEVANT",
+      "verdict": null,
+      "rescued": false,
+      "reinforced": false
+    },
+    {
+      "entry": {
+        "id": "hard:18",
+        "bucket": "hard-reject",
+        "target": {
+          "name": "Arceus VSTAR",
+          "setName": "Brilliant Stars",
+          "number": "184",
+          "printedTotal": 172
+        },
+        "title": "Pokemon VMAX - Choose Your Card - All Available, Ultra Rare, Full Art Holo TCG",
+        "soldPrice": 3.99,
+        "deterministic": {
+          "relevant": false,
+          "category": "IRRELEVANT",
+          "reason": "Pick-your-card listing",
+          "numberEvidence": "NONE",
+          "setMatch": "UNKNOWN",
+          "language": "UNKNOWN"
+        },
+        "triggersSemantic": false,
+        "expected": "NOT_TARGET",
+        "needsManualReview": false,
+        "note": "Deterministically rejected: Pick-your-card listing"
+      },
+      "expected": "NOT_TARGET",
+      "accepted": false,
+      "category": "IRRELEVANT",
+      "verdict": null,
+      "rescued": false,
+      "reinforced": false
+    }
+  ]
+}

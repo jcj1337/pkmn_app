@@ -7,9 +7,13 @@ import {
   EbaySoldLoading,
   EbaySoldSection,
 } from "@/app/components/EbaySoldListings";
+import {
+  PriceHistoryLoading,
+  PriceHistorySection,
+} from "@/app/components/PriceHistorySection";
 import { SiteFooter, SiteHeader } from "@/app/components/SiteChrome";
 import {
-  getCardById,
+  getCardWithIdentity,
   printedNumber,
   type CardResult,
   type ListingPrices,
@@ -117,25 +121,15 @@ function Pricing({ card }: { card: CardResult }) {
   );
 }
 
-/** Section shell for the not-yet-implemented data sources. */
-function ComingSoon({ title, message }: { title: string; message: string }) {
-  return (
-    <section className="mt-10">
-      <h2 className="text-lg font-semibold tracking-tight">{title}</h2>
-      <div className="mt-3 rounded-2xl border border-dashed border-slate-300 bg-white/50 px-6 py-12 text-center text-sm text-slate-500 dark:border-slate-700 dark:bg-slate-900/40 dark:text-slate-400">
-        {message}
-      </div>
-    </section>
-  );
-}
-
 export async function generateMetadata({
   params,
 }: {
   params: Promise<{ id: string }>;
 }): Promise<Metadata> {
   const { id } = await params;
-  const card = await getCardById(decodeURIComponent(id)).catch(() => null);
+  const card = await getCardWithIdentity(decodeURIComponent(id))
+    .then((found) => found?.card ?? null)
+    .catch(() => null);
 
   return { title: card ? `${card.name} · ${card.setName}` : "Card not found" };
 }
@@ -146,9 +140,10 @@ export default async function CardPage({
   params: Promise<{ id: string }>;
 }) {
   const { id } = await params;
-  const card = await getCardById(decodeURIComponent(id));
+  const found = await getCardWithIdentity(decodeURIComponent(id));
 
-  if (!card) notFound();
+  if (!found) notFound();
+  const { card, identity } = found;
 
   const details = [
     card.setName,
@@ -199,7 +194,10 @@ export default async function CardPage({
           </div>
         </div>
 
-        <ComingSoon title="Price History" message="Price history coming soon" />
+        {/* Reads a pre-built cache; never touches TCGCSV archives at render. */}
+        <Suspense fallback={<PriceHistoryLoading />}>
+          <PriceHistorySection identity={identity} />
+        </Suspense>
 
         {/* Streams in separately so a slow or failing eBay lookup never blocks
             the card or its TCGplayer pricing. */}

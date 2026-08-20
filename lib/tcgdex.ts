@@ -317,6 +317,14 @@ interface RawSetStub {
   name?: string;
 }
 
+interface RawSetStub2 {
+  id?: string;
+  name?: string;
+}
+
+const squashName = (value: string) =>
+  value.toLowerCase().replace(/[^a-z0-9]/g, "");
+
 let setNamesCache: { value: string[]; expiresAt: number } | null = null;
 const SET_NAMES_TTL_MS = 6 * 60 * 60 * 1000;
 
@@ -348,6 +356,70 @@ export async function getSetNames(): Promise<string[]> {
 
   setNamesCache = { value, expiresAt: Date.now() + SET_NAMES_TTL_MS };
   return value;
+}
+
+/** A different card that a listing could plausibly be referring to instead. */
+export interface CompetingCard {
+  name: string;
+  number: string;
+  printedTotal: number | null;
+  setName: string;
+}
+
+interface RawSetDetail {
+  name?: string;
+  cardCount?: { official?: number };
+  cards?: { localId?: string; name?: string }[];
+}
+
+const setDetailCache = new Map<string, RawSetDetail | null>();
+const MAX_COMPETING = 6;
+
+/**
+ * Cards in the same set whose name overlaps the target's.
+ *
+ * Scoped deliberately: one cached set fetch, same-set only. The point is to
+ * tell a model that (say) Lost Origin Trainer Gallery holds Pikachu, Pikachu V
+ * and two Pikachu VMAX, so a title naming none of the numbers is genuinely
+ * ambiguous — and conversely that Skyridge holds exactly one Charizard, so
+ * there is nothing to confuse it with.
+ */
+export async function getCompetingCards(card: {
+  name: string;
+  number: string;
+  setName: string;
+}): Promise<CompetingCard[]> {
+  const sets = await getJson<RawSetStub2[]>(`${API_BASE}/sets`);
+  const target = squashName(card.setName);
+  const match = (sets ?? []).find((entry) => squashName(entry.name ?? "") === target);
+  if (!match?.id) return [];
+
+  if (!setDetailCache.has(match.id)) {
+    setDetailCache.set(
+      match.id,
+      await getJson<RawSetDetail>(`${API_BASE}/sets/${match.id}`).catch(() => null),
+    );
+  }
+  const detail = setDetailCache.get(match.id);
+  if (!detail?.cards) return [];
+
+  const wantedName = squashName(card.name);
+  const wantedNumber = numberKey(card.number);
+
+  return detail.cards
+    .filter((entry) => {
+      if (numberKey(entry.localId ?? "") === wantedNumber) return false;
+      const other = squashName(entry.name ?? "");
+      if (!other || !wantedName) return false;
+      return other.includes(wantedName) || wantedName.includes(other);
+    })
+    .slice(0, MAX_COMPETING)
+    .map((entry) => ({
+      name: entry.name ?? "",
+      number: entry.localId ? displayNumber(entry.localId) : "",
+      printedTotal: detail.cardCount?.official ?? null,
+      setName: detail.name ?? card.setName,
+    }));
 }
 
 /** Single-card lookup by TCGdex id, normalized identically to search results. */

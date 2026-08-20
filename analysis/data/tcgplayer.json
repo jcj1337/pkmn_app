@@ -1,0 +1,5039 @@
+[
+  {
+    "cardId": "swsh7-215",
+    "cardName": "Umbreon VMAX",
+    "setName": "Evolving Skies",
+    "cardNumber": "215",
+    "currentMarketPrice": 2244.47,
+    "currentPriceSource": "tcgdex",
+    "groupId": 2848,
+    "productId": 246723,
+    "subType": "Holofoil",
+    "history": [
+      {
+        "date": "2024-02-08",
+        "marketPrice": 540.24
+      },
+      {
+        "date": "2024-02-15",
+        "marketPrice": 548.67
+      },
+      {
+        "date": "2024-02-22",
+        "marketPrice": 542.99
+      },
+      {
+        "date": "2024-02-29",
+        "marketPrice": 558.36
+      },
+      {
+        "date": "2024-03-07",
+        "marketPrice": 581.95
+      },
+      {
+        "date": "2024-03-14",
+        "marketPrice": 588.99
+      },
+      {
+        "date": "2024-03-21",
+        "marketPrice": 603.27
+      },
+      {
+        "date": "2024-03-28",
+        "marketPrice": 618.82
+      },
+      {
+        "date": "2024-04-04",
+        "marketPrice": 656.31
+      },
+      {
+        "date": "2024-04-11",
+        "marketPrice": 690.43
+      },
+      {
+        "date": "2024-04-18",
+        "marketPrice": 727.61
+      },
+      {
+        "date": "2024-04-25",
+        "marketPrice": 745.33
+      },
+      {
+        "date": "2024-05-02",
+        "marketPrice": 853.91
+      },
+      {
+        "date": "2024-05-09",
+        "marketPrice": 926.46
+      },
+      {
+        "date": "2024-05-16",
+        "marketPrice": 950.18
+      },
+      {
+        "date": "2024-05-23",
+        "marketPrice": 956.47
+      },
+      {
+        "date": "2024-05-30",
+        "marketPrice": 923.39
+      },
+      {
+        "date": "2024-06-06",
+        "marketPrice": 905.63
+      },
+      {
+        "date": "2024-06-13",
+        "marketPrice": 894.01
+      },
+      {
+        "date": "2024-06-20",
+        "marketPrice": 875.5
+      },
+      {
+        "date": "2024-06-27",
+        "marketPrice": 871.19
+      },
+      {
+        "date": "2024-07-04",
+        "marketPrice": 873.99
+      },
+      {
+        "date": "2024-07-11",
+        "marketPrice": 860.43
+      },
+      {
+        "date": "2024-07-18",
+        "marketPrice": 856.88
+      },
+      {
+        "date": "2024-07-25",
+        "marketPrice": 841.13
+      },
+      {
+        "date": "2024-08-01",
+        "marketPrice": 841.98
+      },
+      {
+        "date": "2024-08-08",
+        "marketPrice": 836.99
+      },
+      {
+        "date": "2024-08-15",
+        "marketPrice": 844.16
+      },
+      {
+        "date": "2024-08-22",
+        "marketPrice": 843.52
+      },
+      {
+        "date": "2024-08-29",
+        "marketPrice": 844.84
+      },
+      {
+        "date": "2024-09-05",
+        "marketPrice": 849.75
+      },
+      {
+        "date": "2024-09-12",
+        "marketPrice": 869.26
+      },
+      {
+        "date": "2024-09-19",
+        "marketPrice": 888.98
+      },
+      {
+        "date": "2024-09-26",
+        "marketPrice": 947.18
+      },
+      {
+        "date": "2024-10-03",
+        "marketPrice": 969.35
+      },
+      {
+        "date": "2024-10-10",
+        "marketPrice": 978.28
+      },
+      {
+        "date": "2024-10-17",
+        "marketPrice": 984.97
+      },
+      {
+        "date": "2024-10-24",
+        "marketPrice": 1015.74
+      },
+      {
+        "date": "2024-10-31",
+        "marketPrice": 1035.82
+      },
+      {
+        "date": "2024-11-07",
+        "marketPrice": 1181.46
+      },
+      {
+        "date": "2024-11-14",
+        "marketPrice": 1347.03
+      },
+      {
+        "date": "2024-11-21",
+        "marketPrice": 1388.6
+      },
+      {
+        "date": "2024-11-28",
+        "marketPrice": 1366.9
+      },
+      {
+        "date": "2024-12-05",
+        "marketPrice": 1385.78
+      },
+      {
+        "date": "2024-12-12",
+        "marketPrice": 1379.36
+      },
+      {
+        "date": "2024-12-19",
+        "marketPrice": 1377.49
+      },
+      {
+        "date": "2024-12-26",
+        "marketPrice": 1411.67
+      },
+      {
+        "date": "2025-01-02",
+        "marketPrice": 1398.66
+      },
+      {
+        "date": "2025-01-09",
+        "marketPrice": 1450.22
+      },
+      {
+        "date": "2025-01-16",
+        "marketPrice": 1582.76
+      },
+      {
+        "date": "2025-01-23",
+        "marketPrice": 1692.79
+      },
+      {
+        "date": "2025-01-30",
+        "marketPrice": 1690.17
+      },
+      {
+        "date": "2025-02-06",
+        "marketPrice": 1638.66
+      },
+      {
+        "date": "2025-02-13",
+        "marketPrice": 1707.46
+      },
+      {
+        "date": "2025-02-20",
+        "marketPrice": 1767.24
+      },
+      {
+        "date": "2025-02-27",
+        "marketPrice": 1742.13
+      },
+      {
+        "date": "2025-03-06",
+        "marketPrice": 1699.93
+      },
+      {
+        "date": "2025-03-13",
+        "marketPrice": 1493.37
+      },
+      {
+        "date": "2025-03-20",
+        "marketPrice": 1506.09
+      },
+      {
+        "date": "2025-03-27",
+        "marketPrice": 1644.4
+      },
+      {
+        "date": "2025-04-03",
+        "marketPrice": 1667.12
+      },
+      {
+        "date": "2025-04-10",
+        "marketPrice": 1742.15
+      },
+      {
+        "date": "2025-04-17",
+        "marketPrice": 1743.78
+      },
+      {
+        "date": "2025-04-24",
+        "marketPrice": 1679.62
+      },
+      {
+        "date": "2025-05-01",
+        "marketPrice": 1663.85
+      },
+      {
+        "date": "2025-05-08",
+        "marketPrice": 1669.86
+      },
+      {
+        "date": "2025-05-15",
+        "marketPrice": 1647.78
+      },
+      {
+        "date": "2025-05-22",
+        "marketPrice": 1560.48
+      },
+      {
+        "date": "2025-05-29",
+        "marketPrice": 1575.27
+      },
+      {
+        "date": "2025-06-05",
+        "marketPrice": 1527.28
+      },
+      {
+        "date": "2025-06-12",
+        "marketPrice": 1515.94
+      },
+      {
+        "date": "2025-06-19",
+        "marketPrice": 1504.74
+      },
+      {
+        "date": "2025-06-26",
+        "marketPrice": 1449.3
+      },
+      {
+        "date": "2025-07-03",
+        "marketPrice": 1449.3
+      },
+      {
+        "date": "2025-07-10",
+        "marketPrice": 1430.06
+      },
+      {
+        "date": "2025-07-17",
+        "marketPrice": 1410.1
+      },
+      {
+        "date": "2025-07-24",
+        "marketPrice": 1376.65
+      },
+      {
+        "date": "2025-07-31",
+        "marketPrice": 1365.97
+      },
+      {
+        "date": "2025-08-07",
+        "marketPrice": 1343.43
+      },
+      {
+        "date": "2025-08-14",
+        "marketPrice": 1343.82
+      },
+      {
+        "date": "2025-08-21",
+        "marketPrice": 1363.16
+      },
+      {
+        "date": "2025-08-28",
+        "marketPrice": 1372.21
+      },
+      {
+        "date": "2025-09-04",
+        "marketPrice": 1435.87
+      },
+      {
+        "date": "2025-09-11",
+        "marketPrice": 2132.02
+      },
+      {
+        "date": "2025-09-18",
+        "marketPrice": 2119.98
+      },
+      {
+        "date": "2025-09-25",
+        "marketPrice": 2191.98
+      },
+      {
+        "date": "2025-10-02",
+        "marketPrice": 2258.97
+      },
+      {
+        "date": "2025-10-09",
+        "marketPrice": 2279.2
+      },
+      {
+        "date": "2025-10-16",
+        "marketPrice": 2259.16
+      },
+      {
+        "date": "2025-10-23",
+        "marketPrice": 2285.4
+      },
+      {
+        "date": "2025-10-30",
+        "marketPrice": 2240.56
+      },
+      {
+        "date": "2025-11-06",
+        "marketPrice": 2228.6
+      },
+      {
+        "date": "2025-11-13",
+        "marketPrice": 2218
+      },
+      {
+        "date": "2025-11-20",
+        "marketPrice": 2185.98
+      },
+      {
+        "date": "2025-11-27",
+        "marketPrice": 2163.58
+      },
+      {
+        "date": "2025-12-04",
+        "marketPrice": 2006.42
+      },
+      {
+        "date": "2025-12-11",
+        "marketPrice": 1924.42
+      },
+      {
+        "date": "2025-12-18",
+        "marketPrice": 1924.42
+      },
+      {
+        "date": "2025-12-25",
+        "marketPrice": 1870.34
+      },
+      {
+        "date": "2026-01-01",
+        "marketPrice": 1775.17
+      },
+      {
+        "date": "2026-01-08",
+        "marketPrice": 1755.17
+      },
+      {
+        "date": "2026-01-15",
+        "marketPrice": 1795.75
+      },
+      {
+        "date": "2026-01-22",
+        "marketPrice": 1750.57
+      },
+      {
+        "date": "2026-01-29",
+        "marketPrice": 1789.97
+      },
+      {
+        "date": "2026-02-05",
+        "marketPrice": 1784.53
+      },
+      {
+        "date": "2026-02-12",
+        "marketPrice": 1784.53
+      },
+      {
+        "date": "2026-02-19",
+        "marketPrice": 1680.17
+      },
+      {
+        "date": "2026-02-26",
+        "marketPrice": 1671.18
+      },
+      {
+        "date": "2026-03-05",
+        "marketPrice": 1743
+      },
+      {
+        "date": "2026-03-12",
+        "marketPrice": 1749.95
+      },
+      {
+        "date": "2026-03-19",
+        "marketPrice": 1822.24
+      },
+      {
+        "date": "2026-03-26",
+        "marketPrice": 1878.2
+      },
+      {
+        "date": "2026-04-02",
+        "marketPrice": 1878.2
+      },
+      {
+        "date": "2026-04-09",
+        "marketPrice": 1888.57
+      },
+      {
+        "date": "2026-04-16",
+        "marketPrice": 1951.47
+      },
+      {
+        "date": "2026-04-23",
+        "marketPrice": 2023.52
+      },
+      {
+        "date": "2026-04-30",
+        "marketPrice": 2131.03
+      },
+      {
+        "date": "2026-05-07",
+        "marketPrice": 2160.77
+      },
+      {
+        "date": "2026-05-14",
+        "marketPrice": 2219.39
+      },
+      {
+        "date": "2026-05-21",
+        "marketPrice": 2145
+      },
+      {
+        "date": "2026-05-28",
+        "marketPrice": 2005.2
+      },
+      {
+        "date": "2026-06-04",
+        "marketPrice": 2181.59
+      },
+      {
+        "date": "2026-06-11",
+        "marketPrice": 2261.15
+      },
+      {
+        "date": "2026-06-18",
+        "marketPrice": 2205.25
+      },
+      {
+        "date": "2026-06-25",
+        "marketPrice": 2144.7
+      },
+      {
+        "date": "2026-07-02",
+        "marketPrice": 2204.86
+      },
+      {
+        "date": "2026-07-09",
+        "marketPrice": 2318.54
+      },
+      {
+        "date": "2026-07-16",
+        "marketPrice": 2396.28
+      },
+      {
+        "date": "2026-07-23",
+        "marketPrice": 2137.76
+      },
+      {
+        "date": "2026-07-30",
+        "marketPrice": 2416.28
+      },
+      {
+        "date": "2026-08-06",
+        "marketPrice": 2416.28
+      },
+      {
+        "date": "2026-08-13",
+        "marketPrice": 2259.47
+      }
+    ]
+  },
+  {
+    "cardId": "swsh11tg-TG17",
+    "cardName": "Pikachu VMAX",
+    "setName": "Lost Origin Trainer Gallery",
+    "cardNumber": "TG17",
+    "currentMarketPrice": 110.55,
+    "currentPriceSource": "tcgcsv",
+    "groupId": 3172,
+    "productId": 284283,
+    "subType": "Holofoil",
+    "history": [
+      {
+        "date": "2024-02-08",
+        "marketPrice": 33.69
+      },
+      {
+        "date": "2024-02-15",
+        "marketPrice": 34.42
+      },
+      {
+        "date": "2024-02-22",
+        "marketPrice": 32.55
+      },
+      {
+        "date": "2024-02-29",
+        "marketPrice": 31
+      },
+      {
+        "date": "2024-03-07",
+        "marketPrice": 30.53
+      },
+      {
+        "date": "2024-03-14",
+        "marketPrice": 29.6
+      },
+      {
+        "date": "2024-03-21",
+        "marketPrice": 30.42
+      },
+      {
+        "date": "2024-03-28",
+        "marketPrice": 29.13
+      },
+      {
+        "date": "2024-04-04",
+        "marketPrice": 30.64
+      },
+      {
+        "date": "2024-04-11",
+        "marketPrice": 33.31
+      },
+      {
+        "date": "2024-04-18",
+        "marketPrice": 32.13
+      },
+      {
+        "date": "2024-04-25",
+        "marketPrice": 35.35
+      },
+      {
+        "date": "2024-05-02",
+        "marketPrice": 38.34
+      },
+      {
+        "date": "2024-05-09",
+        "marketPrice": 50.29
+      },
+      {
+        "date": "2024-05-16",
+        "marketPrice": 48.21
+      },
+      {
+        "date": "2024-05-23",
+        "marketPrice": 49.5
+      },
+      {
+        "date": "2024-05-30",
+        "marketPrice": 46.93
+      },
+      {
+        "date": "2024-06-06",
+        "marketPrice": 48.52
+      },
+      {
+        "date": "2024-06-13",
+        "marketPrice": 48.98
+      },
+      {
+        "date": "2024-06-20",
+        "marketPrice": 46.37
+      },
+      {
+        "date": "2024-06-27",
+        "marketPrice": 40.83
+      },
+      {
+        "date": "2024-07-04",
+        "marketPrice": 38.55
+      },
+      {
+        "date": "2024-07-11",
+        "marketPrice": 37.94
+      },
+      {
+        "date": "2024-07-18",
+        "marketPrice": 37.62
+      },
+      {
+        "date": "2024-07-25",
+        "marketPrice": 35.46
+      },
+      {
+        "date": "2024-08-01",
+        "marketPrice": 35.85
+      },
+      {
+        "date": "2024-08-08",
+        "marketPrice": 32.79
+      },
+      {
+        "date": "2024-08-15",
+        "marketPrice": 35.24
+      },
+      {
+        "date": "2024-08-22",
+        "marketPrice": 33
+      },
+      {
+        "date": "2024-08-29",
+        "marketPrice": 31.22
+      },
+      {
+        "date": "2024-09-05",
+        "marketPrice": 30.71
+      },
+      {
+        "date": "2024-09-12",
+        "marketPrice": 31.15
+      },
+      {
+        "date": "2024-09-19",
+        "marketPrice": 32.01
+      },
+      {
+        "date": "2024-09-26",
+        "marketPrice": 32.25
+      },
+      {
+        "date": "2024-10-03",
+        "marketPrice": 32.62
+      },
+      {
+        "date": "2024-10-10",
+        "marketPrice": 34.42
+      },
+      {
+        "date": "2024-10-17",
+        "marketPrice": 35.08
+      },
+      {
+        "date": "2024-10-24",
+        "marketPrice": 35.23
+      },
+      {
+        "date": "2024-10-31",
+        "marketPrice": 35.62
+      },
+      {
+        "date": "2024-11-07",
+        "marketPrice": 39.13
+      },
+      {
+        "date": "2024-11-14",
+        "marketPrice": 40.26
+      },
+      {
+        "date": "2024-11-21",
+        "marketPrice": 41.32
+      },
+      {
+        "date": "2024-11-28",
+        "marketPrice": 40.24
+      },
+      {
+        "date": "2024-12-05",
+        "marketPrice": 41.2
+      },
+      {
+        "date": "2024-12-12",
+        "marketPrice": 41.75
+      },
+      {
+        "date": "2024-12-19",
+        "marketPrice": 42.73
+      },
+      {
+        "date": "2024-12-26",
+        "marketPrice": 41.75
+      },
+      {
+        "date": "2025-01-02",
+        "marketPrice": 43.29
+      },
+      {
+        "date": "2025-01-09",
+        "marketPrice": 47.23
+      },
+      {
+        "date": "2025-01-16",
+        "marketPrice": 49.13
+      },
+      {
+        "date": "2025-01-23",
+        "marketPrice": 54.49
+      },
+      {
+        "date": "2025-01-30",
+        "marketPrice": 62.98
+      },
+      {
+        "date": "2025-02-06",
+        "marketPrice": 63.78
+      },
+      {
+        "date": "2025-02-13",
+        "marketPrice": 63.01
+      },
+      {
+        "date": "2025-02-20",
+        "marketPrice": 57.5
+      },
+      {
+        "date": "2025-02-27",
+        "marketPrice": 60
+      },
+      {
+        "date": "2025-03-06",
+        "marketPrice": 61.31
+      },
+      {
+        "date": "2025-03-13",
+        "marketPrice": 62.4
+      },
+      {
+        "date": "2025-03-20",
+        "marketPrice": 63.34
+      },
+      {
+        "date": "2025-03-27",
+        "marketPrice": 63.01
+      },
+      {
+        "date": "2025-04-03",
+        "marketPrice": 62.62
+      },
+      {
+        "date": "2025-04-10",
+        "marketPrice": 61.46
+      },
+      {
+        "date": "2025-04-17",
+        "marketPrice": 61.48
+      },
+      {
+        "date": "2025-04-24",
+        "marketPrice": 61.02
+      },
+      {
+        "date": "2025-05-01",
+        "marketPrice": 59.4
+      },
+      {
+        "date": "2025-05-08",
+        "marketPrice": 58.52
+      },
+      {
+        "date": "2025-05-15",
+        "marketPrice": 57.39
+      },
+      {
+        "date": "2025-05-22",
+        "marketPrice": 59.52
+      },
+      {
+        "date": "2025-05-29",
+        "marketPrice": 57.88
+      },
+      {
+        "date": "2025-06-05",
+        "marketPrice": 56.7
+      },
+      {
+        "date": "2025-06-12",
+        "marketPrice": 55.96
+      },
+      {
+        "date": "2025-06-19",
+        "marketPrice": 55.18
+      },
+      {
+        "date": "2025-06-26",
+        "marketPrice": 55.81
+      },
+      {
+        "date": "2025-07-03",
+        "marketPrice": 54.74
+      },
+      {
+        "date": "2025-07-10",
+        "marketPrice": 56.24
+      },
+      {
+        "date": "2025-07-17",
+        "marketPrice": 57.29
+      },
+      {
+        "date": "2025-07-24",
+        "marketPrice": 57.33
+      },
+      {
+        "date": "2025-07-31",
+        "marketPrice": 57.95
+      },
+      {
+        "date": "2025-08-07",
+        "marketPrice": 60.23
+      },
+      {
+        "date": "2025-08-14",
+        "marketPrice": 61.63
+      },
+      {
+        "date": "2025-08-21",
+        "marketPrice": 61.49
+      },
+      {
+        "date": "2025-08-28",
+        "marketPrice": 64.9
+      },
+      {
+        "date": "2025-09-04",
+        "marketPrice": 66.37
+      },
+      {
+        "date": "2025-09-11",
+        "marketPrice": 72.69
+      },
+      {
+        "date": "2025-09-18",
+        "marketPrice": 83.64
+      },
+      {
+        "date": "2025-09-25",
+        "marketPrice": 84.94
+      },
+      {
+        "date": "2025-10-02",
+        "marketPrice": 84.84
+      },
+      {
+        "date": "2025-10-09",
+        "marketPrice": 83.91
+      },
+      {
+        "date": "2025-10-16",
+        "marketPrice": 82.64
+      },
+      {
+        "date": "2025-10-23",
+        "marketPrice": 83.11
+      },
+      {
+        "date": "2025-10-30",
+        "marketPrice": 82.96
+      },
+      {
+        "date": "2025-11-06",
+        "marketPrice": 82.69
+      },
+      {
+        "date": "2025-11-13",
+        "marketPrice": 79.37
+      },
+      {
+        "date": "2025-11-20",
+        "marketPrice": 78.71
+      },
+      {
+        "date": "2025-11-27",
+        "marketPrice": 76.55
+      },
+      {
+        "date": "2025-12-04",
+        "marketPrice": 73.59
+      },
+      {
+        "date": "2025-12-11",
+        "marketPrice": 74.8
+      },
+      {
+        "date": "2025-12-18",
+        "marketPrice": 73.47
+      },
+      {
+        "date": "2025-12-25",
+        "marketPrice": 73.11
+      },
+      {
+        "date": "2026-01-01",
+        "marketPrice": 70.5
+      },
+      {
+        "date": "2026-01-08",
+        "marketPrice": 72.61
+      },
+      {
+        "date": "2026-01-15",
+        "marketPrice": 73.61
+      },
+      {
+        "date": "2026-01-22",
+        "marketPrice": 73.78
+      },
+      {
+        "date": "2026-01-29",
+        "marketPrice": 74.01
+      },
+      {
+        "date": "2026-02-05",
+        "marketPrice": 74.76
+      },
+      {
+        "date": "2026-02-12",
+        "marketPrice": 74.02
+      },
+      {
+        "date": "2026-02-19",
+        "marketPrice": 75.92
+      },
+      {
+        "date": "2026-02-26",
+        "marketPrice": 76.41
+      },
+      {
+        "date": "2026-03-05",
+        "marketPrice": 78.58
+      },
+      {
+        "date": "2026-03-12",
+        "marketPrice": 82.76
+      },
+      {
+        "date": "2026-03-19",
+        "marketPrice": 92.52
+      },
+      {
+        "date": "2026-03-26",
+        "marketPrice": 91.07
+      },
+      {
+        "date": "2026-04-02",
+        "marketPrice": 92.45
+      },
+      {
+        "date": "2026-04-09",
+        "marketPrice": 95.46
+      },
+      {
+        "date": "2026-04-16",
+        "marketPrice": 96.06
+      },
+      {
+        "date": "2026-04-23",
+        "marketPrice": 95.33
+      },
+      {
+        "date": "2026-04-30",
+        "marketPrice": 96.1
+      },
+      {
+        "date": "2026-05-07",
+        "marketPrice": 97.64
+      },
+      {
+        "date": "2026-05-14",
+        "marketPrice": 101.24
+      },
+      {
+        "date": "2026-05-21",
+        "marketPrice": 98.99
+      },
+      {
+        "date": "2026-05-28",
+        "marketPrice": 110.41
+      },
+      {
+        "date": "2026-06-04",
+        "marketPrice": 109.84
+      },
+      {
+        "date": "2026-06-11",
+        "marketPrice": 114.55
+      },
+      {
+        "date": "2026-06-18",
+        "marketPrice": 121.11
+      },
+      {
+        "date": "2026-06-25",
+        "marketPrice": 124.34
+      },
+      {
+        "date": "2026-07-02",
+        "marketPrice": 126.54
+      },
+      {
+        "date": "2026-07-09",
+        "marketPrice": 124.85
+      },
+      {
+        "date": "2026-07-16",
+        "marketPrice": 124.47
+      },
+      {
+        "date": "2026-07-23",
+        "marketPrice": 122
+      },
+      {
+        "date": "2026-07-30",
+        "marketPrice": 117.77
+      },
+      {
+        "date": "2026-08-06",
+        "marketPrice": 114.59
+      },
+      {
+        "date": "2026-08-13",
+        "marketPrice": 110.69
+      }
+    ]
+  },
+  {
+    "cardId": "me02.5-284",
+    "cardName": "Mega Gengar ex",
+    "setName": "Ascended Heroes",
+    "cardNumber": "284",
+    "currentMarketPrice": 1066.24,
+    "currentPriceSource": "tcgdex",
+    "groupId": 24541,
+    "productId": 676096,
+    "subType": "Holofoil",
+    "history": [
+      {
+        "date": "2024-02-08",
+        "marketPrice": null
+      },
+      {
+        "date": "2024-02-15",
+        "marketPrice": null
+      },
+      {
+        "date": "2024-02-22",
+        "marketPrice": null
+      },
+      {
+        "date": "2024-02-29",
+        "marketPrice": null
+      },
+      {
+        "date": "2024-03-07",
+        "marketPrice": null
+      },
+      {
+        "date": "2024-03-14",
+        "marketPrice": null
+      },
+      {
+        "date": "2024-03-21",
+        "marketPrice": null
+      },
+      {
+        "date": "2024-03-28",
+        "marketPrice": null
+      },
+      {
+        "date": "2024-04-04",
+        "marketPrice": null
+      },
+      {
+        "date": "2024-04-11",
+        "marketPrice": null
+      },
+      {
+        "date": "2024-04-18",
+        "marketPrice": null
+      },
+      {
+        "date": "2024-04-25",
+        "marketPrice": null
+      },
+      {
+        "date": "2024-05-02",
+        "marketPrice": null
+      },
+      {
+        "date": "2024-05-09",
+        "marketPrice": null
+      },
+      {
+        "date": "2024-05-16",
+        "marketPrice": null
+      },
+      {
+        "date": "2024-05-23",
+        "marketPrice": null
+      },
+      {
+        "date": "2024-05-30",
+        "marketPrice": null
+      },
+      {
+        "date": "2024-06-06",
+        "marketPrice": null
+      },
+      {
+        "date": "2024-06-13",
+        "marketPrice": null
+      },
+      {
+        "date": "2024-06-20",
+        "marketPrice": null
+      },
+      {
+        "date": "2024-06-27",
+        "marketPrice": null
+      },
+      {
+        "date": "2024-07-04",
+        "marketPrice": null
+      },
+      {
+        "date": "2024-07-11",
+        "marketPrice": null
+      },
+      {
+        "date": "2024-07-18",
+        "marketPrice": null
+      },
+      {
+        "date": "2024-07-25",
+        "marketPrice": null
+      },
+      {
+        "date": "2024-08-01",
+        "marketPrice": null
+      },
+      {
+        "date": "2024-08-08",
+        "marketPrice": null
+      },
+      {
+        "date": "2024-08-15",
+        "marketPrice": null
+      },
+      {
+        "date": "2024-08-22",
+        "marketPrice": null
+      },
+      {
+        "date": "2024-08-29",
+        "marketPrice": null
+      },
+      {
+        "date": "2024-09-05",
+        "marketPrice": null
+      },
+      {
+        "date": "2024-09-12",
+        "marketPrice": null
+      },
+      {
+        "date": "2024-09-19",
+        "marketPrice": null
+      },
+      {
+        "date": "2024-09-26",
+        "marketPrice": null
+      },
+      {
+        "date": "2024-10-03",
+        "marketPrice": null
+      },
+      {
+        "date": "2024-10-10",
+        "marketPrice": null
+      },
+      {
+        "date": "2024-10-17",
+        "marketPrice": null
+      },
+      {
+        "date": "2024-10-24",
+        "marketPrice": null
+      },
+      {
+        "date": "2024-10-31",
+        "marketPrice": null
+      },
+      {
+        "date": "2024-11-07",
+        "marketPrice": null
+      },
+      {
+        "date": "2024-11-14",
+        "marketPrice": null
+      },
+      {
+        "date": "2024-11-21",
+        "marketPrice": null
+      },
+      {
+        "date": "2024-11-28",
+        "marketPrice": null
+      },
+      {
+        "date": "2024-12-05",
+        "marketPrice": null
+      },
+      {
+        "date": "2024-12-12",
+        "marketPrice": null
+      },
+      {
+        "date": "2024-12-19",
+        "marketPrice": null
+      },
+      {
+        "date": "2024-12-26",
+        "marketPrice": null
+      },
+      {
+        "date": "2025-01-02",
+        "marketPrice": null
+      },
+      {
+        "date": "2025-01-09",
+        "marketPrice": null
+      },
+      {
+        "date": "2025-01-16",
+        "marketPrice": null
+      },
+      {
+        "date": "2025-01-23",
+        "marketPrice": null
+      },
+      {
+        "date": "2025-01-30",
+        "marketPrice": null
+      },
+      {
+        "date": "2025-02-06",
+        "marketPrice": null
+      },
+      {
+        "date": "2025-02-13",
+        "marketPrice": null
+      },
+      {
+        "date": "2025-02-20",
+        "marketPrice": null
+      },
+      {
+        "date": "2025-02-27",
+        "marketPrice": null
+      },
+      {
+        "date": "2025-03-06",
+        "marketPrice": null
+      },
+      {
+        "date": "2025-03-13",
+        "marketPrice": null
+      },
+      {
+        "date": "2025-03-20",
+        "marketPrice": null
+      },
+      {
+        "date": "2025-03-27",
+        "marketPrice": null
+      },
+      {
+        "date": "2025-04-03",
+        "marketPrice": null
+      },
+      {
+        "date": "2025-04-10",
+        "marketPrice": null
+      },
+      {
+        "date": "2025-04-17",
+        "marketPrice": null
+      },
+      {
+        "date": "2025-04-24",
+        "marketPrice": null
+      },
+      {
+        "date": "2025-05-01",
+        "marketPrice": null
+      },
+      {
+        "date": "2025-05-08",
+        "marketPrice": null
+      },
+      {
+        "date": "2025-05-15",
+        "marketPrice": null
+      },
+      {
+        "date": "2025-05-22",
+        "marketPrice": null
+      },
+      {
+        "date": "2025-05-29",
+        "marketPrice": null
+      },
+      {
+        "date": "2025-06-05",
+        "marketPrice": null
+      },
+      {
+        "date": "2025-06-12",
+        "marketPrice": null
+      },
+      {
+        "date": "2025-06-19",
+        "marketPrice": null
+      },
+      {
+        "date": "2025-06-26",
+        "marketPrice": null
+      },
+      {
+        "date": "2025-07-03",
+        "marketPrice": null
+      },
+      {
+        "date": "2025-07-10",
+        "marketPrice": null
+      },
+      {
+        "date": "2025-07-17",
+        "marketPrice": null
+      },
+      {
+        "date": "2025-07-24",
+        "marketPrice": null
+      },
+      {
+        "date": "2025-07-31",
+        "marketPrice": null
+      },
+      {
+        "date": "2025-08-07",
+        "marketPrice": null
+      },
+      {
+        "date": "2025-08-14",
+        "marketPrice": null
+      },
+      {
+        "date": "2025-08-21",
+        "marketPrice": null
+      },
+      {
+        "date": "2025-08-28",
+        "marketPrice": null
+      },
+      {
+        "date": "2025-09-04",
+        "marketPrice": null
+      },
+      {
+        "date": "2025-09-11",
+        "marketPrice": null
+      },
+      {
+        "date": "2025-09-18",
+        "marketPrice": null
+      },
+      {
+        "date": "2025-09-25",
+        "marketPrice": null
+      },
+      {
+        "date": "2025-10-02",
+        "marketPrice": null
+      },
+      {
+        "date": "2025-10-09",
+        "marketPrice": null
+      },
+      {
+        "date": "2025-10-16",
+        "marketPrice": null
+      },
+      {
+        "date": "2025-10-23",
+        "marketPrice": null
+      },
+      {
+        "date": "2025-10-30",
+        "marketPrice": null
+      },
+      {
+        "date": "2025-11-06",
+        "marketPrice": null
+      },
+      {
+        "date": "2025-11-13",
+        "marketPrice": null
+      },
+      {
+        "date": "2025-11-20",
+        "marketPrice": null
+      },
+      {
+        "date": "2025-11-27",
+        "marketPrice": null
+      },
+      {
+        "date": "2025-12-04",
+        "marketPrice": null
+      },
+      {
+        "date": "2025-12-11",
+        "marketPrice": null
+      },
+      {
+        "date": "2025-12-18",
+        "marketPrice": null
+      },
+      {
+        "date": "2025-12-25",
+        "marketPrice": null
+      },
+      {
+        "date": "2026-01-01",
+        "marketPrice": null
+      },
+      {
+        "date": "2026-01-08",
+        "marketPrice": null
+      },
+      {
+        "date": "2026-01-15",
+        "marketPrice": null
+      },
+      {
+        "date": "2026-01-22",
+        "marketPrice": null
+      },
+      {
+        "date": "2026-01-29",
+        "marketPrice": null
+      },
+      {
+        "date": "2026-02-05",
+        "marketPrice": 960.86
+      },
+      {
+        "date": "2026-02-12",
+        "marketPrice": 858.05
+      },
+      {
+        "date": "2026-02-19",
+        "marketPrice": 867.12
+      },
+      {
+        "date": "2026-02-26",
+        "marketPrice": 898.35
+      },
+      {
+        "date": "2026-03-05",
+        "marketPrice": 971.96
+      },
+      {
+        "date": "2026-03-12",
+        "marketPrice": 1030.48
+      },
+      {
+        "date": "2026-03-19",
+        "marketPrice": 1005.26
+      },
+      {
+        "date": "2026-03-26",
+        "marketPrice": 1075
+      },
+      {
+        "date": "2026-04-02",
+        "marketPrice": 1099.37
+      },
+      {
+        "date": "2026-04-09",
+        "marketPrice": 1133.98
+      },
+      {
+        "date": "2026-04-16",
+        "marketPrice": 1236.2
+      },
+      {
+        "date": "2026-04-23",
+        "marketPrice": 1291.98
+      },
+      {
+        "date": "2026-04-30",
+        "marketPrice": 1492.76
+      },
+      {
+        "date": "2026-05-07",
+        "marketPrice": 1429.35
+      },
+      {
+        "date": "2026-05-14",
+        "marketPrice": 1390.99
+      },
+      {
+        "date": "2026-05-21",
+        "marketPrice": 1389.84
+      },
+      {
+        "date": "2026-05-28",
+        "marketPrice": 1380.03
+      },
+      {
+        "date": "2026-06-04",
+        "marketPrice": 1291.55
+      },
+      {
+        "date": "2026-06-11",
+        "marketPrice": 1299.65
+      },
+      {
+        "date": "2026-06-18",
+        "marketPrice": 1414.2
+      },
+      {
+        "date": "2026-06-25",
+        "marketPrice": 1422.64
+      },
+      {
+        "date": "2026-07-02",
+        "marketPrice": 1309.76
+      },
+      {
+        "date": "2026-07-09",
+        "marketPrice": 1358.2
+      },
+      {
+        "date": "2026-07-16",
+        "marketPrice": 1320.2
+      },
+      {
+        "date": "2026-07-23",
+        "marketPrice": 1273.24
+      },
+      {
+        "date": "2026-07-30",
+        "marketPrice": 1255.73
+      },
+      {
+        "date": "2026-08-06",
+        "marketPrice": 1189.1
+      },
+      {
+        "date": "2026-08-13",
+        "marketPrice": 1108.52
+      }
+    ]
+  },
+  {
+    "cardId": "base1-4",
+    "cardName": "Charizard",
+    "setName": "Base Set",
+    "cardNumber": "4",
+    "currentMarketPrice": 852.43,
+    "currentPriceSource": "tcgdex",
+    "groupId": 604,
+    "productId": 42382,
+    "subType": "Holofoil",
+    "history": [
+      {
+        "date": "2024-02-08",
+        "marketPrice": 377.94
+      },
+      {
+        "date": "2024-02-15",
+        "marketPrice": 375.52
+      },
+      {
+        "date": "2024-02-22",
+        "marketPrice": 377.72
+      },
+      {
+        "date": "2024-02-29",
+        "marketPrice": 377.72
+      },
+      {
+        "date": "2024-03-07",
+        "marketPrice": 384.55
+      },
+      {
+        "date": "2024-03-14",
+        "marketPrice": 385.96
+      },
+      {
+        "date": "2024-03-21",
+        "marketPrice": 385.96
+      },
+      {
+        "date": "2024-03-28",
+        "marketPrice": 389.28
+      },
+      {
+        "date": "2024-04-04",
+        "marketPrice": 386.97
+      },
+      {
+        "date": "2024-04-11",
+        "marketPrice": 386.97
+      },
+      {
+        "date": "2024-04-18",
+        "marketPrice": 373.3
+      },
+      {
+        "date": "2024-04-25",
+        "marketPrice": 370.05
+      },
+      {
+        "date": "2024-05-02",
+        "marketPrice": 360.99
+      },
+      {
+        "date": "2024-05-09",
+        "marketPrice": 345.85
+      },
+      {
+        "date": "2024-05-16",
+        "marketPrice": 333.05
+      },
+      {
+        "date": "2024-05-23",
+        "marketPrice": 341.45
+      },
+      {
+        "date": "2024-05-30",
+        "marketPrice": 341.45
+      },
+      {
+        "date": "2024-06-06",
+        "marketPrice": 354.85
+      },
+      {
+        "date": "2024-06-13",
+        "marketPrice": 354.85
+      },
+      {
+        "date": "2024-06-20",
+        "marketPrice": 353.67
+      },
+      {
+        "date": "2024-06-27",
+        "marketPrice": 352.61
+      },
+      {
+        "date": "2024-07-04",
+        "marketPrice": 353.21
+      },
+      {
+        "date": "2024-07-11",
+        "marketPrice": 350.89
+      },
+      {
+        "date": "2024-07-18",
+        "marketPrice": 350.89
+      },
+      {
+        "date": "2024-07-25",
+        "marketPrice": 352.72
+      },
+      {
+        "date": "2024-08-01",
+        "marketPrice": 352.72
+      },
+      {
+        "date": "2024-08-08",
+        "marketPrice": 353.35
+      },
+      {
+        "date": "2024-08-15",
+        "marketPrice": 352.42
+      },
+      {
+        "date": "2024-08-22",
+        "marketPrice": 352.42
+      },
+      {
+        "date": "2024-08-29",
+        "marketPrice": 342.98
+      },
+      {
+        "date": "2024-09-05",
+        "marketPrice": 353.49
+      },
+      {
+        "date": "2024-09-12",
+        "marketPrice": 349.14
+      },
+      {
+        "date": "2024-09-19",
+        "marketPrice": 350.51
+      },
+      {
+        "date": "2024-09-26",
+        "marketPrice": 352.7
+      },
+      {
+        "date": "2024-10-03",
+        "marketPrice": 351.08
+      },
+      {
+        "date": "2024-10-10",
+        "marketPrice": 351.08
+      },
+      {
+        "date": "2024-10-17",
+        "marketPrice": 376.88
+      },
+      {
+        "date": "2024-10-24",
+        "marketPrice": 376.45
+      },
+      {
+        "date": "2024-10-31",
+        "marketPrice": 383.27
+      },
+      {
+        "date": "2024-11-07",
+        "marketPrice": 412.78
+      },
+      {
+        "date": "2024-11-14",
+        "marketPrice": 414.96
+      },
+      {
+        "date": "2024-11-21",
+        "marketPrice": 411.75
+      },
+      {
+        "date": "2024-11-28",
+        "marketPrice": 410.9
+      },
+      {
+        "date": "2024-12-05",
+        "marketPrice": 423.29
+      },
+      {
+        "date": "2024-12-12",
+        "marketPrice": 418.02
+      },
+      {
+        "date": "2024-12-19",
+        "marketPrice": 422.8
+      },
+      {
+        "date": "2024-12-26",
+        "marketPrice": 429.17
+      },
+      {
+        "date": "2025-01-02",
+        "marketPrice": 435.11
+      },
+      {
+        "date": "2025-01-09",
+        "marketPrice": 442.48
+      },
+      {
+        "date": "2025-01-16",
+        "marketPrice": 442.48
+      },
+      {
+        "date": "2025-01-23",
+        "marketPrice": 442.48
+      },
+      {
+        "date": "2025-01-30",
+        "marketPrice": 418.27
+      },
+      {
+        "date": "2025-02-06",
+        "marketPrice": 441.24
+      },
+      {
+        "date": "2025-02-13",
+        "marketPrice": 440.18
+      },
+      {
+        "date": "2025-02-20",
+        "marketPrice": 446.45
+      },
+      {
+        "date": "2025-02-27",
+        "marketPrice": 378.71
+      },
+      {
+        "date": "2025-03-06",
+        "marketPrice": 449.77
+      },
+      {
+        "date": "2025-03-13",
+        "marketPrice": 453.59
+      },
+      {
+        "date": "2025-03-20",
+        "marketPrice": 462.27
+      },
+      {
+        "date": "2025-03-27",
+        "marketPrice": 461.11
+      },
+      {
+        "date": "2025-04-03",
+        "marketPrice": 459.16
+      },
+      {
+        "date": "2025-04-10",
+        "marketPrice": 460.29
+      },
+      {
+        "date": "2025-04-17",
+        "marketPrice": 441.22
+      },
+      {
+        "date": "2025-04-24",
+        "marketPrice": 451.23
+      },
+      {
+        "date": "2025-05-01",
+        "marketPrice": 450.59
+      },
+      {
+        "date": "2025-05-08",
+        "marketPrice": 450.59
+      },
+      {
+        "date": "2025-05-15",
+        "marketPrice": 454.56
+      },
+      {
+        "date": "2025-05-22",
+        "marketPrice": 469.74
+      },
+      {
+        "date": "2025-05-29",
+        "marketPrice": 494.04
+      },
+      {
+        "date": "2025-06-05",
+        "marketPrice": 462.27
+      },
+      {
+        "date": "2025-06-12",
+        "marketPrice": 470.05
+      },
+      {
+        "date": "2025-06-19",
+        "marketPrice": 462.27
+      },
+      {
+        "date": "2025-06-26",
+        "marketPrice": 453.54
+      },
+      {
+        "date": "2025-07-03",
+        "marketPrice": 453.54
+      },
+      {
+        "date": "2025-07-10",
+        "marketPrice": 455.21
+      },
+      {
+        "date": "2025-07-17",
+        "marketPrice": 450.61
+      },
+      {
+        "date": "2025-07-24",
+        "marketPrice": 450.59
+      },
+      {
+        "date": "2025-07-31",
+        "marketPrice": 450.32
+      },
+      {
+        "date": "2025-08-07",
+        "marketPrice": 455.67
+      },
+      {
+        "date": "2025-08-14",
+        "marketPrice": 457.82
+      },
+      {
+        "date": "2025-08-21",
+        "marketPrice": 463.43
+      },
+      {
+        "date": "2025-08-28",
+        "marketPrice": 461.52
+      },
+      {
+        "date": "2025-09-04",
+        "marketPrice": 461.52
+      },
+      {
+        "date": "2025-09-11",
+        "marketPrice": 460.97
+      },
+      {
+        "date": "2025-09-18",
+        "marketPrice": 455.47
+      },
+      {
+        "date": "2025-09-25",
+        "marketPrice": 456.46
+      },
+      {
+        "date": "2025-10-02",
+        "marketPrice": 456.65
+      },
+      {
+        "date": "2025-10-09",
+        "marketPrice": 457.49
+      },
+      {
+        "date": "2025-10-16",
+        "marketPrice": 457.99
+      },
+      {
+        "date": "2025-10-23",
+        "marketPrice": 460.45
+      },
+      {
+        "date": "2025-10-30",
+        "marketPrice": 460.45
+      },
+      {
+        "date": "2025-11-06",
+        "marketPrice": 460.11
+      },
+      {
+        "date": "2025-11-13",
+        "marketPrice": 458.71
+      },
+      {
+        "date": "2025-11-20",
+        "marketPrice": 455.39
+      },
+      {
+        "date": "2025-11-27",
+        "marketPrice": 455.39
+      },
+      {
+        "date": "2025-12-04",
+        "marketPrice": 463.35
+      },
+      {
+        "date": "2025-12-11",
+        "marketPrice": 459.35
+      },
+      {
+        "date": "2025-12-18",
+        "marketPrice": 457.7
+      },
+      {
+        "date": "2025-12-25",
+        "marketPrice": 481.7
+      },
+      {
+        "date": "2026-01-01",
+        "marketPrice": 483.19
+      },
+      {
+        "date": "2026-01-08",
+        "marketPrice": 483.24
+      },
+      {
+        "date": "2026-01-15",
+        "marketPrice": 461.5
+      },
+      {
+        "date": "2026-01-22",
+        "marketPrice": 462.35
+      },
+      {
+        "date": "2026-01-29",
+        "marketPrice": 461.32
+      },
+      {
+        "date": "2026-02-05",
+        "marketPrice": 468.35
+      },
+      {
+        "date": "2026-02-12",
+        "marketPrice": 467.81
+      },
+      {
+        "date": "2026-02-19",
+        "marketPrice": 473.56
+      },
+      {
+        "date": "2026-02-26",
+        "marketPrice": 515.6
+      },
+      {
+        "date": "2026-03-05",
+        "marketPrice": 522.7
+      },
+      {
+        "date": "2026-03-12",
+        "marketPrice": 492.82
+      },
+      {
+        "date": "2026-03-19",
+        "marketPrice": 488.2
+      },
+      {
+        "date": "2026-03-26",
+        "marketPrice": 494.23
+      },
+      {
+        "date": "2026-04-02",
+        "marketPrice": 496.01
+      },
+      {
+        "date": "2026-04-09",
+        "marketPrice": 500.9
+      },
+      {
+        "date": "2026-04-16",
+        "marketPrice": 553.47
+      },
+      {
+        "date": "2026-04-23",
+        "marketPrice": 555.88
+      },
+      {
+        "date": "2026-04-30",
+        "marketPrice": 555.88
+      },
+      {
+        "date": "2026-05-07",
+        "marketPrice": 561.18
+      },
+      {
+        "date": "2026-05-14",
+        "marketPrice": 579.25
+      },
+      {
+        "date": "2026-05-21",
+        "marketPrice": 595.18
+      },
+      {
+        "date": "2026-05-28",
+        "marketPrice": 556.84
+      },
+      {
+        "date": "2026-06-04",
+        "marketPrice": 572.03
+      },
+      {
+        "date": "2026-06-11",
+        "marketPrice": 619.22
+      },
+      {
+        "date": "2026-06-18",
+        "marketPrice": 630.39
+      },
+      {
+        "date": "2026-06-25",
+        "marketPrice": 644.27
+      },
+      {
+        "date": "2026-07-02",
+        "marketPrice": 720.34
+      },
+      {
+        "date": "2026-07-09",
+        "marketPrice": 728.31
+      },
+      {
+        "date": "2026-07-16",
+        "marketPrice": 773.51
+      },
+      {
+        "date": "2026-07-23",
+        "marketPrice": 800.43
+      },
+      {
+        "date": "2026-07-30",
+        "marketPrice": 800.43
+      },
+      {
+        "date": "2026-08-06",
+        "marketPrice": 818.65
+      },
+      {
+        "date": "2026-08-13",
+        "marketPrice": 825.38
+      }
+    ]
+  },
+  {
+    "cardId": "me05-116",
+    "cardName": "Mega Darkrai ex",
+    "setName": "Pitch Black",
+    "cardNumber": "116",
+    "currentMarketPrice": 214.58,
+    "currentPriceSource": "tcgdex",
+    "groupId": 24688,
+    "productId": 704873,
+    "subType": "Holofoil",
+    "history": []
+  },
+  {
+    "cardId": "sv03.5-199",
+    "cardName": "Charizard ex",
+    "setName": "151",
+    "cardNumber": "199",
+    "currentMarketPrice": 362.96,
+    "currentPriceSource": "tcgdex",
+    "groupId": 23237,
+    "productId": 517045,
+    "subType": "Holofoil",
+    "history": [
+      {
+        "date": "2024-02-08",
+        "marketPrice": 118.65
+      },
+      {
+        "date": "2024-02-15",
+        "marketPrice": 116.26
+      },
+      {
+        "date": "2024-02-22",
+        "marketPrice": 111.26
+      },
+      {
+        "date": "2024-02-29",
+        "marketPrice": 115.4
+      },
+      {
+        "date": "2024-03-07",
+        "marketPrice": 112.88
+      },
+      {
+        "date": "2024-03-14",
+        "marketPrice": 110.82
+      },
+      {
+        "date": "2024-03-21",
+        "marketPrice": 109.79
+      },
+      {
+        "date": "2024-03-28",
+        "marketPrice": 107.16
+      },
+      {
+        "date": "2024-04-04",
+        "marketPrice": 111.42
+      },
+      {
+        "date": "2024-04-11",
+        "marketPrice": 109.39
+      },
+      {
+        "date": "2024-04-18",
+        "marketPrice": 103.53
+      },
+      {
+        "date": "2024-04-25",
+        "marketPrice": 109.48
+      },
+      {
+        "date": "2024-05-02",
+        "marketPrice": 106.62
+      },
+      {
+        "date": "2024-05-09",
+        "marketPrice": 115.66
+      },
+      {
+        "date": "2024-05-16",
+        "marketPrice": 105.26
+      },
+      {
+        "date": "2024-05-23",
+        "marketPrice": 107.92
+      },
+      {
+        "date": "2024-05-30",
+        "marketPrice": 111.31
+      },
+      {
+        "date": "2024-06-06",
+        "marketPrice": 110.2
+      },
+      {
+        "date": "2024-06-13",
+        "marketPrice": 100.94
+      },
+      {
+        "date": "2024-06-20",
+        "marketPrice": 111.67
+      },
+      {
+        "date": "2024-06-27",
+        "marketPrice": 113.66
+      },
+      {
+        "date": "2024-07-04",
+        "marketPrice": 123.61
+      },
+      {
+        "date": "2024-07-11",
+        "marketPrice": 121.92
+      },
+      {
+        "date": "2024-07-18",
+        "marketPrice": 112.59
+      },
+      {
+        "date": "2024-07-25",
+        "marketPrice": 121.02
+      },
+      {
+        "date": "2024-08-01",
+        "marketPrice": 114.87
+      },
+      {
+        "date": "2024-08-08",
+        "marketPrice": 121.37
+      },
+      {
+        "date": "2024-08-15",
+        "marketPrice": 120.72
+      },
+      {
+        "date": "2024-08-22",
+        "marketPrice": 118.91
+      },
+      {
+        "date": "2024-08-29",
+        "marketPrice": 128.2
+      },
+      {
+        "date": "2024-09-05",
+        "marketPrice": 129.31
+      },
+      {
+        "date": "2024-09-12",
+        "marketPrice": 122.12
+      },
+      {
+        "date": "2024-09-19",
+        "marketPrice": 123.68
+      },
+      {
+        "date": "2024-09-26",
+        "marketPrice": 128.19
+      },
+      {
+        "date": "2024-10-03",
+        "marketPrice": 131.47
+      },
+      {
+        "date": "2024-10-10",
+        "marketPrice": 156.76
+      },
+      {
+        "date": "2024-10-17",
+        "marketPrice": 204.7
+      },
+      {
+        "date": "2024-10-24",
+        "marketPrice": 196
+      },
+      {
+        "date": "2024-10-31",
+        "marketPrice": 188.23
+      },
+      {
+        "date": "2024-11-07",
+        "marketPrice": 180.52
+      },
+      {
+        "date": "2024-11-14",
+        "marketPrice": 193.73
+      },
+      {
+        "date": "2024-11-21",
+        "marketPrice": 205.77
+      },
+      {
+        "date": "2024-11-28",
+        "marketPrice": 198.82
+      },
+      {
+        "date": "2024-12-05",
+        "marketPrice": 211.14
+      },
+      {
+        "date": "2024-12-12",
+        "marketPrice": 219.8
+      },
+      {
+        "date": "2024-12-19",
+        "marketPrice": 213.08
+      },
+      {
+        "date": "2024-12-26",
+        "marketPrice": 200.82
+      },
+      {
+        "date": "2025-01-02",
+        "marketPrice": 206.42
+      },
+      {
+        "date": "2025-01-09",
+        "marketPrice": 219.65
+      },
+      {
+        "date": "2025-01-16",
+        "marketPrice": 236.84
+      },
+      {
+        "date": "2025-01-23",
+        "marketPrice": 232.17
+      },
+      {
+        "date": "2025-01-30",
+        "marketPrice": 246.71
+      },
+      {
+        "date": "2025-02-06",
+        "marketPrice": 250.8
+      },
+      {
+        "date": "2025-02-13",
+        "marketPrice": 249.77
+      },
+      {
+        "date": "2025-02-20",
+        "marketPrice": 258.14
+      },
+      {
+        "date": "2025-02-27",
+        "marketPrice": 284.4
+      },
+      {
+        "date": "2025-03-06",
+        "marketPrice": 296.15
+      },
+      {
+        "date": "2025-03-13",
+        "marketPrice": 269.75
+      },
+      {
+        "date": "2025-03-20",
+        "marketPrice": 240.46
+      },
+      {
+        "date": "2025-03-27",
+        "marketPrice": 249.94
+      },
+      {
+        "date": "2025-04-03",
+        "marketPrice": 248.49
+      },
+      {
+        "date": "2025-04-10",
+        "marketPrice": 221.92
+      },
+      {
+        "date": "2025-04-17",
+        "marketPrice": 230.02
+      },
+      {
+        "date": "2025-04-24",
+        "marketPrice": 206.34
+      },
+      {
+        "date": "2025-05-01",
+        "marketPrice": 208.64
+      },
+      {
+        "date": "2025-05-08",
+        "marketPrice": 197.37
+      },
+      {
+        "date": "2025-05-15",
+        "marketPrice": 193.21
+      },
+      {
+        "date": "2025-05-22",
+        "marketPrice": 210.87
+      },
+      {
+        "date": "2025-05-29",
+        "marketPrice": 204.2
+      },
+      {
+        "date": "2025-06-05",
+        "marketPrice": 199.35
+      },
+      {
+        "date": "2025-06-12",
+        "marketPrice": 189.53
+      },
+      {
+        "date": "2025-06-19",
+        "marketPrice": 181.08
+      },
+      {
+        "date": "2025-06-26",
+        "marketPrice": 183.65
+      },
+      {
+        "date": "2025-07-03",
+        "marketPrice": 180.28
+      },
+      {
+        "date": "2025-07-10",
+        "marketPrice": 188.21
+      },
+      {
+        "date": "2025-07-17",
+        "marketPrice": 192.68
+      },
+      {
+        "date": "2025-07-24",
+        "marketPrice": 194.02
+      },
+      {
+        "date": "2025-07-31",
+        "marketPrice": 198.93
+      },
+      {
+        "date": "2025-08-07",
+        "marketPrice": 198.98
+      },
+      {
+        "date": "2025-08-14",
+        "marketPrice": 207.45
+      },
+      {
+        "date": "2025-08-21",
+        "marketPrice": 206.27
+      },
+      {
+        "date": "2025-08-28",
+        "marketPrice": 241.55
+      },
+      {
+        "date": "2025-09-04",
+        "marketPrice": 274.59
+      },
+      {
+        "date": "2025-09-11",
+        "marketPrice": 293.94
+      },
+      {
+        "date": "2025-09-18",
+        "marketPrice": 302.01
+      },
+      {
+        "date": "2025-09-25",
+        "marketPrice": 300.53
+      },
+      {
+        "date": "2025-10-02",
+        "marketPrice": 285.59
+      },
+      {
+        "date": "2025-10-09",
+        "marketPrice": 289.73
+      },
+      {
+        "date": "2025-10-16",
+        "marketPrice": 277.89
+      },
+      {
+        "date": "2025-10-23",
+        "marketPrice": 266.85
+      },
+      {
+        "date": "2025-10-30",
+        "marketPrice": 250.18
+      },
+      {
+        "date": "2025-11-06",
+        "marketPrice": 259.67
+      },
+      {
+        "date": "2025-11-13",
+        "marketPrice": 247.41
+      },
+      {
+        "date": "2025-11-20",
+        "marketPrice": 242.51
+      },
+      {
+        "date": "2025-11-27",
+        "marketPrice": 237.15
+      },
+      {
+        "date": "2025-12-04",
+        "marketPrice": 228.04
+      },
+      {
+        "date": "2025-12-11",
+        "marketPrice": 225.36
+      },
+      {
+        "date": "2025-12-18",
+        "marketPrice": 259.27
+      },
+      {
+        "date": "2025-12-25",
+        "marketPrice": 256.49
+      },
+      {
+        "date": "2026-01-01",
+        "marketPrice": 257.74
+      },
+      {
+        "date": "2026-01-08",
+        "marketPrice": 251.67
+      },
+      {
+        "date": "2026-01-15",
+        "marketPrice": 264.98
+      },
+      {
+        "date": "2026-01-22",
+        "marketPrice": 258.22
+      },
+      {
+        "date": "2026-01-29",
+        "marketPrice": 260.04
+      },
+      {
+        "date": "2026-02-05",
+        "marketPrice": 258.12
+      },
+      {
+        "date": "2026-02-12",
+        "marketPrice": 277.36
+      },
+      {
+        "date": "2026-02-19",
+        "marketPrice": 288.47
+      },
+      {
+        "date": "2026-02-26",
+        "marketPrice": 311.68
+      },
+      {
+        "date": "2026-03-05",
+        "marketPrice": 443.21
+      },
+      {
+        "date": "2026-03-12",
+        "marketPrice": 464.81
+      },
+      {
+        "date": "2026-03-19",
+        "marketPrice": 428.63
+      },
+      {
+        "date": "2026-03-26",
+        "marketPrice": 444.62
+      },
+      {
+        "date": "2026-04-02",
+        "marketPrice": 406.91
+      },
+      {
+        "date": "2026-04-09",
+        "marketPrice": 418.29
+      },
+      {
+        "date": "2026-04-16",
+        "marketPrice": 425.02
+      },
+      {
+        "date": "2026-04-23",
+        "marketPrice": 425.61
+      },
+      {
+        "date": "2026-04-30",
+        "marketPrice": 433.79
+      },
+      {
+        "date": "2026-05-07",
+        "marketPrice": 433.61
+      },
+      {
+        "date": "2026-05-14",
+        "marketPrice": 456.32
+      },
+      {
+        "date": "2026-05-21",
+        "marketPrice": 456.12
+      },
+      {
+        "date": "2026-05-28",
+        "marketPrice": 475.77
+      },
+      {
+        "date": "2026-06-04",
+        "marketPrice": 481.14
+      },
+      {
+        "date": "2026-06-11",
+        "marketPrice": 487
+      },
+      {
+        "date": "2026-06-18",
+        "marketPrice": 471.83
+      },
+      {
+        "date": "2026-06-25",
+        "marketPrice": 438.92
+      },
+      {
+        "date": "2026-07-02",
+        "marketPrice": 421
+      },
+      {
+        "date": "2026-07-09",
+        "marketPrice": 401.92
+      },
+      {
+        "date": "2026-07-16",
+        "marketPrice": 400.04
+      },
+      {
+        "date": "2026-07-23",
+        "marketPrice": 399
+      },
+      {
+        "date": "2026-07-30",
+        "marketPrice": 377.63
+      },
+      {
+        "date": "2026-08-06",
+        "marketPrice": 369.37
+      },
+      {
+        "date": "2026-08-13",
+        "marketPrice": 372.18
+      }
+    ]
+  },
+  {
+    "cardId": "sv02-185",
+    "cardName": "Iono",
+    "setName": "Paldea Evolved",
+    "cardNumber": "185",
+    "currentMarketPrice": 0.34,
+    "currentPriceSource": "tcgdex",
+    "groupId": 23120,
+    "productId": 497557,
+    "subType": null,
+    "history": []
+  },
+  {
+    "cardId": "swsh11-212",
+    "cardName": "Giratina VSTAR",
+    "setName": "Lost Origin",
+    "cardNumber": "212",
+    "currentMarketPrice": 18.46,
+    "currentPriceSource": "tcgdex",
+    "groupId": 3118,
+    "productId": 284167,
+    "subType": "Holofoil",
+    "history": []
+  },
+  {
+    "cardId": "neo1-9",
+    "cardName": "Lugia",
+    "setName": "Neo Genesis",
+    "cardNumber": "9",
+    "currentMarketPrice": 1299.96,
+    "currentPriceSource": "tcgdex",
+    "groupId": 1396,
+    "productId": 86903,
+    "subType": null,
+    "history": []
+  },
+  {
+    "cardId": "ecard3-146",
+    "cardName": "Charizard",
+    "setName": "Skyridge",
+    "cardNumber": "146",
+    "currentMarketPrice": null,
+    "currentPriceSource": "tcgdex",
+    "groupId": 1372,
+    "productId": 84186,
+    "subType": "Reverse Holofoil",
+    "history": []
+  },
+  {
+    "cardId": "sv03.5-205",
+    "cardName": "Mew ex",
+    "setName": "151",
+    "cardNumber": "205",
+    "currentMarketPrice": 30.08,
+    "currentPriceSource": "tcgdex",
+    "groupId": 23237,
+    "productId": 517051,
+    "subType": "Holofoil",
+    "history": [
+      {
+        "date": "2024-02-08",
+        "marketPrice": 8.94
+      },
+      {
+        "date": "2024-02-15",
+        "marketPrice": 8.66
+      },
+      {
+        "date": "2024-02-22",
+        "marketPrice": 8.06
+      },
+      {
+        "date": "2024-02-29",
+        "marketPrice": 8.2
+      },
+      {
+        "date": "2024-03-07",
+        "marketPrice": 7.74
+      },
+      {
+        "date": "2024-03-14",
+        "marketPrice": 7.98
+      },
+      {
+        "date": "2024-03-21",
+        "marketPrice": 7.59
+      },
+      {
+        "date": "2024-03-28",
+        "marketPrice": 7.58
+      },
+      {
+        "date": "2024-04-04",
+        "marketPrice": 7.32
+      },
+      {
+        "date": "2024-04-11",
+        "marketPrice": 8.81
+      },
+      {
+        "date": "2024-04-18",
+        "marketPrice": 7.97
+      },
+      {
+        "date": "2024-04-25",
+        "marketPrice": 7.11
+      },
+      {
+        "date": "2024-05-02",
+        "marketPrice": 7.37
+      },
+      {
+        "date": "2024-05-09",
+        "marketPrice": 7.43
+      },
+      {
+        "date": "2024-05-16",
+        "marketPrice": 7.11
+      },
+      {
+        "date": "2024-05-23",
+        "marketPrice": 6.79
+      },
+      {
+        "date": "2024-05-30",
+        "marketPrice": 6.75
+      },
+      {
+        "date": "2024-06-06",
+        "marketPrice": 6.55
+      },
+      {
+        "date": "2024-06-13",
+        "marketPrice": 6.71
+      },
+      {
+        "date": "2024-06-20",
+        "marketPrice": 7.25
+      },
+      {
+        "date": "2024-06-27",
+        "marketPrice": 6.87
+      },
+      {
+        "date": "2024-07-04",
+        "marketPrice": 6.21
+      },
+      {
+        "date": "2024-07-11",
+        "marketPrice": 6.79
+      },
+      {
+        "date": "2024-07-18",
+        "marketPrice": 6.45
+      },
+      {
+        "date": "2024-07-25",
+        "marketPrice": 6.33
+      },
+      {
+        "date": "2024-08-01",
+        "marketPrice": 6.58
+      },
+      {
+        "date": "2024-08-08",
+        "marketPrice": 6.52
+      },
+      {
+        "date": "2024-08-15",
+        "marketPrice": 7.17
+      },
+      {
+        "date": "2024-08-22",
+        "marketPrice": 7.53
+      },
+      {
+        "date": "2024-08-29",
+        "marketPrice": 7.77
+      },
+      {
+        "date": "2024-09-05",
+        "marketPrice": 7.38
+      },
+      {
+        "date": "2024-09-12",
+        "marketPrice": 7.09
+      },
+      {
+        "date": "2024-09-19",
+        "marketPrice": 7.56
+      },
+      {
+        "date": "2024-09-26",
+        "marketPrice": 7.7
+      },
+      {
+        "date": "2024-10-03",
+        "marketPrice": 8.1
+      },
+      {
+        "date": "2024-10-10",
+        "marketPrice": 7.07
+      },
+      {
+        "date": "2024-10-17",
+        "marketPrice": 8.83
+      },
+      {
+        "date": "2024-10-24",
+        "marketPrice": 7.63
+      },
+      {
+        "date": "2024-10-31",
+        "marketPrice": 8.85
+      },
+      {
+        "date": "2024-11-07",
+        "marketPrice": 8.01
+      },
+      {
+        "date": "2024-11-14",
+        "marketPrice": 9.21
+      },
+      {
+        "date": "2024-11-21",
+        "marketPrice": 10.4
+      },
+      {
+        "date": "2024-11-28",
+        "marketPrice": 10.38
+      },
+      {
+        "date": "2024-12-05",
+        "marketPrice": 10.37
+      },
+      {
+        "date": "2024-12-12",
+        "marketPrice": 10.68
+      },
+      {
+        "date": "2024-12-19",
+        "marketPrice": 11.2
+      },
+      {
+        "date": "2024-12-26",
+        "marketPrice": 12.71
+      },
+      {
+        "date": "2025-01-02",
+        "marketPrice": 13.44
+      },
+      {
+        "date": "2025-01-09",
+        "marketPrice": 12.55
+      },
+      {
+        "date": "2025-01-16",
+        "marketPrice": 14.15
+      },
+      {
+        "date": "2025-01-23",
+        "marketPrice": 14.8
+      },
+      {
+        "date": "2025-01-30",
+        "marketPrice": 15.35
+      },
+      {
+        "date": "2025-02-06",
+        "marketPrice": 15.42
+      },
+      {
+        "date": "2025-02-13",
+        "marketPrice": 14.46
+      },
+      {
+        "date": "2025-02-20",
+        "marketPrice": 14.97
+      },
+      {
+        "date": "2025-02-27",
+        "marketPrice": 14.61
+      },
+      {
+        "date": "2025-03-06",
+        "marketPrice": 14.76
+      },
+      {
+        "date": "2025-03-13",
+        "marketPrice": 13.78
+      },
+      {
+        "date": "2025-03-20",
+        "marketPrice": 14.02
+      },
+      {
+        "date": "2025-03-27",
+        "marketPrice": 12.41
+      },
+      {
+        "date": "2025-04-03",
+        "marketPrice": 13.46
+      },
+      {
+        "date": "2025-04-10",
+        "marketPrice": 11.43
+      },
+      {
+        "date": "2025-04-17",
+        "marketPrice": 11.28
+      },
+      {
+        "date": "2025-04-24",
+        "marketPrice": 10.93
+      },
+      {
+        "date": "2025-05-01",
+        "marketPrice": 12.32
+      },
+      {
+        "date": "2025-05-08",
+        "marketPrice": 12.77
+      },
+      {
+        "date": "2025-05-15",
+        "marketPrice": 12.68
+      },
+      {
+        "date": "2025-05-22",
+        "marketPrice": 12.94
+      },
+      {
+        "date": "2025-05-29",
+        "marketPrice": 12.71
+      },
+      {
+        "date": "2025-06-05",
+        "marketPrice": 11.91
+      },
+      {
+        "date": "2025-06-12",
+        "marketPrice": 12.72
+      },
+      {
+        "date": "2025-06-19",
+        "marketPrice": 11.26
+      },
+      {
+        "date": "2025-06-26",
+        "marketPrice": 10.82
+      },
+      {
+        "date": "2025-07-03",
+        "marketPrice": 10.86
+      },
+      {
+        "date": "2025-07-10",
+        "marketPrice": 11.2
+      },
+      {
+        "date": "2025-07-17",
+        "marketPrice": 11.27
+      },
+      {
+        "date": "2025-07-24",
+        "marketPrice": 11.74
+      },
+      {
+        "date": "2025-07-31",
+        "marketPrice": 11.41
+      },
+      {
+        "date": "2025-08-07",
+        "marketPrice": 12.89
+      },
+      {
+        "date": "2025-08-14",
+        "marketPrice": 13.53
+      },
+      {
+        "date": "2025-08-21",
+        "marketPrice": 14.65
+      },
+      {
+        "date": "2025-08-28",
+        "marketPrice": 14.83
+      },
+      {
+        "date": "2025-09-04",
+        "marketPrice": 15.35
+      },
+      {
+        "date": "2025-09-11",
+        "marketPrice": 15.23
+      },
+      {
+        "date": "2025-09-18",
+        "marketPrice": 17.22
+      },
+      {
+        "date": "2025-09-25",
+        "marketPrice": 17.48
+      },
+      {
+        "date": "2025-10-02",
+        "marketPrice": 16.97
+      },
+      {
+        "date": "2025-10-09",
+        "marketPrice": 17.69
+      },
+      {
+        "date": "2025-10-16",
+        "marketPrice": 18.5
+      },
+      {
+        "date": "2025-10-23",
+        "marketPrice": 18.31
+      },
+      {
+        "date": "2025-10-30",
+        "marketPrice": 17.11
+      },
+      {
+        "date": "2025-11-06",
+        "marketPrice": 16.7
+      },
+      {
+        "date": "2025-11-13",
+        "marketPrice": 16.92
+      },
+      {
+        "date": "2025-11-20",
+        "marketPrice": 13.66
+      },
+      {
+        "date": "2025-11-27",
+        "marketPrice": 14.97
+      },
+      {
+        "date": "2025-12-04",
+        "marketPrice": 14.9
+      },
+      {
+        "date": "2025-12-11",
+        "marketPrice": 15.77
+      },
+      {
+        "date": "2025-12-18",
+        "marketPrice": 14.92
+      },
+      {
+        "date": "2025-12-25",
+        "marketPrice": 16.42
+      },
+      {
+        "date": "2026-01-01",
+        "marketPrice": 15.6
+      },
+      {
+        "date": "2026-01-08",
+        "marketPrice": 17.56
+      },
+      {
+        "date": "2026-01-15",
+        "marketPrice": 18.41
+      },
+      {
+        "date": "2026-01-22",
+        "marketPrice": 18.38
+      },
+      {
+        "date": "2026-01-29",
+        "marketPrice": 17.9
+      },
+      {
+        "date": "2026-02-05",
+        "marketPrice": 17.36
+      },
+      {
+        "date": "2026-02-12",
+        "marketPrice": 18.99
+      },
+      {
+        "date": "2026-02-19",
+        "marketPrice": 18.86
+      },
+      {
+        "date": "2026-02-26",
+        "marketPrice": 20.6
+      },
+      {
+        "date": "2026-03-05",
+        "marketPrice": 22.24
+      },
+      {
+        "date": "2026-03-12",
+        "marketPrice": 27.01
+      },
+      {
+        "date": "2026-03-19",
+        "marketPrice": 29.13
+      },
+      {
+        "date": "2026-03-26",
+        "marketPrice": 28.1
+      },
+      {
+        "date": "2026-04-02",
+        "marketPrice": 30.03
+      },
+      {
+        "date": "2026-04-09",
+        "marketPrice": 31.61
+      },
+      {
+        "date": "2026-04-16",
+        "marketPrice": 29.63
+      },
+      {
+        "date": "2026-04-23",
+        "marketPrice": 28.67
+      },
+      {
+        "date": "2026-04-30",
+        "marketPrice": 30.29
+      },
+      {
+        "date": "2026-05-07",
+        "marketPrice": 33.14
+      },
+      {
+        "date": "2026-05-14",
+        "marketPrice": 44.5
+      },
+      {
+        "date": "2026-05-21",
+        "marketPrice": 38.09
+      },
+      {
+        "date": "2026-05-28",
+        "marketPrice": 35.68
+      },
+      {
+        "date": "2026-06-04",
+        "marketPrice": 34.76
+      },
+      {
+        "date": "2026-06-11",
+        "marketPrice": 33.96
+      },
+      {
+        "date": "2026-06-18",
+        "marketPrice": 34.62
+      },
+      {
+        "date": "2026-06-25",
+        "marketPrice": 33.94
+      },
+      {
+        "date": "2026-07-02",
+        "marketPrice": 31.22
+      },
+      {
+        "date": "2026-07-09",
+        "marketPrice": 30.74
+      },
+      {
+        "date": "2026-07-16",
+        "marketPrice": 26.49
+      },
+      {
+        "date": "2026-07-23",
+        "marketPrice": 27.29
+      },
+      {
+        "date": "2026-07-30",
+        "marketPrice": 29.43
+      },
+      {
+        "date": "2026-08-06",
+        "marketPrice": 29.1
+      },
+      {
+        "date": "2026-08-13",
+        "marketPrice": 30.22
+      }
+    ]
+  },
+  {
+    "cardId": "gym2-2",
+    "cardName": "Blaine's Charizard",
+    "setName": "Gym Challenge",
+    "cardNumber": "2",
+    "currentMarketPrice": 699.99,
+    "currentPriceSource": "tcgdex",
+    "groupId": 1440,
+    "productId": 83861,
+    "subType": null,
+    "history": []
+  },
+  {
+    "cardId": "swsh3.5-74",
+    "cardName": "Charizard VMAX",
+    "setName": "Champion's Path",
+    "cardNumber": "74",
+    "currentMarketPrice": 235.54,
+    "currentPriceSource": "tcgdex",
+    "groupId": 2685,
+    "productId": 223073,
+    "subType": "Holofoil",
+    "history": []
+  },
+  {
+    "cardId": "xy12-11",
+    "cardName": "Charizard",
+    "setName": "Evolutions",
+    "cardNumber": "11",
+    "currentMarketPrice": 104.25,
+    "currentPriceSource": "tcgdex",
+    "groupId": 1842,
+    "productId": 124026,
+    "subType": "Holofoil",
+    "history": []
+  },
+  {
+    "cardId": "base1-58",
+    "cardName": "Pikachu",
+    "setName": "Base Set",
+    "cardNumber": "58",
+    "currentMarketPrice": 16.84,
+    "currentPriceSource": "tcgdex",
+    "groupId": 604,
+    "productId": 42402,
+    "subType": "Normal",
+    "history": [
+      {
+        "date": "2024-02-08",
+        "marketPrice": 2.69
+      },
+      {
+        "date": "2024-02-15",
+        "marketPrice": 1.91
+      },
+      {
+        "date": "2024-02-22",
+        "marketPrice": 2.23
+      },
+      {
+        "date": "2024-02-29",
+        "marketPrice": 2.2
+      },
+      {
+        "date": "2024-03-07",
+        "marketPrice": 1.89
+      },
+      {
+        "date": "2024-03-14",
+        "marketPrice": 2.06
+      },
+      {
+        "date": "2024-03-21",
+        "marketPrice": 2.48
+      },
+      {
+        "date": "2024-03-28",
+        "marketPrice": 2.08
+      },
+      {
+        "date": "2024-04-04",
+        "marketPrice": 1.79
+      },
+      {
+        "date": "2024-04-11",
+        "marketPrice": 2.23
+      },
+      {
+        "date": "2024-04-18",
+        "marketPrice": 2.43
+      },
+      {
+        "date": "2024-04-25",
+        "marketPrice": 2.43
+      },
+      {
+        "date": "2024-05-02",
+        "marketPrice": 3.26
+      },
+      {
+        "date": "2024-05-09",
+        "marketPrice": 3.7
+      },
+      {
+        "date": "2024-05-16",
+        "marketPrice": 3.48
+      },
+      {
+        "date": "2024-05-23",
+        "marketPrice": 3.18
+      },
+      {
+        "date": "2024-05-30",
+        "marketPrice": 3.46
+      },
+      {
+        "date": "2024-06-06",
+        "marketPrice": 3.75
+      },
+      {
+        "date": "2024-06-13",
+        "marketPrice": 3.58
+      },
+      {
+        "date": "2024-06-20",
+        "marketPrice": 2.64
+      },
+      {
+        "date": "2024-06-27",
+        "marketPrice": 2.27
+      },
+      {
+        "date": "2024-07-04",
+        "marketPrice": 3.65
+      },
+      {
+        "date": "2024-07-11",
+        "marketPrice": 3.32
+      },
+      {
+        "date": "2024-07-18",
+        "marketPrice": 3.33
+      },
+      {
+        "date": "2024-07-25",
+        "marketPrice": 2.96
+      },
+      {
+        "date": "2024-08-01",
+        "marketPrice": 2.92
+      },
+      {
+        "date": "2024-08-08",
+        "marketPrice": 2.45
+      },
+      {
+        "date": "2024-08-15",
+        "marketPrice": 2.7
+      },
+      {
+        "date": "2024-08-22",
+        "marketPrice": 2.64
+      },
+      {
+        "date": "2024-08-29",
+        "marketPrice": 3.77
+      },
+      {
+        "date": "2024-09-05",
+        "marketPrice": 4.29
+      },
+      {
+        "date": "2024-09-12",
+        "marketPrice": 2.8
+      },
+      {
+        "date": "2024-09-19",
+        "marketPrice": 3.37
+      },
+      {
+        "date": "2024-09-26",
+        "marketPrice": 3.58
+      },
+      {
+        "date": "2024-10-03",
+        "marketPrice": 2.25
+      },
+      {
+        "date": "2024-10-10",
+        "marketPrice": 2.16
+      },
+      {
+        "date": "2024-10-17",
+        "marketPrice": 2.31
+      },
+      {
+        "date": "2024-10-24",
+        "marketPrice": 2.62
+      },
+      {
+        "date": "2024-10-31",
+        "marketPrice": 2.47
+      },
+      {
+        "date": "2024-11-07",
+        "marketPrice": 2.35
+      },
+      {
+        "date": "2024-11-14",
+        "marketPrice": 2.45
+      },
+      {
+        "date": "2024-11-21",
+        "marketPrice": 1.72
+      },
+      {
+        "date": "2024-11-28",
+        "marketPrice": 2.52
+      },
+      {
+        "date": "2024-12-05",
+        "marketPrice": 2.15
+      },
+      {
+        "date": "2024-12-12",
+        "marketPrice": 2.31
+      },
+      {
+        "date": "2024-12-19",
+        "marketPrice": 2.36
+      },
+      {
+        "date": "2024-12-26",
+        "marketPrice": 2.3
+      },
+      {
+        "date": "2025-01-02",
+        "marketPrice": 2.33
+      },
+      {
+        "date": "2025-01-09",
+        "marketPrice": 3.26
+      },
+      {
+        "date": "2025-01-16",
+        "marketPrice": 3.15
+      },
+      {
+        "date": "2025-01-23",
+        "marketPrice": 3.35
+      },
+      {
+        "date": "2025-01-30",
+        "marketPrice": 3.55
+      },
+      {
+        "date": "2025-02-06",
+        "marketPrice": 3.6
+      },
+      {
+        "date": "2025-02-13",
+        "marketPrice": 4.09
+      },
+      {
+        "date": "2025-02-20",
+        "marketPrice": 3.6
+      },
+      {
+        "date": "2025-02-27",
+        "marketPrice": 2.76
+      },
+      {
+        "date": "2025-03-06",
+        "marketPrice": 2.93
+      },
+      {
+        "date": "2025-03-13",
+        "marketPrice": 2.91
+      },
+      {
+        "date": "2025-03-20",
+        "marketPrice": 3.05
+      },
+      {
+        "date": "2025-03-27",
+        "marketPrice": 3.41
+      },
+      {
+        "date": "2025-04-03",
+        "marketPrice": 2.98
+      },
+      {
+        "date": "2025-04-10",
+        "marketPrice": 3.9
+      },
+      {
+        "date": "2025-04-17",
+        "marketPrice": 4.12
+      },
+      {
+        "date": "2025-04-24",
+        "marketPrice": 3.21
+      },
+      {
+        "date": "2025-05-01",
+        "marketPrice": 3.23
+      },
+      {
+        "date": "2025-05-08",
+        "marketPrice": 3.45
+      },
+      {
+        "date": "2025-05-15",
+        "marketPrice": 3.47
+      },
+      {
+        "date": "2025-05-22",
+        "marketPrice": 3.17
+      },
+      {
+        "date": "2025-05-29",
+        "marketPrice": 3.07
+      },
+      {
+        "date": "2025-06-05",
+        "marketPrice": 3.01
+      },
+      {
+        "date": "2025-06-12",
+        "marketPrice": 3.01
+      },
+      {
+        "date": "2025-06-19",
+        "marketPrice": 3.08
+      },
+      {
+        "date": "2025-06-26",
+        "marketPrice": 2.82
+      },
+      {
+        "date": "2025-07-03",
+        "marketPrice": 2.75
+      },
+      {
+        "date": "2025-07-10",
+        "marketPrice": 2.85
+      },
+      {
+        "date": "2025-07-17",
+        "marketPrice": 2.95
+      },
+      {
+        "date": "2025-07-24",
+        "marketPrice": 2.81
+      },
+      {
+        "date": "2025-07-31",
+        "marketPrice": 2.75
+      },
+      {
+        "date": "2025-08-07",
+        "marketPrice": 3.29
+      },
+      {
+        "date": "2025-08-14",
+        "marketPrice": 2.75
+      },
+      {
+        "date": "2025-08-21",
+        "marketPrice": 3.12
+      },
+      {
+        "date": "2025-08-28",
+        "marketPrice": 2.7
+      },
+      {
+        "date": "2025-09-04",
+        "marketPrice": 2.83
+      },
+      {
+        "date": "2025-09-11",
+        "marketPrice": 3.39
+      },
+      {
+        "date": "2025-09-18",
+        "marketPrice": 3.4
+      },
+      {
+        "date": "2025-09-25",
+        "marketPrice": 2.97
+      },
+      {
+        "date": "2025-10-02",
+        "marketPrice": 3.28
+      },
+      {
+        "date": "2025-10-09",
+        "marketPrice": 2.97
+      },
+      {
+        "date": "2025-10-16",
+        "marketPrice": 3.08
+      },
+      {
+        "date": "2025-10-23",
+        "marketPrice": 3.22
+      },
+      {
+        "date": "2025-10-30",
+        "marketPrice": 3.54
+      },
+      {
+        "date": "2025-11-06",
+        "marketPrice": 3.83
+      },
+      {
+        "date": "2025-11-13",
+        "marketPrice": 3.63
+      },
+      {
+        "date": "2025-11-20",
+        "marketPrice": 3.84
+      },
+      {
+        "date": "2025-11-27",
+        "marketPrice": 3.87
+      },
+      {
+        "date": "2025-12-04",
+        "marketPrice": 3.72
+      },
+      {
+        "date": "2025-12-11",
+        "marketPrice": 4.5
+      },
+      {
+        "date": "2025-12-18",
+        "marketPrice": 4.42
+      },
+      {
+        "date": "2025-12-25",
+        "marketPrice": 3.95
+      },
+      {
+        "date": "2026-01-01",
+        "marketPrice": 3.97
+      },
+      {
+        "date": "2026-01-08",
+        "marketPrice": 4.37
+      },
+      {
+        "date": "2026-01-15",
+        "marketPrice": 3.64
+      },
+      {
+        "date": "2026-01-22",
+        "marketPrice": 4.02
+      },
+      {
+        "date": "2026-01-29",
+        "marketPrice": 4.05
+      },
+      {
+        "date": "2026-02-05",
+        "marketPrice": 4.2
+      },
+      {
+        "date": "2026-02-12",
+        "marketPrice": 4.94
+      },
+      {
+        "date": "2026-02-19",
+        "marketPrice": 4.92
+      },
+      {
+        "date": "2026-02-26",
+        "marketPrice": 4.81
+      },
+      {
+        "date": "2026-03-05",
+        "marketPrice": 5.63
+      },
+      {
+        "date": "2026-03-12",
+        "marketPrice": 5.12
+      },
+      {
+        "date": "2026-03-19",
+        "marketPrice": 5.82
+      },
+      {
+        "date": "2026-03-26",
+        "marketPrice": 4.93
+      },
+      {
+        "date": "2026-04-02",
+        "marketPrice": 4.98
+      },
+      {
+        "date": "2026-04-09",
+        "marketPrice": 5.64
+      },
+      {
+        "date": "2026-04-16",
+        "marketPrice": 5.71
+      },
+      {
+        "date": "2026-04-23",
+        "marketPrice": 5.72
+      },
+      {
+        "date": "2026-04-30",
+        "marketPrice": 6.25
+      },
+      {
+        "date": "2026-05-07",
+        "marketPrice": 9.91
+      },
+      {
+        "date": "2026-05-14",
+        "marketPrice": 6.62
+      },
+      {
+        "date": "2026-05-21",
+        "marketPrice": 7.2
+      },
+      {
+        "date": "2026-05-28",
+        "marketPrice": 7.16
+      },
+      {
+        "date": "2026-06-04",
+        "marketPrice": 7.67
+      },
+      {
+        "date": "2026-06-11",
+        "marketPrice": 7.24
+      },
+      {
+        "date": "2026-06-18",
+        "marketPrice": 6.47
+      },
+      {
+        "date": "2026-06-25",
+        "marketPrice": 7.43
+      },
+      {
+        "date": "2026-07-02",
+        "marketPrice": 7.99
+      },
+      {
+        "date": "2026-07-09",
+        "marketPrice": 6.56
+      },
+      {
+        "date": "2026-07-16",
+        "marketPrice": 7.63
+      },
+      {
+        "date": "2026-07-23",
+        "marketPrice": 7.84
+      },
+      {
+        "date": "2026-07-30",
+        "marketPrice": 7.35
+      },
+      {
+        "date": "2026-08-06",
+        "marketPrice": 11
+      },
+      {
+        "date": "2026-08-13",
+        "marketPrice": 15.71
+      }
+    ]
+  },
+  {
+    "cardId": "base3-5",
+    "cardName": "Gengar",
+    "setName": "Fossil",
+    "cardNumber": "5",
+    "currentMarketPrice": 601.49,
+    "currentPriceSource": "tcgdex",
+    "groupId": 630,
+    "productId": 106521,
+    "subType": null,
+    "history": []
+  },
+  {
+    "cardId": "neo4-107",
+    "cardName": "Shining Charizard",
+    "setName": "Neo Destiny",
+    "cardNumber": "107",
+    "currentMarketPrice": 1495,
+    "currentPriceSource": "tcgdex",
+    "groupId": 1444,
+    "productId": 89163,
+    "subType": null,
+    "history": []
+  },
+  {
+    "cardId": "swsh9tg-TG02",
+    "cardName": "Vaporeon",
+    "setName": "Brilliant Stars Trainer Gallery",
+    "cardNumber": "TG02",
+    "currentMarketPrice": 23.4,
+    "currentPriceSource": "tcgcsv",
+    "groupId": 3020,
+    "productId": 264211,
+    "subType": "Holofoil",
+    "history": []
+  },
+  {
+    "cardId": "swsh7-211",
+    "cardName": "Sylveon VMAX",
+    "setName": "Evolving Skies",
+    "cardNumber": "211",
+    "currentMarketPrice": 61.76,
+    "currentPriceSource": "tcgdex",
+    "groupId": 2848,
+    "productId": 246702,
+    "subType": "Holofoil",
+    "history": [
+      {
+        "date": "2024-02-08",
+        "marketPrice": 20.78
+      },
+      {
+        "date": "2024-02-15",
+        "marketPrice": 21.11
+      },
+      {
+        "date": "2024-02-22",
+        "marketPrice": 21.2
+      },
+      {
+        "date": "2024-02-29",
+        "marketPrice": 21.29
+      },
+      {
+        "date": "2024-03-07",
+        "marketPrice": 22
+      },
+      {
+        "date": "2024-03-14",
+        "marketPrice": 22.61
+      },
+      {
+        "date": "2024-03-21",
+        "marketPrice": 21.13
+      },
+      {
+        "date": "2024-03-28",
+        "marketPrice": 23.1
+      },
+      {
+        "date": "2024-04-04",
+        "marketPrice": 24.59
+      },
+      {
+        "date": "2024-04-11",
+        "marketPrice": 25.59
+      },
+      {
+        "date": "2024-04-18",
+        "marketPrice": 32.01
+      },
+      {
+        "date": "2024-04-25",
+        "marketPrice": 37.21
+      },
+      {
+        "date": "2024-05-02",
+        "marketPrice": 41.4
+      },
+      {
+        "date": "2024-05-09",
+        "marketPrice": 44.62
+      },
+      {
+        "date": "2024-05-16",
+        "marketPrice": 51.89
+      },
+      {
+        "date": "2024-05-23",
+        "marketPrice": 47.29
+      },
+      {
+        "date": "2024-05-30",
+        "marketPrice": 43.56
+      },
+      {
+        "date": "2024-06-06",
+        "marketPrice": 54.01
+      },
+      {
+        "date": "2024-06-13",
+        "marketPrice": 59.91
+      },
+      {
+        "date": "2024-06-20",
+        "marketPrice": 59.51
+      },
+      {
+        "date": "2024-06-27",
+        "marketPrice": 53.7
+      },
+      {
+        "date": "2024-07-04",
+        "marketPrice": 52.65
+      },
+      {
+        "date": "2024-07-11",
+        "marketPrice": 49.68
+      },
+      {
+        "date": "2024-07-18",
+        "marketPrice": 48.04
+      },
+      {
+        "date": "2024-07-25",
+        "marketPrice": 45.37
+      },
+      {
+        "date": "2024-08-01",
+        "marketPrice": 44.83
+      },
+      {
+        "date": "2024-08-08",
+        "marketPrice": 43.07
+      },
+      {
+        "date": "2024-08-15",
+        "marketPrice": 42.15
+      },
+      {
+        "date": "2024-08-22",
+        "marketPrice": 41.57
+      },
+      {
+        "date": "2024-08-29",
+        "marketPrice": 40.7
+      },
+      {
+        "date": "2024-09-05",
+        "marketPrice": 40.16
+      },
+      {
+        "date": "2024-09-12",
+        "marketPrice": 39.42
+      },
+      {
+        "date": "2024-09-19",
+        "marketPrice": 39.42
+      },
+      {
+        "date": "2024-09-26",
+        "marketPrice": 39.51
+      },
+      {
+        "date": "2024-10-03",
+        "marketPrice": 39.57
+      },
+      {
+        "date": "2024-10-10",
+        "marketPrice": 39.68
+      },
+      {
+        "date": "2024-10-17",
+        "marketPrice": 38.77
+      },
+      {
+        "date": "2024-10-24",
+        "marketPrice": 38.7
+      },
+      {
+        "date": "2024-10-31",
+        "marketPrice": 38.95
+      },
+      {
+        "date": "2024-11-07",
+        "marketPrice": 40.44
+      },
+      {
+        "date": "2024-11-14",
+        "marketPrice": 41.71
+      },
+      {
+        "date": "2024-11-21",
+        "marketPrice": 41.87
+      },
+      {
+        "date": "2024-11-28",
+        "marketPrice": 41.34
+      },
+      {
+        "date": "2024-12-05",
+        "marketPrice": 39.69
+      },
+      {
+        "date": "2024-12-12",
+        "marketPrice": 39.69
+      },
+      {
+        "date": "2024-12-19",
+        "marketPrice": 39.82
+      },
+      {
+        "date": "2024-12-26",
+        "marketPrice": 39.85
+      },
+      {
+        "date": "2025-01-02",
+        "marketPrice": 39.78
+      },
+      {
+        "date": "2025-01-09",
+        "marketPrice": 39.83
+      },
+      {
+        "date": "2025-01-16",
+        "marketPrice": 39.94
+      },
+      {
+        "date": "2025-01-23",
+        "marketPrice": 40.15
+      },
+      {
+        "date": "2025-01-30",
+        "marketPrice": 43.35
+      },
+      {
+        "date": "2025-02-06",
+        "marketPrice": 42.2
+      },
+      {
+        "date": "2025-02-13",
+        "marketPrice": 43.61
+      },
+      {
+        "date": "2025-02-20",
+        "marketPrice": 41.58
+      },
+      {
+        "date": "2025-02-27",
+        "marketPrice": 40.56
+      },
+      {
+        "date": "2025-03-06",
+        "marketPrice": 40.98
+      },
+      {
+        "date": "2025-03-13",
+        "marketPrice": 42.4
+      },
+      {
+        "date": "2025-03-20",
+        "marketPrice": 42.37
+      },
+      {
+        "date": "2025-03-27",
+        "marketPrice": 42.9
+      },
+      {
+        "date": "2025-04-03",
+        "marketPrice": 44.61
+      },
+      {
+        "date": "2025-04-10",
+        "marketPrice": 44.22
+      },
+      {
+        "date": "2025-04-17",
+        "marketPrice": 43.55
+      },
+      {
+        "date": "2025-04-24",
+        "marketPrice": 42.7
+      },
+      {
+        "date": "2025-05-01",
+        "marketPrice": 42.91
+      },
+      {
+        "date": "2025-05-08",
+        "marketPrice": 41.36
+      },
+      {
+        "date": "2025-05-15",
+        "marketPrice": 43.02
+      },
+      {
+        "date": "2025-05-22",
+        "marketPrice": 43.34
+      },
+      {
+        "date": "2025-05-29",
+        "marketPrice": 43.21
+      },
+      {
+        "date": "2025-06-05",
+        "marketPrice": 43.92
+      },
+      {
+        "date": "2025-06-12",
+        "marketPrice": 42.56
+      },
+      {
+        "date": "2025-06-19",
+        "marketPrice": 42.93
+      },
+      {
+        "date": "2025-06-26",
+        "marketPrice": 42.9
+      },
+      {
+        "date": "2025-07-03",
+        "marketPrice": 41.58
+      },
+      {
+        "date": "2025-07-10",
+        "marketPrice": 41.44
+      },
+      {
+        "date": "2025-07-17",
+        "marketPrice": 40.41
+      },
+      {
+        "date": "2025-07-24",
+        "marketPrice": 38.23
+      },
+      {
+        "date": "2025-07-31",
+        "marketPrice": 36.92
+      },
+      {
+        "date": "2025-08-07",
+        "marketPrice": 36.67
+      },
+      {
+        "date": "2025-08-14",
+        "marketPrice": 36.89
+      },
+      {
+        "date": "2025-08-21",
+        "marketPrice": 37.85
+      },
+      {
+        "date": "2025-08-28",
+        "marketPrice": 40.1
+      },
+      {
+        "date": "2025-09-04",
+        "marketPrice": 40.51
+      },
+      {
+        "date": "2025-09-11",
+        "marketPrice": 41.66
+      },
+      {
+        "date": "2025-09-18",
+        "marketPrice": 42.38
+      },
+      {
+        "date": "2025-09-25",
+        "marketPrice": 43.36
+      },
+      {
+        "date": "2025-10-02",
+        "marketPrice": 44.13
+      },
+      {
+        "date": "2025-10-09",
+        "marketPrice": 44.27
+      },
+      {
+        "date": "2025-10-16",
+        "marketPrice": 44.09
+      },
+      {
+        "date": "2025-10-23",
+        "marketPrice": 44.26
+      },
+      {
+        "date": "2025-10-30",
+        "marketPrice": 44.94
+      },
+      {
+        "date": "2025-11-06",
+        "marketPrice": 44.76
+      },
+      {
+        "date": "2025-11-13",
+        "marketPrice": 45.37
+      },
+      {
+        "date": "2025-11-20",
+        "marketPrice": 46.07
+      },
+      {
+        "date": "2025-11-27",
+        "marketPrice": 45.42
+      },
+      {
+        "date": "2025-12-04",
+        "marketPrice": 45.56
+      },
+      {
+        "date": "2025-12-11",
+        "marketPrice": 47.68
+      },
+      {
+        "date": "2025-12-18",
+        "marketPrice": 48.09
+      },
+      {
+        "date": "2025-12-25",
+        "marketPrice": 49.68
+      },
+      {
+        "date": "2026-01-01",
+        "marketPrice": 50
+      },
+      {
+        "date": "2026-01-08",
+        "marketPrice": 49.86
+      },
+      {
+        "date": "2026-01-15",
+        "marketPrice": 50.22
+      },
+      {
+        "date": "2026-01-22",
+        "marketPrice": 50.54
+      },
+      {
+        "date": "2026-01-29",
+        "marketPrice": 50.07
+      },
+      {
+        "date": "2026-02-05",
+        "marketPrice": 51.82
+      },
+      {
+        "date": "2026-02-12",
+        "marketPrice": 50.86
+      },
+      {
+        "date": "2026-02-19",
+        "marketPrice": 50.13
+      },
+      {
+        "date": "2026-02-26",
+        "marketPrice": 50.89
+      },
+      {
+        "date": "2026-03-05",
+        "marketPrice": 50.46
+      },
+      {
+        "date": "2026-03-12",
+        "marketPrice": 50.95
+      },
+      {
+        "date": "2026-03-19",
+        "marketPrice": 51.24
+      },
+      {
+        "date": "2026-03-26",
+        "marketPrice": 51.14
+      },
+      {
+        "date": "2026-04-02",
+        "marketPrice": 51.53
+      },
+      {
+        "date": "2026-04-09",
+        "marketPrice": 50.71
+      },
+      {
+        "date": "2026-04-16",
+        "marketPrice": 52.2
+      },
+      {
+        "date": "2026-04-23",
+        "marketPrice": 52.08
+      },
+      {
+        "date": "2026-04-30",
+        "marketPrice": 52.68
+      },
+      {
+        "date": "2026-05-07",
+        "marketPrice": 53.48
+      },
+      {
+        "date": "2026-05-14",
+        "marketPrice": 53.48
+      },
+      {
+        "date": "2026-05-21",
+        "marketPrice": 54.96
+      },
+      {
+        "date": "2026-05-28",
+        "marketPrice": 55.37
+      },
+      {
+        "date": "2026-06-04",
+        "marketPrice": 56.04
+      },
+      {
+        "date": "2026-06-11",
+        "marketPrice": 56.2
+      },
+      {
+        "date": "2026-06-18",
+        "marketPrice": 57.14
+      },
+      {
+        "date": "2026-06-25",
+        "marketPrice": 57.19
+      },
+      {
+        "date": "2026-07-02",
+        "marketPrice": 57.07
+      },
+      {
+        "date": "2026-07-09",
+        "marketPrice": 58.26
+      },
+      {
+        "date": "2026-07-16",
+        "marketPrice": 58.51
+      },
+      {
+        "date": "2026-07-23",
+        "marketPrice": 59.3
+      },
+      {
+        "date": "2026-07-30",
+        "marketPrice": 58.71
+      },
+      {
+        "date": "2026-08-06",
+        "marketPrice": 59.16
+      },
+      {
+        "date": "2026-08-13",
+        "marketPrice": 59.7
+      }
+    ]
+  },
+  {
+    "cardId": "sm7-177",
+    "cardName": "Rayquaza GX",
+    "setName": "Celestial Storm",
+    "cardNumber": "177",
+    "currentMarketPrice": 305.13,
+    "currentPriceSource": "tcgdex",
+    "groupId": 2278,
+    "productId": 170938,
+    "subType": "Holofoil",
+    "history": []
+  },
+  {
+    "cardId": "base1-8",
+    "cardName": "Machamp",
+    "setName": "Base Set",
+    "cardNumber": "8",
+    "currentMarketPrice": null,
+    "currentPriceSource": null,
+    "groupId": null,
+    "productId": null,
+    "subType": null,
+    "history": []
+  },
+  {
+    "cardId": "swsh9-184",
+    "cardName": "Arceus VSTAR",
+    "setName": "Brilliant Stars",
+    "cardNumber": "184",
+    "currentMarketPrice": 16.11,
+    "currentPriceSource": "tcgdex",
+    "groupId": 2948,
+    "productId": 263904,
+    "subType": "Holofoil",
+    "history": []
+  },
+  {
+    "cardId": "base1-10",
+    "cardName": "Mewtwo",
+    "setName": "Base Set",
+    "cardNumber": "10",
+    "currentMarketPrice": 69.37,
+    "currentPriceSource": "tcgdex",
+    "groupId": 604,
+    "productId": 42347,
+    "subType": "Holofoil",
+    "history": [
+      {
+        "date": "2024-02-08",
+        "marketPrice": 28.36
+      },
+      {
+        "date": "2024-02-15",
+        "marketPrice": 28.56
+      },
+      {
+        "date": "2024-02-22",
+        "marketPrice": 27.52
+      },
+      {
+        "date": "2024-02-29",
+        "marketPrice": 28.27
+      },
+      {
+        "date": "2024-03-07",
+        "marketPrice": 27.76
+      },
+      {
+        "date": "2024-03-14",
+        "marketPrice": 27.92
+      },
+      {
+        "date": "2024-03-21",
+        "marketPrice": 29.24
+      },
+      {
+        "date": "2024-03-28",
+        "marketPrice": 29.34
+      },
+      {
+        "date": "2024-04-04",
+        "marketPrice": 29.02
+      },
+      {
+        "date": "2024-04-11",
+        "marketPrice": 28.54
+      },
+      {
+        "date": "2024-04-18",
+        "marketPrice": 28.73
+      },
+      {
+        "date": "2024-04-25",
+        "marketPrice": 29.08
+      },
+      {
+        "date": "2024-05-02",
+        "marketPrice": 29.81
+      },
+      {
+        "date": "2024-05-09",
+        "marketPrice": 29.45
+      },
+      {
+        "date": "2024-05-16",
+        "marketPrice": 29.9
+      },
+      {
+        "date": "2024-05-23",
+        "marketPrice": 30.62
+      },
+      {
+        "date": "2024-05-30",
+        "marketPrice": 31.38
+      },
+      {
+        "date": "2024-06-06",
+        "marketPrice": 32.05
+      },
+      {
+        "date": "2024-06-13",
+        "marketPrice": 30.89
+      },
+      {
+        "date": "2024-06-20",
+        "marketPrice": 31.01
+      },
+      {
+        "date": "2024-06-27",
+        "marketPrice": 30.28
+      },
+      {
+        "date": "2024-07-04",
+        "marketPrice": 30.6
+      },
+      {
+        "date": "2024-07-11",
+        "marketPrice": 29.94
+      },
+      {
+        "date": "2024-07-18",
+        "marketPrice": 29.88
+      },
+      {
+        "date": "2024-07-25",
+        "marketPrice": 30.18
+      },
+      {
+        "date": "2024-08-01",
+        "marketPrice": 30.45
+      },
+      {
+        "date": "2024-08-08",
+        "marketPrice": 30.78
+      },
+      {
+        "date": "2024-08-15",
+        "marketPrice": 31.09
+      },
+      {
+        "date": "2024-08-22",
+        "marketPrice": 31.55
+      },
+      {
+        "date": "2024-08-29",
+        "marketPrice": 31.77
+      },
+      {
+        "date": "2024-09-05",
+        "marketPrice": 31.71
+      },
+      {
+        "date": "2024-09-12",
+        "marketPrice": 31.49
+      },
+      {
+        "date": "2024-09-19",
+        "marketPrice": 31.54
+      },
+      {
+        "date": "2024-09-26",
+        "marketPrice": 34.67
+      },
+      {
+        "date": "2024-10-03",
+        "marketPrice": 34.95
+      },
+      {
+        "date": "2024-10-10",
+        "marketPrice": 36.04
+      },
+      {
+        "date": "2024-10-17",
+        "marketPrice": 37.17
+      },
+      {
+        "date": "2024-10-24",
+        "marketPrice": 40.52
+      },
+      {
+        "date": "2024-10-31",
+        "marketPrice": 40.52
+      },
+      {
+        "date": "2024-11-07",
+        "marketPrice": 40.52
+      },
+      {
+        "date": "2024-11-14",
+        "marketPrice": 40.52
+      },
+      {
+        "date": "2024-11-21",
+        "marketPrice": 40.34
+      },
+      {
+        "date": "2024-11-28",
+        "marketPrice": 37.07
+      },
+      {
+        "date": "2024-12-05",
+        "marketPrice": 37.59
+      },
+      {
+        "date": "2024-12-12",
+        "marketPrice": 38.14
+      },
+      {
+        "date": "2024-12-19",
+        "marketPrice": 38.24
+      },
+      {
+        "date": "2024-12-26",
+        "marketPrice": 38.7
+      },
+      {
+        "date": "2025-01-02",
+        "marketPrice": 37.12
+      },
+      {
+        "date": "2025-01-09",
+        "marketPrice": 38.14
+      },
+      {
+        "date": "2025-01-16",
+        "marketPrice": 37.99
+      },
+      {
+        "date": "2025-01-23",
+        "marketPrice": 38.25
+      },
+      {
+        "date": "2025-01-30",
+        "marketPrice": 38.93
+      },
+      {
+        "date": "2025-02-06",
+        "marketPrice": 39.69
+      },
+      {
+        "date": "2025-02-13",
+        "marketPrice": 40.33
+      },
+      {
+        "date": "2025-02-20",
+        "marketPrice": 40.07
+      },
+      {
+        "date": "2025-02-27",
+        "marketPrice": 39.25
+      },
+      {
+        "date": "2025-03-06",
+        "marketPrice": 38.88
+      },
+      {
+        "date": "2025-03-13",
+        "marketPrice": 39.13
+      },
+      {
+        "date": "2025-03-20",
+        "marketPrice": 39.96
+      },
+      {
+        "date": "2025-03-27",
+        "marketPrice": 39.98
+      },
+      {
+        "date": "2025-04-03",
+        "marketPrice": 46.38
+      },
+      {
+        "date": "2025-04-10",
+        "marketPrice": 46.55
+      },
+      {
+        "date": "2025-04-17",
+        "marketPrice": 45.58
+      },
+      {
+        "date": "2025-04-24",
+        "marketPrice": 41.27
+      },
+      {
+        "date": "2025-05-01",
+        "marketPrice": 41.33
+      },
+      {
+        "date": "2025-05-08",
+        "marketPrice": 41.35
+      },
+      {
+        "date": "2025-05-15",
+        "marketPrice": 44.53
+      },
+      {
+        "date": "2025-05-22",
+        "marketPrice": 44.69
+      },
+      {
+        "date": "2025-05-29",
+        "marketPrice": 43.95
+      },
+      {
+        "date": "2025-06-05",
+        "marketPrice": 42.65
+      },
+      {
+        "date": "2025-06-12",
+        "marketPrice": 44.34
+      },
+      {
+        "date": "2025-06-19",
+        "marketPrice": 41.83
+      },
+      {
+        "date": "2025-06-26",
+        "marketPrice": 40.85
+      },
+      {
+        "date": "2025-07-03",
+        "marketPrice": 40.41
+      },
+      {
+        "date": "2025-07-10",
+        "marketPrice": 41.58
+      },
+      {
+        "date": "2025-07-17",
+        "marketPrice": 42.16
+      },
+      {
+        "date": "2025-07-24",
+        "marketPrice": 39.65
+      },
+      {
+        "date": "2025-07-31",
+        "marketPrice": 39.36
+      },
+      {
+        "date": "2025-08-07",
+        "marketPrice": 37.06
+      },
+      {
+        "date": "2025-08-14",
+        "marketPrice": 38.85
+      },
+      {
+        "date": "2025-08-21",
+        "marketPrice": 40.69
+      },
+      {
+        "date": "2025-08-28",
+        "marketPrice": 40.83
+      },
+      {
+        "date": "2025-09-04",
+        "marketPrice": 42.72
+      },
+      {
+        "date": "2025-09-11",
+        "marketPrice": 39.98
+      },
+      {
+        "date": "2025-09-18",
+        "marketPrice": 34.19
+      },
+      {
+        "date": "2025-09-25",
+        "marketPrice": 33.55
+      },
+      {
+        "date": "2025-10-02",
+        "marketPrice": 34.95
+      },
+      {
+        "date": "2025-10-09",
+        "marketPrice": 36.78
+      },
+      {
+        "date": "2025-10-16",
+        "marketPrice": 38.49
+      },
+      {
+        "date": "2025-10-23",
+        "marketPrice": 38.99
+      },
+      {
+        "date": "2025-10-30",
+        "marketPrice": 39.79
+      },
+      {
+        "date": "2025-11-06",
+        "marketPrice": 40.57
+      },
+      {
+        "date": "2025-11-13",
+        "marketPrice": 41.11
+      },
+      {
+        "date": "2025-11-20",
+        "marketPrice": 41.22
+      },
+      {
+        "date": "2025-11-27",
+        "marketPrice": 41.72
+      },
+      {
+        "date": "2025-12-04",
+        "marketPrice": 42.57
+      },
+      {
+        "date": "2025-12-11",
+        "marketPrice": 42.82
+      },
+      {
+        "date": "2025-12-18",
+        "marketPrice": 42.72
+      },
+      {
+        "date": "2025-12-25",
+        "marketPrice": 42.11
+      },
+      {
+        "date": "2026-01-01",
+        "marketPrice": 44.06
+      },
+      {
+        "date": "2026-01-08",
+        "marketPrice": 46.15
+      },
+      {
+        "date": "2026-01-15",
+        "marketPrice": 48.49
+      },
+      {
+        "date": "2026-01-22",
+        "marketPrice": 50.67
+      },
+      {
+        "date": "2026-01-29",
+        "marketPrice": 51.51
+      },
+      {
+        "date": "2026-02-05",
+        "marketPrice": 54.08
+      },
+      {
+        "date": "2026-02-12",
+        "marketPrice": 54.3
+      },
+      {
+        "date": "2026-02-19",
+        "marketPrice": 57.47
+      },
+      {
+        "date": "2026-02-26",
+        "marketPrice": 59.58
+      },
+      {
+        "date": "2026-03-05",
+        "marketPrice": 61.77
+      },
+      {
+        "date": "2026-03-12",
+        "marketPrice": 66.99
+      },
+      {
+        "date": "2026-03-19",
+        "marketPrice": 68.48
+      },
+      {
+        "date": "2026-03-26",
+        "marketPrice": 69.83
+      },
+      {
+        "date": "2026-04-02",
+        "marketPrice": 70.61
+      },
+      {
+        "date": "2026-04-09",
+        "marketPrice": 72.05
+      },
+      {
+        "date": "2026-04-16",
+        "marketPrice": 78.78
+      },
+      {
+        "date": "2026-04-23",
+        "marketPrice": 76.65
+      },
+      {
+        "date": "2026-04-30",
+        "marketPrice": 77.04
+      },
+      {
+        "date": "2026-05-07",
+        "marketPrice": 79.78
+      },
+      {
+        "date": "2026-05-14",
+        "marketPrice": 78.33
+      },
+      {
+        "date": "2026-05-21",
+        "marketPrice": 77.73
+      },
+      {
+        "date": "2026-05-28",
+        "marketPrice": 79.05
+      },
+      {
+        "date": "2026-06-04",
+        "marketPrice": 77.61
+      },
+      {
+        "date": "2026-06-11",
+        "marketPrice": 77.98
+      },
+      {
+        "date": "2026-06-18",
+        "marketPrice": 78.24
+      },
+      {
+        "date": "2026-06-25",
+        "marketPrice": 78.78
+      },
+      {
+        "date": "2026-07-02",
+        "marketPrice": 74.94
+      },
+      {
+        "date": "2026-07-09",
+        "marketPrice": 75.76
+      },
+      {
+        "date": "2026-07-16",
+        "marketPrice": 78.81
+      },
+      {
+        "date": "2026-07-23",
+        "marketPrice": 78.28
+      },
+      {
+        "date": "2026-07-30",
+        "marketPrice": 77.73
+      },
+      {
+        "date": "2026-08-06",
+        "marketPrice": 75.9
+      },
+      {
+        "date": "2026-08-13",
+        "marketPrice": 71.47
+      }
+    ]
+  }
+]
