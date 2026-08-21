@@ -4,6 +4,9 @@
 
 **check *documentation* folder for docs**
 
+**Current Next-Steps**: Make a web-scraper for ebay last sold since
+Apify is too limiting. This should include pagination, allow for limits, etc. Store the data historically somewhere, probably *AWS*. 
+
 The app *currently* combines:
 
 1. **Card data + primary TCGplayer pricing** — via TCGdex

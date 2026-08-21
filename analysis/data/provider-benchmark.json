@@ -1,0 +1,662 @@
+{
+  "ranAt": "2026-08-21T19:37:25.390Z",
+  "note": "Coverage measured over the 23-card evaluation set. Latency is single-run, single-location wall clock and is not a fair service benchmark.",
+  "providers": {
+    "tcgdex": {
+      "cards": 23,
+      "requestsFailed": 0,
+      "retriedAtLeastOnce": 0,
+      "answered": 23,
+      "found": 23,
+      "withMarketPrice": 19,
+      "coveragePct": 100,
+      "pricePct": 82.6086956521739,
+      "medianMs": 24
+    },
+    "pokemontcg": {
+      "cards": 23,
+      "requestsFailed": 3,
+      "retriedAtLeastOnce": 15,
+      "answered": 20,
+      "found": 19,
+      "withMarketPrice": 17,
+      "coveragePct": 95,
+      "pricePct": 85,
+      "medianMs": 1163
+    },
+    "tcgcsv": {
+      "cards": 23,
+      "requestsFailed": 0,
+      "retriedAtLeastOnce": 0,
+      "answered": 23,
+      "found": 22,
+      "withMarketPrice": 16,
+      "coveragePct": 95.65217391304348,
+      "pricePct": 69.56521739130434,
+      "medianMs": 164
+    }
+  },
+  "rows": [
+    {
+      "cardId": "swsh7-215",
+      "name": "Umbreon VMAX",
+      "setName": "Evolving Skies",
+      "tcgdex": {
+        "found": true,
+        "hasMarketPrice": true,
+        "ms": 99,
+        "attempts": 1,
+        "failed": false
+      },
+      "pokemontcg": {
+        "found": true,
+        "hasMarketPrice": true,
+        "setMatched": true,
+        "ms": 256,
+        "attempts": 1,
+        "failed": false
+      },
+      "tcgcsv": {
+        "found": true,
+        "hasMarketPrice": true,
+        "ms": 344,
+        "attempts": 1,
+        "failed": false
+      }
+    },
+    {
+      "cardId": "swsh11tg-TG17",
+      "name": "Pikachu VMAX",
+      "setName": "Lost Origin Trainer Gallery",
+      "tcgdex": {
+        "found": true,
+        "hasMarketPrice": false,
+        "ms": 17,
+        "attempts": 1,
+        "failed": false
+      },
+      "pokemontcg": {
+        "found": true,
+        "hasMarketPrice": true,
+        "setMatched": true,
+        "ms": 227,
+        "attempts": 1,
+        "failed": false
+      },
+      "tcgcsv": {
+        "found": true,
+        "hasMarketPrice": true,
+        "ms": 112,
+        "attempts": 1,
+        "failed": false
+      }
+    },
+    {
+      "cardId": "me02.5-284",
+      "name": "Mega Gengar ex",
+      "setName": "Ascended Heroes",
+      "tcgdex": {
+        "found": true,
+        "hasMarketPrice": true,
+        "ms": 25,
+        "attempts": 1,
+        "failed": false
+      },
+      "pokemontcg": {
+        "found": true,
+        "hasMarketPrice": false,
+        "setMatched": true,
+        "ms": 217,
+        "attempts": 1,
+        "failed": false
+      },
+      "tcgcsv": {
+        "found": true,
+        "hasMarketPrice": true,
+        "ms": 203,
+        "attempts": 1,
+        "failed": false
+      }
+    },
+    {
+      "cardId": "base1-4",
+      "name": "Charizard",
+      "setName": "Base Set",
+      "tcgdex": {
+        "found": true,
+        "hasMarketPrice": true,
+        "ms": 15,
+        "attempts": 1,
+        "failed": false
+      },
+      "pokemontcg": {
+        "found": true,
+        "hasMarketPrice": true,
+        "setMatched": false,
+        "ms": 1159,
+        "attempts": 2,
+        "failed": false
+      },
+      "tcgcsv": {
+        "found": true,
+        "hasMarketPrice": true,
+        "ms": 172,
+        "attempts": 1,
+        "failed": false
+      }
+    },
+    {
+      "cardId": "me05-116",
+      "name": "Mega Darkrai ex",
+      "setName": "Pitch Black",
+      "tcgdex": {
+        "found": true,
+        "hasMarketPrice": true,
+        "ms": 30,
+        "attempts": 1,
+        "failed": false
+      },
+      "pokemontcg": {
+        "found": false,
+        "hasMarketPrice": false,
+        "error": "HTTP 500",
+        "ms": 2633,
+        "attempts": 3,
+        "failed": true
+      },
+      "tcgcsv": {
+        "found": true,
+        "hasMarketPrice": true,
+        "ms": 142,
+        "attempts": 1,
+        "failed": false
+      }
+    },
+    {
+      "cardId": "sv03.5-199",
+      "name": "Charizard ex",
+      "setName": "151",
+      "tcgdex": {
+        "found": true,
+        "hasMarketPrice": true,
+        "ms": 26,
+        "attempts": 1,
+        "failed": false
+      },
+      "pokemontcg": {
+        "found": true,
+        "hasMarketPrice": true,
+        "setMatched": true,
+        "ms": 2931,
+        "attempts": 3,
+        "failed": false
+      },
+      "tcgcsv": {
+        "found": true,
+        "hasMarketPrice": true,
+        "ms": 178,
+        "attempts": 1,
+        "failed": false
+      }
+    },
+    {
+      "cardId": "sv02-185",
+      "name": "Iono",
+      "setName": "Paldea Evolved",
+      "tcgdex": {
+        "found": true,
+        "hasMarketPrice": true,
+        "ms": 24,
+        "attempts": 1,
+        "failed": false
+      },
+      "pokemontcg": {
+        "found": true,
+        "hasMarketPrice": true,
+        "setMatched": true,
+        "ms": 2889,
+        "attempts": 3,
+        "failed": false
+      },
+      "tcgcsv": {
+        "found": true,
+        "hasMarketPrice": false,
+        "ms": 37,
+        "attempts": 1,
+        "failed": false
+      }
+    },
+    {
+      "cardId": "swsh11-212",
+      "name": "Giratina VSTAR",
+      "setName": "Lost Origin",
+      "tcgdex": {
+        "found": true,
+        "hasMarketPrice": true,
+        "ms": 24,
+        "attempts": 1,
+        "failed": false
+      },
+      "pokemontcg": {
+        "found": true,
+        "hasMarketPrice": true,
+        "setMatched": true,
+        "ms": 1171,
+        "attempts": 2,
+        "failed": false
+      },
+      "tcgcsv": {
+        "found": true,
+        "hasMarketPrice": true,
+        "ms": 164,
+        "attempts": 1,
+        "failed": false
+      }
+    },
+    {
+      "cardId": "neo1-9",
+      "name": "Lugia",
+      "setName": "Neo Genesis",
+      "tcgdex": {
+        "found": true,
+        "hasMarketPrice": true,
+        "ms": 23,
+        "attempts": 1,
+        "failed": false
+      },
+      "pokemontcg": {
+        "found": true,
+        "hasMarketPrice": true,
+        "setMatched": true,
+        "ms": 2848,
+        "attempts": 3,
+        "failed": false
+      },
+      "tcgcsv": {
+        "found": true,
+        "hasMarketPrice": false,
+        "ms": 201,
+        "attempts": 1,
+        "failed": false
+      }
+    },
+    {
+      "cardId": "ecard3-146",
+      "name": "Charizard",
+      "setName": "Skyridge",
+      "tcgdex": {
+        "found": true,
+        "hasMarketPrice": false,
+        "ms": 16,
+        "attempts": 1,
+        "failed": false
+      },
+      "pokemontcg": {
+        "found": false,
+        "hasMarketPrice": false,
+        "error": "HTTP 500",
+        "ms": 2772,
+        "attempts": 3,
+        "failed": true
+      },
+      "tcgcsv": {
+        "found": true,
+        "hasMarketPrice": false,
+        "ms": 133,
+        "attempts": 1,
+        "failed": false
+      }
+    },
+    {
+      "cardId": "sv03.5-205",
+      "name": "Mew ex",
+      "setName": "151",
+      "tcgdex": {
+        "found": true,
+        "hasMarketPrice": true,
+        "ms": 15,
+        "attempts": 1,
+        "failed": false
+      },
+      "pokemontcg": {
+        "found": true,
+        "hasMarketPrice": true,
+        "setMatched": true,
+        "ms": 230,
+        "attempts": 1,
+        "failed": false
+      },
+      "tcgcsv": {
+        "found": true,
+        "hasMarketPrice": true,
+        "ms": 1,
+        "attempts": 1,
+        "failed": false
+      }
+    },
+    {
+      "cardId": "gym2-2",
+      "name": "Blaine's Charizard",
+      "setName": "Gym Challenge",
+      "tcgdex": {
+        "found": true,
+        "hasMarketPrice": true,
+        "ms": 28,
+        "attempts": 1,
+        "failed": false
+      },
+      "pokemontcg": {
+        "found": true,
+        "hasMarketPrice": true,
+        "setMatched": true,
+        "ms": 1058,
+        "attempts": 2,
+        "failed": false
+      },
+      "tcgcsv": {
+        "found": true,
+        "hasMarketPrice": false,
+        "ms": 219,
+        "attempts": 1,
+        "failed": false
+      }
+    },
+    {
+      "cardId": "swsh3.5-74",
+      "name": "Charizard VMAX",
+      "setName": "Champion's Path",
+      "tcgdex": {
+        "found": true,
+        "hasMarketPrice": true,
+        "ms": 28,
+        "attempts": 1,
+        "failed": false
+      },
+      "pokemontcg": {
+        "found": true,
+        "hasMarketPrice": true,
+        "setMatched": true,
+        "ms": 464,
+        "attempts": 1,
+        "failed": false
+      },
+      "tcgcsv": {
+        "found": true,
+        "hasMarketPrice": true,
+        "ms": 131,
+        "attempts": 1,
+        "failed": false
+      }
+    },
+    {
+      "cardId": "xy12-11",
+      "name": "Charizard",
+      "setName": "Evolutions",
+      "tcgdex": {
+        "found": true,
+        "hasMarketPrice": true,
+        "ms": 24,
+        "attempts": 1,
+        "failed": false
+      },
+      "pokemontcg": {
+        "found": true,
+        "hasMarketPrice": true,
+        "setMatched": true,
+        "ms": 1682,
+        "attempts": 2,
+        "failed": false
+      },
+      "tcgcsv": {
+        "found": true,
+        "hasMarketPrice": true,
+        "ms": 165,
+        "attempts": 1,
+        "failed": false
+      }
+    },
+    {
+      "cardId": "base1-58",
+      "name": "Pikachu",
+      "setName": "Base Set",
+      "tcgdex": {
+        "found": true,
+        "hasMarketPrice": true,
+        "ms": 19,
+        "attempts": 1,
+        "failed": false
+      },
+      "pokemontcg": {
+        "found": true,
+        "hasMarketPrice": true,
+        "setMatched": false,
+        "ms": 3038,
+        "attempts": 3,
+        "failed": false
+      },
+      "tcgcsv": {
+        "found": true,
+        "hasMarketPrice": true,
+        "ms": 0,
+        "attempts": 1,
+        "failed": false
+      }
+    },
+    {
+      "cardId": "base3-5",
+      "name": "Gengar",
+      "setName": "Fossil",
+      "tcgdex": {
+        "found": true,
+        "hasMarketPrice": true,
+        "ms": 15,
+        "attempts": 1,
+        "failed": false
+      },
+      "pokemontcg": {
+        "found": false,
+        "hasMarketPrice": false,
+        "error": "HTTP 500",
+        "ms": 2646,
+        "attempts": 3,
+        "failed": true
+      },
+      "tcgcsv": {
+        "found": true,
+        "hasMarketPrice": false,
+        "ms": 175,
+        "attempts": 1,
+        "failed": false
+      }
+    },
+    {
+      "cardId": "neo4-107",
+      "name": "Shining Charizard",
+      "setName": "Neo Destiny",
+      "tcgdex": {
+        "found": true,
+        "hasMarketPrice": true,
+        "ms": 26,
+        "attempts": 1,
+        "failed": false
+      },
+      "pokemontcg": {
+        "found": true,
+        "hasMarketPrice": true,
+        "setMatched": true,
+        "ms": 1163,
+        "attempts": 2,
+        "failed": false
+      },
+      "tcgcsv": {
+        "found": true,
+        "hasMarketPrice": false,
+        "ms": 192,
+        "attempts": 1,
+        "failed": false
+      }
+    },
+    {
+      "cardId": "swsh9tg-TG02",
+      "name": "Vaporeon",
+      "setName": "Brilliant Stars Trainer Gallery",
+      "tcgdex": {
+        "found": true,
+        "hasMarketPrice": false,
+        "ms": 24,
+        "attempts": 1,
+        "failed": false
+      },
+      "pokemontcg": {
+        "found": true,
+        "hasMarketPrice": true,
+        "setMatched": true,
+        "ms": 200,
+        "attempts": 1,
+        "failed": false
+      },
+      "tcgcsv": {
+        "found": true,
+        "hasMarketPrice": true,
+        "ms": 106,
+        "attempts": 1,
+        "failed": false
+      }
+    },
+    {
+      "cardId": "swsh7-211",
+      "name": "Sylveon VMAX",
+      "setName": "Evolving Skies",
+      "tcgdex": {
+        "found": true,
+        "hasMarketPrice": true,
+        "ms": 14,
+        "attempts": 1,
+        "failed": false
+      },
+      "pokemontcg": {
+        "found": true,
+        "hasMarketPrice": true,
+        "setMatched": true,
+        "ms": 380,
+        "attempts": 1,
+        "failed": false
+      },
+      "tcgcsv": {
+        "found": true,
+        "hasMarketPrice": true,
+        "ms": 0,
+        "attempts": 1,
+        "failed": false
+      }
+    },
+    {
+      "cardId": "sm7-177",
+      "name": "Rayquaza GX",
+      "setName": "Celestial Storm",
+      "tcgdex": {
+        "found": true,
+        "hasMarketPrice": true,
+        "ms": 28,
+        "attempts": 1,
+        "failed": false
+      },
+      "pokemontcg": {
+        "found": false,
+        "hasMarketPrice": false,
+        "ms": 1200,
+        "attempts": 2,
+        "failed": false
+      },
+      "tcgcsv": {
+        "found": true,
+        "hasMarketPrice": true,
+        "ms": 174,
+        "attempts": 1,
+        "failed": false
+      }
+    },
+    {
+      "cardId": "base1-8",
+      "name": "Machamp",
+      "setName": "Base Set",
+      "tcgdex": {
+        "found": true,
+        "hasMarketPrice": false,
+        "ms": 25,
+        "attempts": 1,
+        "failed": false
+      },
+      "pokemontcg": {
+        "found": true,
+        "hasMarketPrice": false,
+        "setMatched": false,
+        "ms": 218,
+        "attempts": 1,
+        "failed": false
+      },
+      "tcgcsv": {
+        "found": false,
+        "hasMarketPrice": false,
+        "status": "missing",
+        "ms": 0,
+        "attempts": 1,
+        "failed": false
+      }
+    },
+    {
+      "cardId": "swsh9-184",
+      "name": "Arceus VSTAR",
+      "setName": "Brilliant Stars",
+      "tcgdex": {
+        "found": true,
+        "hasMarketPrice": true,
+        "ms": 28,
+        "attempts": 1,
+        "failed": false
+      },
+      "pokemontcg": {
+        "found": true,
+        "hasMarketPrice": true,
+        "setMatched": true,
+        "ms": 1392,
+        "attempts": 2,
+        "failed": false
+      },
+      "tcgcsv": {
+        "found": true,
+        "hasMarketPrice": true,
+        "ms": 175,
+        "attempts": 1,
+        "failed": false
+      }
+    },
+    {
+      "cardId": "base1-10",
+      "name": "Mewtwo",
+      "setName": "Base Set",
+      "tcgdex": {
+        "found": true,
+        "hasMarketPrice": true,
+        "ms": 24,
+        "attempts": 1,
+        "failed": false
+      },
+      "pokemontcg": {
+        "found": true,
+        "hasMarketPrice": true,
+        "setMatched": false,
+        "ms": 2788,
+        "attempts": 3,
+        "failed": false
+      },
+      "tcgcsv": {
+        "found": true,
+        "hasMarketPrice": true,
+        "ms": 0,
+        "attempts": 1,
+        "failed": false
+      }
+    }
+  ]
+}

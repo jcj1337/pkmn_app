@@ -1,0 +1,27 @@
+--- DEV
+=== POLICY A — deterministic only ===
+  correct target identifications : 11 / 13
+  correct rejections             : 67 / 67
+  correct abstentions            : 3 / 4
+  false negatives (missed target): 2
+  FALSE POSITIVES (bad comps)    : 1
+  overall correct                : 81/84  96.4%
+
+DRY RUN — no API calls. Re-run with --live for policy B.
+--- HOLDOUT
+=== POLICY A — deterministic only ===
+  correct target identifications : 13 / 21
+  correct rejections             : 57 / 57
+  correct abstentions            : 3 / 3
+  false negatives (missed target): 8
+  FALSE POSITIVES (bad comps)    : 0
+  overall correct                : 73/81  90.1%
+
+DRY RUN — no API calls. Re-run with --live for policy B.
+--- PRICING PARITY
+groups compared          : 144
+field assertions         : 574
+mismatches               : 0
+--- GROUP PARITY
+groups compared with identical membership : 144/144
+foreign-language groups (production only) : 7
