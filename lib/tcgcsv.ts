@@ -94,7 +94,7 @@ function nameMatches(a: string, b: string): boolean {
 }
 
 /** TCGCSV rejects requests without a User-Agent with a 401. */
-const USER_AGENT = "pkmn-app/0.1 (Pokemon card price checker)";
+const USER_AGENT = "TCGracker/0.1 (trading card price tracker)";
 
 async function getJson<T>(url: string): Promise<T> {
   const response = await fetch(url, {

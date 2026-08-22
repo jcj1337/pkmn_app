@@ -791,7 +791,7 @@ def main() -> None:
     sales, comps, buy, history, providers, _validation, before = load_all()
 
     lines: list[str] = []
-    lines.append("# Project metrics — Pokémon card price checker")
+    lines.append("# TCGracker — project metrics")
     lines.append("")
     lines.append(
         "Every figure below is computed by `analysis/resume_metrics.py` from files in "

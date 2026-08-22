@@ -21,7 +21,7 @@ const BUILD = path.join(ROOT, ".eval-build");
 const { lookupCard } = require(path.join(BUILD, "tcgcsv.js"));
 
 const OUT = path.join(ROOT, "analysis", "data", "provider-benchmark.json");
-const UA = "pkmn-app/0.1 (provider benchmark)";
+const UA = "TCGracker/0.1 (provider benchmark)";
 const PAUSE_MS = 350;
 
 const sleep = (ms) => new Promise((resolve) => setTimeout(resolve, ms));

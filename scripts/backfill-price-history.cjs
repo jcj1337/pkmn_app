@@ -20,7 +20,7 @@ const os = require("node:os");
 const _7z = require("7zip-min");
 
 const ARCHIVE_BASE = "https://tcgcsv.com/archive/tcgplayer";
-const USER_AGENT = "pkmn-app/0.1 (Pokemon card price checker)";
+const USER_AGENT = "TCGracker/0.1 (trading card price tracker)";
 const CATEGORY = 3; // Pokémon
 const EPOCH = "2024-02-08";
 const OUT_DIR = path.join(__dirname, "..", "data", "price-history");
