@@ -32,6 +32,7 @@ const {
   coverage,
   emptyFile,
 } = require(path.join(BUILD, "ebay-history.js"));
+const { getProvider, DEFAULT_PROVIDER } = require(path.join(BUILD, "sold-listings-provider.js"));
 const { buildEbayQuery } = require(path.join(BUILD, "ebay-sold.js"));
 
 /* ---------------------------------------------------------------- config */
@@ -212,6 +213,8 @@ function loadToken() {
     return;
   }
 
+  const provider = getProvider(DEFAULT_PROVIDER, token);
+  console.log(`provider   : ${provider.label}`);
   console.log("");
   let spent = 0;
 
@@ -224,7 +227,7 @@ function loadToken() {
       result = await collectSoldHistory(card, {
         days: args.days,
         count: args.count,
-        token,
+        provider,
       });
     } catch (error) {
       console.log(`FAILED — ${error.message}`);

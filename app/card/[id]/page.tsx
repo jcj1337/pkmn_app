@@ -207,7 +207,7 @@ export default async function CardPage({
 
         {/* Reads a pre-built cache; never touches TCGCSV archives at render. */}
         <Suspense fallback={<PriceHistoryLoading />}>
-          <PriceHistorySection identity={identity} />
+          <PriceHistorySection cardId={card.id} identity={identity} />
         </Suspense>
       </main>
 

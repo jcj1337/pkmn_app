@@ -21,6 +21,11 @@ const {
   coverage,
   collectSoldHistory,
 } = require(path.join(BUILD, "ebay-history.js"));
+const {
+  getProvider,
+  apifyProvider,
+  directEbayProvider,
+} = require(path.join(BUILD, "sold-listings-provider.js"));
 
 let passed = 0;
 function test(name, fn) {
@@ -47,18 +52,37 @@ function row(id, daysAgo, price = 100) {
   };
 }
 
-/** Runs collectSoldHistory against a canned response, with no network. */
-async function collectWith(rows, options) {
-  const original = globalThis.fetch;
-  globalThis.fetch = async () => ({ ok: true, json: async () => rows });
-  try {
-    return await collectSoldHistory(
-      { name: "Test", number: "1", printedTotal: 100 },
-      { days: 90, count: 100, token: "test", now: new Date("2026-08-20T00:00:00Z"), ...options },
-    );
-  } finally {
-    globalThis.fetch = original;
-  }
+/**
+ * Runs collectSoldHistory against a canned response with no network, using a
+ * stub provider. Exercising the provider seam is the point: the history layer
+ * must work against any implementation, not just the Apify one.
+ */
+async function collectWith(rows, options = {}) {
+  const count = options.count ?? 100;
+  const listings = rows.map((row, index) => ({
+    itemId: String(row.itemId ?? index),
+    title: row.title ?? "",
+    soldPrice: row.soldPrice == null ? null : Number(row.soldPrice),
+    currency: row.soldCurrency ?? "USD",
+    soldDate: row.endedAt ?? null,
+    condition: null,
+    imageUrl: null,
+    url: row.url ?? null,
+  }));
+
+  const provider = {
+    id: "APIFY",
+    label: "stub provider",
+    isConfigured: () => true,
+    async search() {
+      return { status: "ok", listings, cappedByProvider: listings.length >= count };
+    },
+  };
+
+  return collectSoldHistory(
+    { name: "Test", number: "1", printedTotal: 100 },
+    { days: 90, count, provider, now: new Date("2026-08-20T00:00:00Z"), ...options },
+  );
 }
 
 console.log("assessCompleteness");
@@ -171,6 +195,45 @@ test("EMPTY runs do not widen coverage", () => {
   const capped = await collectWith([row("a", 1)], { days: 365 });
   test("days above the actor limit is clamped to 90", () => {
     assert.equal(capped.run.requestedDays, 90);
+  });
+
+  console.log("\nprovider abstraction");
+
+  test("registry returns the requested provider", () => {
+    assert.equal(getProvider("APIFY", "tok").id, "APIFY");
+    assert.equal(getProvider("DIRECT_EBAY").id, "DIRECT_EBAY");
+  });
+
+  test("Apify provider reports itself unconfigured without a token", () => {
+    assert.equal(apifyProvider(undefined).isConfigured(), false);
+    assert.equal(apifyProvider("tok").isConfigured(), true);
+  });
+
+  const direct = directEbayProvider();
+  test("direct eBay provider is permanently unconfigured", () => {
+    assert.equal(direct.isConfigured(), false);
+  });
+
+  const refusal = await direct.search("anything", { days: 90, count: 100 });
+  test("direct eBay provider refuses and explains why", () => {
+    assert.equal(refusal.status, "not-configured");
+    assert.match(refusal.reason, /robots\.txt/i);
+    assert.ok(!("listings" in refusal), "a refusal must not carry listings");
+  });
+
+  // An unusable provider tells us nothing about the market. Recording it as
+  // EMPTY would claim we looked and found no sales, which is a lie.
+  let threw = false;
+  try {
+    await collectSoldHistory(
+      { name: "Test", number: "1", printedTotal: 100 },
+      { days: 90, count: 100, provider: direct },
+    );
+  } catch (error) {
+    threw = /robots\.txt/i.test(String(error.message));
+  }
+  test("a provider that cannot run raises, rather than recording EMPTY", () => {
+    assert.ok(threw, "collectSoldHistory must reject when the provider cannot run");
   });
 
   console.log(`\n${passed} assertions passed${process.exitCode ? " (with failures)" : ""}`);

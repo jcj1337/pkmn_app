@@ -1,4 +1,5 @@
-import { getPriceHistory, HISTORY_EPOCH } from "@/lib/tcg-price-history";
+import { HISTORY_EPOCH } from "@/lib/tcg-price-history";
+import { activeDataSource, loadPriceHistory } from "@/lib/data-source";
 import type { CardIdentity } from "@/lib/tcgdex";
 import PriceHistoryChart from "./PriceHistoryChart";
 
@@ -31,18 +32,16 @@ export function PriceHistoryLoading() {
   );
 }
 
-export async function PriceHistorySection({ identity }: { identity: CardIdentity }) {
-  const history = await getPriceHistory(
-    {
-      name: identity.name,
-      setName: identity.setName,
-      localId: identity.localId,
-      printedTotal: identity.printedTotal,
-      rarity: identity.rarity,
-      variants: identity.variants,
-    },
-    "ALL",
-  ).catch(() => null);
+export async function PriceHistorySection({
+  cardId,
+  identity,
+}: {
+  cardId: string;
+  identity: CardIdentity;
+}) {
+  // Routed through the data-source adapter so FILE and DATABASE can be
+  // compared before either is removed. Defaults to FILE.
+  const history = await loadPriceHistory(cardId, identity, "ALL").catch(() => null);
 
   if (!history) {
     return (
@@ -71,6 +70,7 @@ export async function PriceHistorySection({ identity }: { identity: CardIdentity
         <p className="mt-3 text-xs text-slate-400 dark:text-slate-500">
           {history.subType} print · TCGplayer product {history.productId} ·{" "}
           {observed.length} weekly observations from {first?.date} to {last?.date}
+          {activeDataSource() === "DATABASE" && " · served from database"}
         </p>
       </div>
     </Section>

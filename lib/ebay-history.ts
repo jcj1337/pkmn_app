@@ -28,11 +28,11 @@
 
 import {
   buildEbayQuery,
-  runSoldSearch,
   MAX_LOOKBACK_DAYS,
   type EbayQueryCard,
   type SoldListing,
 } from "./ebay-sold";
+import type { SoldListingsProvider } from "./sold-listings-provider";
 
 /**
  * COMPLETE  — the source ran out of results before the cap, so every sale in
@@ -226,7 +226,8 @@ export function coverage(collections: CollectionRun[]): {
 export interface CollectOptions {
   days: number;
   count: number;
-  token: string;
+  /** Where the listings come from. This module never knows which one. */
+  provider: SoldListingsProvider;
   now?: Date;
 }
 
@@ -245,10 +246,13 @@ export async function collectSoldHistory(
   const requestedFrom = isoDay(new Date(now.getTime() - days * DAY_MS));
   const requestedTo = isoDay(now);
 
-  const listings = await runSoldSearch(query, options.token, {
-    days,
-    count: options.count,
-  });
+  const result = await options.provider.search(query, { days, count: options.count });
+  if (result.status !== "ok") {
+    // A provider that could not run tells us nothing about the market, so the
+    // caller must not record this as an observation.
+    throw new Error(`${options.provider.label}: ${result.reason}`);
+  }
+  const listings = result.listings;
 
   const dates = listings
     .map((listing) => listing.soldDate)

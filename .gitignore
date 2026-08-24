@@ -17,3 +17,7 @@ next-env.d.ts
 *.tsbuildinfo
 
 .eval-build
+
+# Local PGlite database
+.pgdata
+.ui-preview
